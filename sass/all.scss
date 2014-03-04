@@ -14,13 +14,14 @@
 
 // Atoms
 @import "partials/atoms/grids";
-@import "partials/atoms/globals"; // html, body
-@import "partials/atoms/type"; // sizing scale, headings, paragraphs, abbr, typography elements, 
-@import "partials/atoms/media"; // image, iframe, object, figure, figcaption
-@import "partials/atoms/layout"; // media object, float helpers, spacer classes, typography constraints (measure)
+@import "partials/atoms/globals"; 
+@import "partials/atoms/type"; 
+@import "partials/atoms/media"; 
+@import "partials/atoms/layout"; 
 
-// Molecules (breadcrumb, navigation, search form, etc)
-@import "partials/molecules/type"; // hgroup, subheadings, address, blockquote with citation
-@import "partials/molecules/forms"; // search, log in,  newsletter signup
-@import "partials/molecules/lists"; // plain list, horizontal list, pagination, category navigations, block list
-@import "partials/molecules/nav"; // nav abstraction
+// Molecules
+@import "partials/molecules/type"; 
+@import "partials/molecules/forms"; 
+@import "partials/molecules/lists"; 
+@import "partials/molecules/nav"; 
+@import "partials/molecules/timeline"; 

@@ -1,4 +1,4 @@
-$max-width: 70em; 
+$max-width: 80em; 
 
 $sml: 25em; 
 $med: 37.5em; 
@@ -6,9 +6,10 @@ $lrg-size: 50em;
 $below-lrg: 0em $lrg-size; 
 $lrg: $lrg-size, 'no-query' true; // Old browsers get the largescreen layouts
 
-$grids: 2;
-$gutters: 0.2;
-$grids: add-grid(7 at $med);
+$grids: 1 5 1;
+$gutters: 0.1;
+$grids: add-grid(9 at $med);
+$gutters: add-gutter(0.2 at $med);
 
 .container {
 	@include background-grid;

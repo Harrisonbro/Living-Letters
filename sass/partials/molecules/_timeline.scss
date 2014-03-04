@@ -1,0 +1,38 @@
+.timeline {
+	@include breakpoint($med) {
+		@include grid-span(6);
+	}
+}
+
+.timeline__connector {
+	margin: 0 auto;
+	height: 3em;
+	width: 0.25em;
+	background: $c-grey;
+}
+
+.timeline__item {
+	padding: 1em;
+	background: white;
+	border: 1px solid $c-grey;
+	border-width: 1px 0; 
+	@include breakpoint($med) {
+		border-width: 1px 1px 1px 0; 
+		@include border-radius(0 0.5em 0.5em 0);
+	}
+	@include breakpoint($max-width) {
+		border-width: 1px;
+		@include border-radius(0.5em);
+	}
+	& :last-child {
+		margin-bottom: 0;
+	}
+}
+.timeline__item--narrow {
+	@include grid-span(1,2);
+	border-width: 1px;
+	@include border-radius(0.5em);
+	@include breakpoint($med) {
+		@include grid-span(4, 2, 6);
+	}
+}
