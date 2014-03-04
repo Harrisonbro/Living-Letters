@@ -1,0 +1,30 @@
+.header {
+	background: $c-green;
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}
+.header__logo {
+	@extend .delta;
+	line-height: 1;
+	line-height: 1em*($bl + 2) / delta-size();
+	font-weight: 400;
+	float: left;
+	@extend .l-flush-bottom;
+}
+.header__nav {
+	float: right;
+	@extend .h-list;
+	margin: 0;
+	a {
+		display: block;
+		padding: 1em; 
+		&:hover, &:focus {
+			background: darken($c-green, 5%);
+		}
+		&:active {
+			background: darken($c-green, 10%);
+		}
+	}
+}

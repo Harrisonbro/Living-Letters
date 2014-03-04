@@ -59,15 +59,28 @@ module.exports = function(grunt){
     watch: {
       config: {
         files: ['gruntfile.js'], 
-        tasks: ['uglify']
+        tasks: ['uglify'],
+        options: {
+          spawn: false,
+          interrupt: true
+        }
       }, 
     	js: {
     		files: ['js/src/**/*.js'], 
-    		tasks: ['uglify']
+    		tasks: ['uglify'],
+        options: {
+          spawn: false,
+          interrupt: true
+        }
     	},
       css: {
         files: ['sass/**/*.scss'],
-        tasks: ['sass']
+        tasks: ['sass'],
+        options: {
+          livereload: 1337,
+          spawn: false,
+          interrupt: true
+        }
       }
     }
 

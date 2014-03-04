@@ -1,11 +1,15 @@
 /*!Colours */
-$color-blue: blue; 
-$color-green: green; 
-$color-red: red; 
-$color-grey: grey; 
+$c-blue: blue; 
+$c-green: #87942A; 
+$c-darkgreen: #507742;
+$c-red: red; 
+$c-grey: grey; 
+$c-cream: #F3F4EC;
+$c-brown: #A37C45;
+$c-lightgrey: #CCCFBC;
 
-$color-text: #444; 
-$color-heading: #222; 
-$color-error: $color-red; 
-$color-link: $color-blue; 
-$color-link-hover: lighten($color-blue, 20%); 
+$c-text: #444; 
+$c-heading: #222; 
+$c-error: $c-red; 
+$c-link: $c-blue; 
+$c-link-hover: lighten($c-link, 20%); 

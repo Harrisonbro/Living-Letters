@@ -85,7 +85,7 @@
 	border: 1px dashed black; 
 	@include box-sizing(border-box); 
 	line-height: (1em*$bl) - (2em/clear-units($bs)); // take into account border
-	color: $color-text; 
+	color: $c-text; 
 	cursor: default; 
 }
 

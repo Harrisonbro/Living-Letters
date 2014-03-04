@@ -1,18 +1,18 @@
 table {
 	border-collapse: collapse; 
 	border-spacing: 0; 
-	border: 1px solid $color-grey;
+	border: 1px solid $c-grey;
 	width: 100%;
 	margin-bottom: (1em*$bl)-(1em/clear-units($bs)); // taking into account top margin 
 }
 
 th {
 	text-align: left;
-	border: 1px solid $color-grey;
+	border: 1px solid $c-grey;
 }
 
 td {
-	border: 1px solid $color-grey;
+	border: 1px solid $c-grey;
 }
 
 // Each row effectively has a border below it. Top margin of table already taken into account on the table element

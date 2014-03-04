@@ -2,6 +2,7 @@
 require 'breakpoint' # gem install breakpoint
 require 'modular-scale' # gem install modular-scale
 require 'normalize' # gem install compass-normalize-plugin
+require 'singularitygs' # gem install singularitygs
 
 # Set this to the root of your project when deployed:
 http_path = "/"

@@ -1,6 +1,8 @@
-<footer>
-	&copy; <?php echo date("Y"); ?> Ablos Media. All rights reserved.
-</footer>
+	<div class="container">
+		<footer>
+			&copy; <?php echo date("Y"); ?> Ablos Media. All rights reserved.
+		</footer>
+	</div><!-- .container -->
 
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 	<?php if($config->environment == 'production') : ?>

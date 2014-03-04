@@ -31,6 +31,7 @@
 
   <!-- Inline critical, blocking javascripts to reduce HTTP requests -->
   <script>
+    <?php require(SITE_JS_PATH.'/typekit.js'); ?>
     <?php //require(SITE_JS_PATH.'/modernizr.custom.js'); ?>
   </script>
     
@@ -41,9 +42,17 @@
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <header>
-    <h1>Living Letters</h1>
-    <nav>
-      <a href="/about.php">About</a>
-    </nav>
+  <header class="header">
+    <div class="container">
+      <h1 class="header__logo">
+        <a href="<?=SITE_URI?>">Living&nbsp;Letters</a>
+      </h1>
+      <nav>
+        <ul class="header__nav">
+          <li>
+            <a href="<?=SITE_URI?>/about.php">About</a>
+          </li>
+        </ul>
+      </nav>
+    </div><!-- .container -->
   </header>

@@ -276,9 +276,10 @@
 h1, h2, h3, 
 h4, h5, h6 {
 	font-family: $font-heading; 
-	color: $color-heading; 
+	color: $c-heading; 
 	position: relative; 
 	top: 0em;
+	font-weight: 200;
 }
 h1 {
 	@extend .alpha; 
@@ -305,11 +306,11 @@ small {
 hr {
 	border: 0;
   height: 1px;
-  background: $color-grey;
+  background: $c-grey;
 }
 
 abbr {
-  border-bottom: 1px dotted $color-grey;
+  border-bottom: 1px dotted $c-grey;
   cursor: help;
 }
 
@@ -337,7 +338,7 @@ xmp {
  *
  */
 .rule {
-  color: $color-text;
+  color: $c-text;
   border: none;
   border-bottom-width: 1px;
   border-bottom-style: solid;

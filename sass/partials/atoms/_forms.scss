@@ -24,15 +24,15 @@ $bottom-margin-ems: $bl - 2*$vertical-padding-ems - $border-width; // taking int
 	&.field--error {
 		$border-size--error: 2; 
 		$border-width--error: $border-size--error*(2/clear-units($bs)); 
-	  border: $border-size--error#{px} solid $color-red; 
+	  border: $border-size--error#{px} solid $c-red; 
 	  $vertical-padding-ems--error: (0.5 - $border-width--error); 
 	  padding-top: $vertical-padding-ems--error#{em}; 
 	  padding-bottom: $vertical-padding-ems--error#{em}; 
-	  background: mix($color-red, white, 10%); 
+	  background: mix($c-red, white, 10%); 
 
 	  & + small.field-error-message {
 			color: white; 
-			background: $color-red; 
+			background: $c-red; 
 			padding: 0 0.5em; 
 		}
 	}

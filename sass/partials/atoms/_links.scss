@@ -1,9 +1,9 @@
 a {
-  color: $color-link; 
+  color: $c-link; 
   text-decoration: underline; 
   @include transition( all 0.2s ); 
   &:hover { 
-  	color: $color-link-hover; 
+  	color: $c-link-hover; 
  	}
 }
 
