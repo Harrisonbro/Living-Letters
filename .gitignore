@@ -1,1 +1,4 @@
 config.local.php
+css/*
+.sass-cache/*
+node_modules

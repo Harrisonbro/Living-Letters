@@ -1,0 +1,19 @@
+@if $use-island == true {
+/**
+ * Island object
+ * Simple, boxed off content, as per: csswizardry.com/2011/10/the-island-object
+ */
+.island, 
+.islet {
+  display: block;
+  @extend clearfix;
+  & > :last-child { margin-bottom: 0; }
+}
+.island {
+  padding : 0;
+}
+.islet { // smaller than .island
+  padding : 0;
+}
+
+} // @if $use-island == true

@@ -1,0 +1,82 @@
+/**
+ * 
+ * Use ALA style quotes 
+ * https://gist.github.com/murtaugh/4489740
+ * 
+ ** Full quote:
+ * <figure class="quote">
+ * 	<blockquote cite="">
+ * 		<p></p>
+ * 	</blockquote>
+ * 	<figcaption>
+ * 		<cite>
+ * 			<small>person being cited, <a href="">title of work</a></small>
+ * 		</cite>
+ * 	</figcaption>
+ * </figure>
+ *
+ ** Pull quote:
+ * <aside class="pullquote">
+ *   <blockquote>
+ *     ... 
+ *   </blockquote>
+ * </aside>
+ *
+ **/
+
+$cite-display: block;
+$cite-text-align: right;
+$cite-font-size: inherit; 
+$cite-flourish: "— "; 
+
+blockquote {
+	margin: 0; 
+	border-left: 0.25em solid $color-grey; 
+	padding-left: 0.75em; 
+	font-style: italic; 
+	&:last {
+		margin-bottom: 0; 
+	}
+	+ figcaption {
+		display: $cite-display;
+		text-align: $cite-text-align;
+		font-size: $cite-font-size; 
+		// @include .milli(); 
+		margin-top: -1em*$bl; 
+		&:before {
+			content: $cite-flourish; 
+			margin: 0.2em; 
+		}
+	}
+	cite {
+		font-style: italic; 
+	}
+}
+
+.pullquote {
+	//position: relative; 
+	@extend .delta; 
+	$pad-vertical: context-calc( 0.5em*$bl, delta-size(), 'em' ); 
+	$pad-side: context-calc( 2em*$bl, delta-size(), 'em' ); 
+	padding: $pad-vertical $pad-side; 
+	p { margin-bottom: 0; }
+	&:before, 
+	&:after {
+		position: absolute; 
+		font-size: 2em; 
+		opacity: 0.5; 
+	}
+	&:before {
+		content: '“';
+		top:  0;
+		left: 0;
+	}
+	&:after {
+		content: '”';
+		bottom: 0;
+		right: 0;
+	}
+}
+
+
+

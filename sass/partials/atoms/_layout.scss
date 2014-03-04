@@ -1,0 +1,25 @@
+//!Media block
+.media,
+%media {
+  .body { overflow: hidden; _overflow: visible; zoom: 1; }
+  .img { float: left; margin-right: 1em; }
+  .img img { display: block; }
+  .img-alt { float: right; margin-left: 1em; margin-right: 0; }
+}
+
+//!Layout helpers
+.l-right { float: right; }
+.l-left { float: left; }
+.l-clear-right { clear: right; }
+.l-clear-left { clear: left; }
+.l-clear-both { clear: both; }
+.l-full-width { width: 100%; @include box-sizing(border-box); }
+.l-flush-top { margin-top: 0 !important; }
+.l-flush-bottom { margin-bottom: 0 !important; }
+.l-push-top { margin-top: $bs*$bl; }
+.l-push-bottom { margin-bottom: $bs*$bl; }
+
+//!Typography layouts
+.constrained-measure {
+  max-width: 40em; 
+}

@@ -1,0 +1,87 @@
+$field-border: 1px solid grey; 
+$field-background: white; 
+
+$border-width: (2/clear-units($bs)); 
+$vertical-padding-ems: (0.5 - $border-width); 
+$bottom-margin-ems: $bl - 2*$vertical-padding-ems - $border-width; // taking into account padding and borders
+
+%text-type-field {
+
+	border: $field-border; 
+	background: $field-background; 
+	@include box-sizing(border-box); 
+	width: 100%; 
+	line-height: 1em*$bl; 
+	padding: $vertical-padding-ems#{em} 0.5em; // taking into account top and bottom borders
+	margin-bottom: $bottom-margin-ems#{em}; 
+
+	& ~ small {
+		display: block; 
+		position: relative; 
+		top: -$bottom-margin-ems / clear-units(milli-size())#{em}; 
+	}
+
+	&.field--error {
+		$border-size--error: 2; 
+		$border-width--error: $border-size--error*(2/clear-units($bs)); 
+	  border: $border-size--error#{px} solid $color-red; 
+	  $vertical-padding-ems--error: (0.5 - $border-width--error); 
+	  padding-top: $vertical-padding-ems--error#{em}; 
+	  padding-bottom: $vertical-padding-ems--error#{em}; 
+	  background: mix($color-red, white, 10%); 
+
+	  & + small.field-error-message {
+			color: white; 
+			background: $color-red; 
+			padding: 0 0.5em; 
+		}
+	}
+
+}
+
+textarea {
+	@extend %text-type-field;
+	$lines: 3; 
+	min-height: $lines*$bl + 2*$vertical-padding-ems + $border-width#{em};
+	resize: vertical; 
+}
+
+label { 
+	display: block; 
+	cursor: pointer 
+}
+
+input[type=text], 
+input[type=password], 
+input[type=number], 
+input[type=email], 
+input[type=search], 
+input[type=date], 
+input[type=datetime], 
+input[type=datetime-local], 
+input[type=month], 
+input[type=tel], 
+input[type=time], 
+input[type=url], 
+input[type=week] {
+	@extend %text-type-field;
+}
+
+.radio, .checkbox {
+  line-height: 1em*$bl; 
+  margin-bottom: 1em*$bl;
+}
+.radio + .radio,
+.checkbox + .checkbox { margin-top: -1em*$bl; }
+.media input[type=checkbox].img { position: relative; top: 0.25em; margin-right: 0.4em; }
+
+fieldset { 
+	padding: 0.5em*$bl; 
+	border: 1px solid grey; 
+  border-top: 0.2em solid grey; 
+}
+legend {
+  margin: 0 0 0 0.75em;
+  padding: 0 0.75em;
+  font-weight: 600;
+}

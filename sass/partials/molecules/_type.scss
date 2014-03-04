@@ -1,0 +1,28 @@
+/**
+ * Heading groups
+ * Include the sub heading or super heading within the heading element, eg:
+ *
+ * <h1>
+ *   Main Heading
+ *   <span class="sub-heading">Sub Heading</span>
+ * </h1>
+ *
+ * or
+ *
+ * <h1>
+ * 	 <span class="super-heading">Super Heading</span>
+ *   Main Heading
+ * </h1>
+ * 
+ */
+.sub-heading, 
+.super-heading {
+	position: absolute; 
+	display: block; 
+	font-weight: normal; 
+}
+// Use in conjunction with .l-push-top on the containing heading element
+.super-heading {
+	position: absolute; 
+	top: -1.5 * $bl * $bs; 
+}

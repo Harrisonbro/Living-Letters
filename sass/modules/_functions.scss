@@ -1,0 +1,83 @@
+@function context-calc($scale, $base, $value) {
+	@return ($scale/$base)#{$value};
+}
+
+@function clear-units($value){
+  @if type-of($value) == "number" {
+    @if (unitless($value)) {
+      @return $value;
+    } @else if unit($value) == "em"{
+      @return $value / 1em;
+    } @else if unit($value) == "px" {
+      @return $value / 1px;
+    } @else if unit($value) == "pt" {
+      @return $value / 1pt;
+    }
+  } @else {
+    @warn "Not a number value: #{$value}";
+    @return $value;
+  }
+}
+
+@mixin calculate-heading-margins($base-font-size, $font-size, $line-height, $baseline, $baselines-below: 0, $baselines-above: 0) {
+
+	// Check inputs
+	@if unit($base-font-size) != "px" {
+		@warn "$base-font-size must be in px";
+	}
+	@if unitless($line-height) == false {
+		@warn "$line-height must be unitless";
+	}
+	@if unitless($baseline) == false {
+		@warn "$baseline must be unitless";
+	}
+
+	// Get unitless values
+	$fs: clear-units($font-size); 
+	$lh: clear-units($line-height); 
+	$bl: clear-units($baseline); 
+	$bfs: clear-units($base-font-size); 
+
+	// Store original units
+	$fs_u: unit($font-size); 
+	$lh_u: unit($line-height); 
+	$bl_u: unit($baseline); 
+
+	// Convert into px sizes
+	@if $fs_u == 'em' {
+		$fs: $fs * $bfs; 
+		// content: "font-size in px: #{$fs}"; 
+	}
+	
+	// Relative baseline in pixels
+	$rbl: $bl * $bfs; 
+	// Actual line height in pixels
+	$acl: $lh * $fs; 
+	
+	// content: "$acl is #{$acl}"; 
+	// content: "$rbl is #{$rbl}"; 
+
+	// content: "$acl/$rbl is #{$acl / $rbl}"; 
+	// content: "$acl % $rbl is #{$acl % $rbl}"; 
+
+	$overshoot: $acl % $rbl; // the amount the element goes past the last full baseline (including 0)
+	$margin-bottom: ($rbl - $overshoot); 
+
+	// Add additional baselines
+	$margin-bottom: $margin-bottom + ($rbl * $baselines-below); 
+	$margin-top: ($rbl * $baselines-above); 
+	
+	// Make margin in ems
+	margin-bottom: #{$margin-bottom / $fs}em; 
+	margin-top: #{$margin-top / $fs}em; 
+
+} // END @mixin calculate-heading-margins()
+
+@mixin white-space($wrap-space) {
+	@if $wrap-space == 'pre-wrap' {
+		white-space: #{-moz-}$wrap-space;	// Firefox 1.0-2.0
+		white-space: $wrap-space; 			// current browsers
+	} @else {
+		white-space: $wrap-space;
+	}
+}

@@ -1,0 +1,24 @@
+html, 
+body {
+	font-size: $bs; 
+	font-family: $font-body; 
+	line-height: $bl; 
+	color: $color-text; 
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern";
+	-webkit-font-feature-settings: "kern";
+	-moz-font-feature-settings: "kern";
+	-moz-font-feature-settings: "kern=1";
+	word-wrap: break-word; 
+	@include hyphens(auto); 
+}
+
+/**
+ * Browser upgrade notice
+ */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}

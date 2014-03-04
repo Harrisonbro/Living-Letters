@@ -1,0 +1,31 @@
+dt {
+	font-weight: bold; 
+}
+dd {
+	margin-left: 1em*$bl; 
+}
+dl.inline {
+  dt, dd {
+		display: inline;
+		margin: 0;
+	}
+	dt, dd {
+		& + dt {
+			&:before {
+				content: "\A";
+				white-space: pre;
+			}
+		}
+	}
+	dd {
+		& + dd {
+			&:before {
+				content: ", ";
+			}
+		}
+		&:before {
+				content: ": ";
+				margin-left: -0.2rem; // removes extra space between the dt and the colon
+		}
+	}
+}

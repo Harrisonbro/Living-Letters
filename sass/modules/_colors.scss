@@ -1,0 +1,11 @@
+/*!Colours */
+$color-blue: blue; 
+$color-green: green; 
+$color-red: red; 
+$color-grey: grey; 
+
+$color-text: #444; 
+$color-heading: #222; 
+$color-error: $color-red; 
+$color-link: $color-blue; 
+$color-link-hover: lighten($color-blue, 20%); 

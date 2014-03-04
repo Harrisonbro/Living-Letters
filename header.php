@@ -27,6 +27,8 @@
   <!-- See: http://www.buyog.com/code/?id=53 -->
   <meta http-equiv="x-dns-prefetch-control" content="off">
 
+  <link rel="stylesheet" href="css/all.css">
+
   <!-- Inline critical, blocking javascripts to reduce HTTP requests -->
   <script>
     <?php //require(SITE_JS_PATH.'/modernizr.custom.js'); ?>

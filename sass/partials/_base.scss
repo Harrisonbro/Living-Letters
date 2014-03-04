@@ -1,0 +1,27 @@
+// Base sizes
+$basesize: 16px !default; 
+$bs: $basesize; 
+$baseline: 1.5; 
+$bl: $baseline; 
+$basespace: $bs*$bl; 
+$ratio: fourth(); 
+
+// Base fonts
+$font-body: "helvetica neue", arial, sans-serif; 
+$font-heading: "helvetica neue", arial, sans-serif; 
+
+// Base (default) spacing
+%base-spacing { 
+	margin-top: 0; 
+	margin-bottom: $basespace; 
+	margin-bottom: ($basespace/$basesize)*1rem; 
+}
+h1, h2, h3, h4, h5, h6, hgroup, 
+ul, ol, dl, 
+p, figure, form, 
+pre, table, fieldset, hr { @extend %base-spacing; }
+
+// Optional objects
+$use-pagination: false; 
+$use-postfix: false; 
+$use-island: false; 

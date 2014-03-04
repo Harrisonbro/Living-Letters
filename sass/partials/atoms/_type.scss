@@ -1,0 +1,356 @@
+// Font size scale
+
+@function giga-size() { @return ms(8,1em); }
+.giga, 
+%giga {
+	$fs: giga-size(); 
+	$lh: 1; 
+	$baselines-bottom: 1; 
+	$baselines-top: 0; 
+	font-size: $fs; 
+	line-height: $lh; 
+	@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top); 
+	&.l-push-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, 0); 
+	}
+	&.l-push-top {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top + 2); 
+	}
+	&.l-push-top-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, $baselines-top + 2); 
+	}
+}
+
+@function mega-size() { @return ms(7,1em); }
+.mega, 
+%mega {
+	$fs: mega-size(); 
+	$lh: 1; 
+	$baselines-bottom: 1; 
+	$baselines-top: 0; 
+	font-size: $fs; 
+	line-height: $lh; 
+	@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top); 
+	&.l-push-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, 0); 
+	}
+	&.l-push-top {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top + 2); 
+	}
+	&.l-push-top-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, $baselines-top + 2); 
+	}
+}
+
+@function kilo-size() { @return ms(6,1em); }
+.kilo, 
+%kilo {
+	$fs: kilo-size(); 
+	$lh: 1; 
+	$baselines-bottom: 1; 
+	$baselines-top: 0; 
+	font-size: $fs; 
+	line-height: $lh; 
+	@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top); 
+	&.l-push-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, 0); 
+	}
+	&.l-push-top {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top + 2); 
+	}
+	&.l-push-top-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, $baselines-top + 2); 
+	}
+}
+
+@function alpha-size() { @return ms(5,1em); }
+.alpha, 
+%alpha {
+	$fs: alpha-size(); 
+	$lh: 1; 
+	$baselines-bottom: 1; 
+	$baselines-top: 0; 
+	font-size: $fs; 
+	line-height: $lh; 
+	@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top); 
+	&.l-push-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, 0); 
+	}
+	&.l-push-top {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top + 2); 
+	}
+	&.l-push-top-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, $baselines-top + 2); 
+	}
+}
+
+@function beta-size() { @return ms(4,1em); }
+.beta, 
+%beta {
+	$fs: beta-size(); 
+	$lh: 1; 
+	$baselines-bottom: 0; 
+	$baselines-top: 0; 
+	font-size: $fs; 
+	line-height: $lh; 
+	@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top); 
+	&.l-push-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, 0); 
+	}
+	&.l-push-top {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top + 2); 
+	}
+	&.l-push-top-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, $baselines-top + 2); 
+	}
+}
+
+@function gamma-size() { @return ms(3,1em); }
+.gamma, 
+%gamma {
+	$fs: gamma-size(); 
+	$lh: 1; 
+	$baselines-bottom: 0; 
+	$baselines-top: 0; 
+	font-size: $fs; 
+	line-height: $lh; 
+	@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top); 
+	&.l-push-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, 0); 
+	}
+	&.l-push-top {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top + 2); 
+	}
+	&.l-push-top-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, $baselines-top + 2); 
+	}
+}
+
+@function delta-size() { @return ms(2,1em); }
+.delta, 
+%delta {
+	$fs: delta-size(); 
+	$lh: 1; 
+	$baselines-bottom: 0; 
+	$baselines-top: 0; 
+	font-size: $fs; 
+	line-height: $lh; 
+	@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top); 
+	&.l-push-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, 0); 
+	}
+	&.l-push-top {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top + 2); 
+	}
+	&.l-push-top-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, $baselines-top + 2); 
+	}
+}
+
+@function epsilon-size() { @return ms(1,1em); }
+.epsilon, 
+%epsilon {
+	$fs: epsilon-size(); 
+	$lh: 1; 
+	$baselines-bottom: 0; 
+	$baselines-top: 0; 
+	font-size: $fs; 
+	line-height: $lh; 
+	@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top); 
+	&.l-push-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, 0); 
+	}
+	&.l-push-top {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top + 2); 
+	}
+	&.l-push-top-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, $baselines-top + 2); 
+	}
+}
+
+@function zeta-size() { @return ms(0,1em); }
+.zeta, 
+%zeta {
+	$fs: zeta-size(); 
+	$lh: 1.49; 
+	$baselines-bottom: 0; 
+	$baselines-top: 0; 
+	font-size: $fs; 
+	line-height: $lh; 
+	@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top); 
+	&.l-push-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, 0); 
+	}
+	&.l-push-top {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top + 2); 
+	}
+	&.l-push-top-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, $baselines-top + 2); 
+	}
+}
+
+@function milli-size() { @return ms(-1,1em); }
+.milli, 
+%milli {
+	$fs: milli-size(); 
+	$lh: $bl; 
+	$baselines-bottom: 0; 
+	$baselines-top: 0; 
+	font-size: $fs; 
+	line-height: $lh; 
+	@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top); 
+	&.l-push-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, 0); 
+	}
+	&.l-push-top {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top + 2); 
+	}
+	&.l-push-top-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, $baselines-top + 2); 
+	}
+}
+
+@function micro-size() { @return ms(-2,1em); }
+.micro, 
+%micro {
+	$fs: micro-size(); 
+	$lh: $bl; 
+	$baselines-bottom: 0; 
+	$baselines-top: 0; 
+	font-size: $fs; 
+	line-height: $lh; 
+	@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top); 
+	&.l-push-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, 0); 
+	}
+	&.l-push-top {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top + 2); 
+	}
+	&.l-push-top-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, $baselines-top + 2); 
+	}
+}
+
+@function nano-size() { @return ms(-3,1em); }
+.nano, 
+%nano {
+	$fs: nano-size(); 
+	$lh: $bl; 
+	$baselines-bottom: 0; 
+	$baselines-top: 0; 
+	font-size: $fs; 
+	line-height: $lh; 
+	@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top); 
+	&.l-push-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, 0); 
+	}
+	&.l-push-top {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top + 2); 
+	}
+	&.l-push-top-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, $baselines-top + 2); 
+	}
+}
+
+@function pico-size() { @return ms(-4,1em); }
+.pico, 
+%pico {
+	$fs: pico-size(); 
+	$lh: $bl; 
+	$baselines-bottom: 0; 
+	$baselines-top: 0; 
+	font-size: $fs; 
+	line-height: $lh; 
+	@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top); 
+	&.l-push-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, 0); 
+	}
+	&.l-push-top {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom, $baselines-top + 2); 
+	}
+	&.l-push-top-bottom {
+		@include calculate-heading-margins($bs, $fs, $lh, $bl, $baselines-bottom + 1, $baselines-top + 2); 
+	}
+}
+
+h1, h2, h3, 
+h4, h5, h6 {
+	font-family: $font-heading; 
+	color: $color-heading; 
+	position: relative; 
+	top: 0em;
+}
+h1 {
+	@extend .alpha; 
+}
+h2 {
+	@extend .beta; 
+}
+h3 {
+	@extend .gamma; 
+}
+h4 {
+	@extend .delta; 
+}
+h5 {
+	@extend .epsilon; 
+}
+h6 {
+	@extend .zeta; 
+}
+small {
+	@extend .milli; 
+}
+
+hr {
+	border: 0;
+  height: 1px;
+  background: $color-grey;
+}
+
+abbr {
+  border-bottom: 1px dotted $color-grey;
+  cursor: help;
+}
+
+// http://typeplate.com/#hyphenation
+abbr,
+acronym,
+blockquote,
+code,
+dir,
+kbd,
+listing,
+plaintext,
+q,
+samp,
+tt,
+var,
+xmp {
+	// http://meyerweb.com/eric/thoughts/2012/12/17/where-to-avoid-css-hyphenation
+	@include hyphens(none);
+}
+
+/**
+ * Horizontal rules, extend `hr`.
+ * Demo: jsfiddle.net/inuitcss/L6GuZ
+ *
+ */
+.rule {
+  color: $color-text;
+  border: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: $basespace - 1px;
+  margin-bottom: (($basespace - 1px) / $basesize)*1rem;
+}
+
+// Dotted rules
+.rule--dotted{
+  border-bottom-style:dotted;
+}
+
+// Dashed rules
+.rule--dashed{
+  border-bottom-style:dashed;
+}

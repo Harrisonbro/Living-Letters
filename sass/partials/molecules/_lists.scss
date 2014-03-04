@@ -1,0 +1,138 @@
+/**
+ * Inline label form row
+ *
+ * Widths of the label and field elements 
+ * can/should be overwritten by grid system
+ * 
+ */
+.row--inline {
+  clear: both; 
+  label, input, select, textarea { display: inline; width: auto; }
+  label { margin-right: 0.5em; }
+}
+
+/**
+ * Plain list
+ */
+.plain-list {
+	list-style: none;
+  margin-left: 0;
+}
+
+/** 
+ * Horizontal list
+ */
+.h-list {
+  @extend .plain-list; 
+}
+.h-list > li,
+.h-list > li > a {
+  display: inline-block;
+ *display: inline;
+  zoom: 1;
+}
+.h-list > li {
+	// Remove spacing from inline-block
+	margin-right: -0.25em; 
+}
+
+@if $use-pagination == true {
+/**
+ * Pagination
+ * Use the following HTML:
+ *
+ * <ol class="pagination">
+ *   <li class="pagination__first"><a href="#">« First</a></li>
+ *   <li class="pagination__previous"><a href="#">‹ Previous</a></li>
+ *   <li><a href="#">1</a></li>
+ *   <li><a href="#">2</a></li>
+ *   <li class="pagination__current"><a href="#">3</a></li>
+ *   <li><a href="#">4</a></li>
+ *   <li><a href="#">5</a></li>
+ *   <li class="pagination__next"><a href="#">Next ›</a></li>
+ *   <li class="pagination__last"><a href="#">Last »</a></li>
+ * </ol>
+ * 
+ */
+
+.pagination {
+	@extend .h-list; 
+	text-align: center; 
+
+  & > li {
+  	margin: 0 0.15em; 
+  }
+
+	a {
+		@include box-sizing(border-box); 
+		min-width: 1em*$bl; 
+		height: 1em*$bl; 
+		line-height: 1em*$bl; 
+		padding-left: 0.35em; 
+		padding-right: 0.35em; 
+		background: grey; 
+		color: white; 
+		text-decoration: none; 
+		&:hover {
+			background: black; 
+		}
+	}
+
+}
+
+.pagination__current a {
+	background: none; 
+	border: 1px dashed black; 
+	@include box-sizing(border-box); 
+	line-height: (1em*$bl) - (2em/clear-units($bs)); // take into account border
+	color: $color-text; 
+	cursor: default; 
+}
+
+.pagination__next a, 
+.pagination__previous a, 
+.pagination__last a, 
+.pagination__first a {
+	background: none; 
+	color: grey; 
+	&:hover {
+		background: none; 
+		color: black; 
+	}
+}
+
+} // @if $use-pagination
+
+@if $use-postfix == true {
+/**
+ * Postfix buttons to a form field.
+ * Useful for things like search
+ *
+ * <div class="postfix">
+ *   <input type="text" placeholder="enter location">
+ *   <button type="submit" class="button ss-search">postfix</button>
+ * </div>
+ * 
+ */
+.postfix {
+  @include clearfix; 
+  input, button { float: left; }
+  input { width: 60%; }
+  button,
+  input[type=submit] { 
+    width: 40%; 
+    margin: 0; 
+    line-height: 1em*$bl; 
+    padding-top: $vertical-padding-ems#{em}; 
+    padding-bottom: $vertical-padding-ems#{em};
+  }
+  & + small { width: 60%; }
+}
+.postfix-alt {
+	input { width: 57%; margin-right: 3%; }
+	button, 
+	input[type=submit] { width: auto; max-width: 40%; }
+	& + small { width: 57%; }
+}
+
+} // @if $use-postfix == true
