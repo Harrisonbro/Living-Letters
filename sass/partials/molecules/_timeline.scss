@@ -1,4 +1,5 @@
 .timeline {
+	margin: $basespace 0; 
 	@include breakpoint($med) {
 		@include grid-span(6);
 	}
@@ -6,7 +7,7 @@
 
 .timeline__connector {
 	margin: 0 auto;
-	height: 3em;
+	height: $basespace;
 	width: 0.25em;
 	background: $c-grey;
 }
