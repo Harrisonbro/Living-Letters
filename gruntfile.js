@@ -13,8 +13,12 @@ module.exports = function(grunt){
     	build: {
     		files: {
     			'js/build/main.js': [
-    				
-    			]
+            'js/src/consolefix.js',
+            'js/src/vendor/jquery.min.js',
+            'js/src/main.js',
+            'js/src/vendor/jquery.fitvids.js',
+            'js/src/vendor/jquery.modal.js',
+          ]
     		}
     	}
     }, 

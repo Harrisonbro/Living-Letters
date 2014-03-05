@@ -4,6 +4,8 @@
 		</footer>
 	</div><!-- .container -->
 
+	<script src="<?=SITE_JS?>/build/main.js"></script>
+
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 	<?php if($config->environment == 'production') : ?>
   <script>
