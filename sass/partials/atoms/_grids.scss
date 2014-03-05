@@ -12,7 +12,7 @@ $grids: add-grid(9 at $med);
 $gutters: add-gutter(0.2 at $med);
 
 .container {
-	@include background-grid;
+	// @include background-grid;
 	@include clearfix;
 	max-width: $max-width;
 	margin: 0 auto;

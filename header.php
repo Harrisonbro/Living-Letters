@@ -31,7 +31,7 @@
 
   <!-- Inline critical, blocking javascripts to reduce HTTP requests -->
   <script>
-    <?php //require(SITE_JS_PATH.'/typekit.js'); ?>
+    <?php require(SITE_JS_PATH.'/typekit.js'); ?>
     <?php //require(SITE_JS_PATH.'/modernizr.custom.js'); ?>
   </script>
     

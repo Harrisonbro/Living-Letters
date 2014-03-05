@@ -66,7 +66,7 @@
 	@include breakpoint($med) {
 		padding: 2em;
 	}
-	background: url(../images/letter-texture.jpg) center center no-repeat;
+	background: url(../images/letter-texture.jpg) center center repeat;
 	font-family: $font-heading;
 }
 
@@ -76,5 +76,5 @@
 }
 
 .letter__audio {
-	audo { width: 100%; }
+	audio { width: 100%; }
 }

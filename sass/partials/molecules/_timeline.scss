@@ -36,6 +36,12 @@
 	clear: both;
 	margin: 0 auto;
 	height: $basespace;
-	width: 0.25em;
-	background: $c-grey;
+	width: 0;
+	border: 0.2em solid $c-grey;
+}
+.timeline__connector--dashed {
+	border-style: dashed;
+}
+.timeline__connector--taller {
+	height: $basespace * 3;
 }

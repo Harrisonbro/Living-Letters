@@ -21,6 +21,7 @@
 		<div class="timeline__item letter">
 			
 			<div class="letter__intro">
+				<h2 class="alpha">Letter</h2>
 				<div class="letter__meta">
 					<p>
 						<strong>From:</strong> Dutton
@@ -43,19 +44,49 @@
 			</a><!-- letter__previewer -->
 
 			<div class="letter__text">
-				Letter text... Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, 
+				&nbsp;&nbsp;&nbsp;Please it your 
 				<span id="annotation-1" data-callout="#annotation-callout-1" class="annotation annotation-type--language">
-					consectetur
+					good mastership
 				</span>
-				adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper.
+				my duty remember this to
+				advertise you that I have taken the bodies of the abbot
+				of Norton, Robert Jannyns, and the stranger a cunning 
+				[Black]smith, [and] two of the said abbott’s servants. Also Randle Brereton,
+				baron of the king’s exchequer of Chester, and John Hale
+				of Chester, merchant, and have them in my custody and
+				keeping / And the rest I intend to have as speedily as
+				I can and to be with you with them
 				<span id="annotation-2" data-callout="#annotation-callout-2" class="annotation annotation-type--character">
-					Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+					(god willing)
 				</span>
-				sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, tellus ac cursus commodo, tortor mauris 
+				in all
+				convenient speed as I possibly may. Moreover I have
+				caused dan Rondul [of] Wilmslow, the monk of the Vale
+				Royal to come up to you / for whom I spoke unto your good
+				mastership, which is a good religious man, discrete and 
+				well-grounded in learning and hath many good qualities,
+				most apt to be a master of a religious house than any
+				other monk of that house. Wherefore it may please your good
+				mastership to be his good master towards his preferment, [and] that
+				he may be admitted master of the same
 				<span id="annotation-3" data-callout="#annotation-callout-3" class="annotation annotation-type--history">
-					condimentum nibh
+					And that [matter which] I
+					did promise your mastership this said Moncke will accomplish
+					accordingly.
 				</span>
-				, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+				Wherefore I beseech your mastership that this
+				bearer and the said monk may report unto you
+				from time to time to know your pleasure therein.
+				Ensuring you what ye do for me or my friend all
+				is your own, as knoweth our lord god who mercifully
+				preserve you. [Written] At Dutton the 3rd day of August
+				<br/>
+				By yours, assured
+				<br/>
+				&nbsp;&nbsp;&nbsp;Perus.
+				<br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dutton K.
+
 			</div><!-- .letter__text -->
 
 			<div class="letter__video">
@@ -82,7 +113,14 @@
 		<div class="timeline__item timeline__item--narrow">
 			<h2 class="delta">Some narrow text</h2>
 			<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
-		</div><!-- .timeline__item -->		
+		</div><!-- .timeline__item -->
+
+		<div class="timeline__connector timeline__connector--dashed timeline__connector--taller"></div>
+
+		<div class="timeline__item">
+			<h2 class="delta">2014...</h2>
+			<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+		</div><!-- .timeline__item -->
 
 	</div><!-- .timeline -->
 

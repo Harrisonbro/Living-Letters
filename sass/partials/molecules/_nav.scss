@@ -6,6 +6,7 @@
 	}
 }
 .header__logo {
+	margin-left: 1em / clear-units(delta-size());
 	@extend .delta;
 	line-height: 1;
 	line-height: 1em*($bl + 2) / delta-size();
