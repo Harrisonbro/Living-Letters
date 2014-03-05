@@ -61,7 +61,7 @@
 			<div class="letter__video">
 				<h4>Hear from the expert:</h4>
 				<div class="video-container">
-					<!-- <iframe src="//player.vimeo.com/video/88231588?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+					<iframe src="//player.vimeo.com/video/88231588?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
 				<p><a href="http://vimeo.com/88231588">View "Historical context" on Vimeo</a></p>
 			</div><!-- .letter__video -->
@@ -77,11 +77,18 @@
 
 		</div><!-- .letter -->
 
+		<div class="timeline__connector"></div>
+
+		<div class="timeline__item timeline__item--narrow">
+			<h2 class="delta">Some narrow text</h2>
+			<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+		</div><!-- .timeline__item -->		
+
 	</div><!-- .timeline -->
 
 	<div class="letter__annotations">
 		<div data-annotation="#annotation-1" id="annotation-callout-1" class="annotation-callout">
-			<p>Text for annotation 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio minus maxime explicabo earum adipisci perspiciatis dicta repellat fugit est in?</p>
+			<p>Text for annotation 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio minus maxime explicabo earum adipisci perspiciatis dicta repellat fugit est in? <a href="#" data-modal="#example-annotation-modal" class="js-modal-toggle">Read more</a></p>
 		</div>
 		<div data-annotation="#annotation-2" id="annotation-callout-2" class="annotation-callout">
 			<p>Text for annotation 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, animi, ipsum sapiente at a aut debitis provident vero corporis nam.</p>
@@ -97,6 +104,19 @@
 	<p><a href="<?=SITE_IMAGES?>/letter-one.jpg">View image fullsize</a></p>
 	<img src="<?=SITE_IMAGES?>/letter-one.jpg">
 	<p><a href="<?=SITE_IMAGES?>/letter-one.jpg">View image fullsize</a></p>
+	<a class="close-modal" rel="modal:close"></a>
+</div>
+
+<div id="example-annotation-modal" class="modal">
+	<div class="left">
+		<h4>Hear from the expert:</h4>
+		<div class="video-container">
+			<iframe src="//player.vimeo.com/video/88231588?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="right">
+		<p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+	</div>
 	<a class="close-modal" rel="modal:close"></a>
 </div>
 

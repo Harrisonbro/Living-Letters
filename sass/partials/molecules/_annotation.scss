@@ -40,6 +40,9 @@ $c-annotation--history: blue;
 		left: -0;
 		top: -0.2em; 
 	}
+	:last-child {
+		margin-bottom: 0;
+	}
 }
 
 @mixin annotation-colors($color) {

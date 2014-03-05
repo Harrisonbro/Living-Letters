@@ -46,3 +46,8 @@
 .modal--image {
   text-align: center;
 }
+
+#example-annotation-modal {
+  .left { @include grid-span(1,1,2); }
+  .right { @include grid-span(1,2,2); }
+}
