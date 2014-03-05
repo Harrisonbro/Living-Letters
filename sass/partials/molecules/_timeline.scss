@@ -5,14 +5,8 @@
 	}
 }
 
-.timeline__connector {
-	margin: 0 auto;
-	height: $basespace;
-	width: 0.25em;
-	background: $c-grey;
-}
-
 .timeline__item {
+	clear: both;
 	padding: 1em;
 	background: white;
 	border: 1px solid $c-grey;
@@ -30,10 +24,18 @@
 	}
 }
 .timeline__item--narrow {
-	@include grid-span(1,2);
-	border-width: 1px;
-	@include border-radius(0.5em);
+	border-width: 1px 0;
 	@include breakpoint($med) {
 		@include grid-span(4, 2, 6);
+		@include border-radius(0.5em);
+		border-width: 1px;
 	}
+}
+
+.timeline__connector {
+	clear: both;
+	margin: 0 auto;
+	height: $basespace;
+	width: 0.25em;
+	background: $c-grey;
 }

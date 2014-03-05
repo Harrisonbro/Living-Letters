@@ -1,0 +1,75 @@
+.letter {
+	@include clearfix;
+}
+.letter__intro {
+	@include breakpoint($med) {
+		@include grid-span(1,1,2);
+	}
+	@extend %base-spacing;
+}
+.letter__meta {
+	@extend .epsilon;
+	line-height: $bl + 0.25;
+	font-family: $font-heading;
+	font-weight: 200;
+	* { margin: 0; }
+}
+.letter__avatar {
+	width: 1.5em; 
+	@include border-radius(999em);
+	display: inline-block;
+}
+.letter__previewer {
+	@include breakpoint($med) {
+		@include grid-span(1,2,2);
+	}
+	position: relative;
+	overflow: hidden;
+	height: 8em*$bl;
+	@include border-radius(0.3em);
+	@extend %base-spacing;
+	* { z-index: 1; position: relative; }
+}
+.letter__previewer__image {
+	position: absolute;
+	width: 130%;
+	max-width: 130%;
+	left: 0;
+	top: -50%;
+	z-index: 0;
+}
+.letter__previewer__toggle {
+	font-size: 2em;
+	$size: 2em;
+	background: rgba(255,255,255,0.8);
+	color: lighten(black, 40%);
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -$size/2;
+	margin-top: -$size/2;
+	width: $size;
+	height: $size;
+	line-height: $size;
+	text-align: center;
+	@include border-radius(999em);
+	&:before { margin-right: 0.15em;  }
+}
+.letter__text {
+	@extend .epsilon;
+	clear: both;
+	@extend %base-spacing;
+	padding: 1em;
+	line-height: $bl;
+	@include breakpoint($med) {
+		padding: 2em;
+	}
+	background: url(../images/letter-texture.jpg) center center no-repeat;
+	font-family: $font-heading;
+}
+
+@include breakpoint($med) {
+	.letter__audio { @include grid-span(3,1,6); }
+	.letter__video { @include grid-span(3,4,6); }
+}

@@ -18,6 +18,9 @@
 .l-flush-bottom { margin-bottom: 0 !important; }
 .l-push-top { margin-top: $bs*$bl; }
 .l-push-bottom { margin-bottom: $bs*$bl; }
+.l-text-align-left { text-align: left; }
+.l-text-align-right { text-align: right; }
+.l-text-align-center { text-align: center; }
 
 //!Typography layouts
 .constrained-measure {

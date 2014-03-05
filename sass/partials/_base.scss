@@ -4,7 +4,7 @@ $bs: $basesize;
 $baseline: 1.5; 
 $bl: $baseline; 
 $basespace: $bs*$bl; 
-$ratio: fourth(); 
+$ratio: minor-third(); 
 
 // Base fonts
 $font-body: "proxima-nova-n3", "proxima-nova", "helvetica neue", arial, sans-serif; 

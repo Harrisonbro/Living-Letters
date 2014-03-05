@@ -1,0 +1,17 @@
+@import "../../fonts/ss-standard/ss-standard"; 
+
+/* Fix baseline for SymbolSet icons */
+[class*=ss-]:before, 
+[class*=ss-].ss-right:after {
+	position: relative; 
+	top: 0.17em; 
+}
+[class*=ss-]:before { margin-right: 0.4em; }
+[class*=ss-].ss-right:after { margin-left: 0.3em; }
+
+.ss-small-icon:before, 
+.ss-small-icon.right:after { 
+	@extend %micro; 
+	top: 0.1em; 
+	margin-left: 0.2em; 
+}
