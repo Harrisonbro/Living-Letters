@@ -1,0 +1,33 @@
+.type-selector {
+	display: none; 
+	@include breakpoint($med) {
+		display: block; 
+	}
+	position: fixed;
+	bottom: 0;
+	width: 100%; 
+	background: white;
+	padding: 0.25em; 
+	border-top: 1px solid $c-grey;
+	z-index: 10;
+}
+.type-selector__options {
+	@extend .h-list;
+	width: 100%;
+	display: table;
+	margin: 0.25em 0 0 0;
+	li {
+		display: table-cell;
+	}
+}
+.type-selector__option {
+	width: 100%;
+	background: white; 
+	padding: 1em*$bl/2;
+	border: 1px solid $c-grey;
+	font-weight: bold;
+	&.active {
+		background: darken(white, 10%);
+		text-decoration: underline;
+	}
+}

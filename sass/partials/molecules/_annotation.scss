@@ -3,19 +3,27 @@ $c-annotation--character: $c-annotation--primary;
 $c-annotation--language: green;
 $c-annotation--history: blue;
 
-.annotation {
-	padding: 0.15em;
-	@include border-radius(0.3em);
+@include breakpoint($med) {
 
-	$c-annotation: $c-annotation--primary;
-	border: 0.1em solid $c-annotation;
-	background: rgba($c-annotation, .1); 
-	&:hover {
-		background: rgba($c-annotation, .3); 
+	.annotation {
+		padding: 0.15em;
+		@include border-radius(0.3em);
+
+		$c-annotation: $c-annotation--primary;
+		border: 0.1em solid $c-annotation;
+		background: rgba($c-annotation, .1); 
+		&:hover {
+			background: rgba($c-annotation, .3); 
+		}
 	}
+
 }
 
 .annotation-callout {
+	display: none;
+	@include breakpoint($med) {
+		display: block;
+	}
 	padding: 1em;
 	position: absolute;
 	right: 0;
@@ -53,14 +61,16 @@ $c-annotation--history: blue;
 		background: rgba($color, .3); 
 	}
 }
-.annotation.annotation-type--character {
-	@include annotation-colors($c-annotation--character);
-}
-.annotation.annotation-type--history {
-	@include annotation-colors($c-annotation--history);
-}
-.annotation.annotation-type--language {
-	@include annotation-colors($c-annotation--language);
+@include breakpoint($med) {
+	.annotation.annotation-type--character {
+		@include annotation-colors($c-annotation--character);
+	}
+	.annotation.annotation-type--history {
+		@include annotation-colors($c-annotation--history);
+	}
+	.annotation.annotation-type--language {
+		@include annotation-colors($c-annotation--language);
+	}
 }
 
 @mixin annotation-callout-colors($color) {

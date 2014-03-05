@@ -19,6 +19,9 @@ body {
 	word-wrap: break-word; 
 	@include hyphens(auto); 
 }
+body {
+	padding-bottom: 5em*$bl; // makes space for type selector
+}
 
 /**
  * Browser upgrade notice

@@ -16,6 +16,10 @@ CATH.breakpoints = { // in Ems
  */
 jQuery(document).ready(function($) {
 
+  CATH.windowWidthInEms = function() {
+    return $(window).width() / parseFloat($("body").css("font-size"));
+  }
+
   CATH.responsiveVideo = function() {
     $('.video-container').fitVids();
   };
@@ -75,6 +79,10 @@ jQuery(document).ready(function($) {
       else { annotationStyles.appendChild(document.createTextNode(annotationStyleText)); }
     }
     calloutPositioning(annotationStyles);
+    $(window).smartresize(function(){
+      calloutPositioning(annotationStyles);
+    });
+    
     
     // Hover animations
     $annotations.hover(
@@ -101,6 +109,24 @@ jQuery(document).ready(function($) {
         $annotation.removeClass('hover');
       }
     );
+
+    // Type selector
+    $('.js-type-toggle').click(function(event){
+      event.preventDefault();
+      var $this = $(this)
+        , type = $this.attr('data-toggle');
+      if( $this.hasClass('active') ) {
+        $this.removeClass('active');
+        $('.annotation, .annotation-callout').removeClass('hidden');
+      } else {
+        $('.js-type-toggle').removeClass('active');
+        $this.addClass('active');
+        $('.annotation, .annotation-callout').removeClass('hidden');
+        $('.annotation:not(.' + type + '), .annotation-callout:not(.' + type + ')').addClass('hidden');
+      }
+      calloutPositioning(annotationStyles); // reset callout positions
+    });
+
   };
 
 });

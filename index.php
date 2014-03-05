@@ -100,6 +100,15 @@
 
 </div><!-- .container -->
 
+<div class="type-selector">
+	Show annotations only about:
+	<ul class="type-selector__options">
+		<li><button class="type-selector__option js-type-toggle" data-toggle="annotation-type--language">Language</button></li>
+		<li><button class="type-selector__option js-type-toggle" data-toggle="annotation-type--history">History</button></li>
+		<li><button class="type-selector__option js-type-toggle" data-toggle="annotation-type--character">Characters</button></li>
+	</ul>
+</div><!-- #annotation-type-selector -->
+
 <div id="letter-one-preview" class="modal modal--image">
 	<p><a href="<?=SITE_IMAGES?>/letter-one.jpg">View image fullsize</a></p>
 	<img src="<?=SITE_IMAGES?>/letter-one.jpg">
