@@ -1,0 +1,33 @@
+$c-annotation--primary: red;
+$c-annotation--character: $c-annotation--primary;
+$c-annotation--language: green;
+$c-annotation--history: blue;
+
+.annotation {
+	padding: 0.15em;
+	@include border-radius(0.3em);
+
+	$c-annotation: $c-annotation--primary;
+	border: 0.1em solid $c-annotation;
+	background: rgba($c-annotation, .1); 
+	&:hover {
+		background: rgba($c-annotation, .3); 
+	}
+}
+
+@mixin annotation-colors($color) {
+	border-color: $color;
+	background: rgba($color, .1); 
+	&:hover {
+		background: rgba($color, .3); 
+	}
+}
+.annotation--character {
+	@include annotation-colors($c-annotation--character);
+}
+.annotation--history {
+	@include annotation-colors($c-annotation--history);
+}
+.annotation--language {
+	@include annotation-colors($c-annotation--language);
+}

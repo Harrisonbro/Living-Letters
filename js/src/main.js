@@ -14,23 +14,35 @@ CATH.breakpoints = { // in Ems
 /**
  * Functions
  */
-(function( $ ){
+jQuery(document).ready(function($) {
 
-  CATH.fitvids = function() {
-    alert('doing cath');
+  CATH.responsiveVideo = function() {
     $('.video-container').fitVids();
   }
 
-})(jQuery);
+  CATH.modals = function() {
+    $('.js-modal-toggle').click(function(event){
+      event.preventDefault();
+      $this = $(this);
+      var selector = $this.attr('data-modal');
+      console.log( selector );
+      $(selector).modal({
+        showClose: false
+      });
+    });
+  }
+
+});
 /**
  * [END] Functions
  */
 
 jQuery(document).ready(function($) {
 
-  CATH.fitvids();
+  CATH.responsiveVideo();
+  CATH.modals();
 
-}); 
+});
 /**
  * [END] Document ready
  */

@@ -20,6 +20,7 @@
 	display: inline-block;
 }
 .letter__previewer {
+	display: block;
 	@include breakpoint($med) {
 		@include grid-span(1,2,2);
 	}
@@ -70,6 +71,10 @@
 }
 
 @include breakpoint($med) {
-	.letter__audio { @include grid-span(3,1,6); }
-	.letter__video { @include grid-span(3,4,6); }
+	.letter__audio { @include grid-span(3,4,6); }
+	.letter__video { @include grid-span(3,1,6); }
+}
+
+.letter__audio {
+	audo { width: 100%; }
 }
