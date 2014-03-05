@@ -43,7 +43,19 @@
 			</a><!-- letter__previewer -->
 
 			<div class="letter__text">
-				Letter text... Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, <span id="annotation-1" class="annotation annotation--language">consectetur</span> adipiscing elit. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper. <span id="annotation-2" class="annotation annotation--character">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo</span> sit amet risus. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, tellus ac cursus commodo, tortor mauris <span id="annotation-3" class="annotation annotation--history">condimentum nibh</span>, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+				Letter text... Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, 
+				<span id="annotation-1" data-callout="#annotation-callout-1" class="annotation annotation-type--language">
+					consectetur
+				</span>
+				adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper.
+				<span id="annotation-2" data-callout="#annotation-callout-2" class="annotation annotation-type--character">
+					Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+				</span>
+				sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, tellus ac cursus commodo, tortor mauris 
+				<span id="annotation-3" data-callout="#annotation-callout-3" class="annotation annotation-type--history">
+					condimentum nibh
+				</span>
+				, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
 			</div><!-- .letter__text -->
 
 			<div class="letter__video">
@@ -66,6 +78,18 @@
 		</div><!-- .letter -->
 
 	</div><!-- .timeline -->
+
+	<div class="letter__annotations">
+		<div data-annotation="#annotation-1" id="annotation-callout-1" class="annotation-callout">
+			<p>Text for annotation 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio minus maxime explicabo earum adipisci perspiciatis dicta repellat fugit est in?</p>
+		</div>
+		<div data-annotation="#annotation-2" id="annotation-callout-2" class="annotation-callout">
+			<p>Text for annotation 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, animi, ipsum sapiente at a aut debitis provident vero corporis nam.</p>
+		</div>
+		<div data-annotation="#annotation-3" id="annotation-callout-3" class="annotation-callout">
+			<p>Text for annotation 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, amet pariatur ducimus blanditiis provident totam saepe sequi reprehenderit dicta asperiores.</p>
+		</div>
+	</div><!-- .letter__annotations -->
 
 </div><!-- .container -->
 

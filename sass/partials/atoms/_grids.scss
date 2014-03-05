@@ -16,4 +16,5 @@ $gutters: add-gutter(0.2 at $med);
 	@include clearfix;
 	max-width: $max-width;
 	margin: 0 auto;
+	position: relative;
 }
