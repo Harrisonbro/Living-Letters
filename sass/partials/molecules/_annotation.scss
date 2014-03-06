@@ -2,6 +2,7 @@ $c-annotation--primary: red;
 $c-annotation--character: $c-annotation--primary;
 $c-annotation--language: green;
 $c-annotation--history: blue;
+$c-annotation--letters: purple;
 
 @include breakpoint($med) {
 
@@ -82,6 +83,9 @@ $c-annotation--history: blue;
 	.annotation.annotation-type--language {
 		@include annotation-colors($c-annotation--language);
 	}
+	.annotation.annotation-type--letters {
+		@include annotation-colors($c-annotation--letters);
+	}
 }
 
 @mixin annotation-callout-colors($color) {
@@ -96,4 +100,7 @@ $c-annotation--history: blue;
 }
 .annotation-callout.annotation-type--language {
 	@include annotation-callout-colors($c-annotation--language);
+}
+.annotation-callout.annotation-type--letters {
+	@include annotation-callout-colors($c-annotation--letters);
 }

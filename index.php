@@ -21,7 +21,7 @@
 		<div class="timeline__item letter">
 			
 			<div class="letter__intro">
-				<h2 class="alpha">Letter</h2>
+				<h2 class="alpha">Letter 1</h2>
 				<div class="letter__meta">
 					<p>
 						<strong>From:</strong> Dutton
@@ -98,7 +98,7 @@
 					accordingly.
 				</span>
 				Wherefore I beseech your mastership that this
-				<span id="annotation-10" data-callout="#annotation-callout-10" class="annotation annotation-type--history">
+				<span id="annotation-10" data-callout="#annotation-callout-10" class="annotation annotation-type--letters">
 					bearer
 				</span>
 				and the said monk may report unto you
@@ -120,9 +120,9 @@
 				</span>
 				<br/>
 				<span id="annotation-14" data-callout="#annotation-callout-14" class="annotation annotation-type--language">
-				&nbsp;&nbsp;&nbsp;Perus.
-				<br/>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dutton K.
+					&nbsp;&nbsp;&nbsp;Perus.
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dutton K.
 				</span>
 				<br><br>
 				<em>Addressed </em><br>
@@ -153,6 +153,129 @@
 			</div><!-- letter__audio -->
 
 		</div><!-- .letter -->
+
+		<div class="timeline__connector"></div>
+
+		<div class="timeline__item timeline__item--narrow">
+			<h2 class="delta">Some narrow text</h2>
+			<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+		</div><!-- .timeline__item -->
+
+		<div class="timeline__connector"></div>
+
+		<div class="timeline__item letter">
+			
+			<div class="letter__intro">
+				<h2 class="alpha">Letter 2</h2>
+				<div class="letter__meta">
+					<p>
+						<strong>From:</strong> Henry VIII 
+						<img class="letter__avatar" alt="Dutton" src="<?=SITE_IMAGES?>/avatar-dutton.jpg" />
+					</p>
+					<p>
+						<strong>To: </strong> 
+						Dutton
+						<img class="letter__avatar" alt="Dutton" src="<?=SITE_IMAGES?>/avatar-dutton.jpg" />
+						and Brereton
+						<img class="letter__avatar" alt="Brereton" src="<?=SITE_IMAGES?>/avatar-dutton.jpg" />
+					</p>
+					<p>
+						<strong>Date: </strong> 14 November 1834
+					</p>
+				</div><!-- letter__meta -->
+				<p>Intro text. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			</div><!-- letter__intro -->
+
+			<a href="<?=SITE_IMAGES?>/letter-two.jpg" class="letter__previewer js-modal-toggle" data-modal="#letter-two-preview">
+				<img class="letter__previewer__image" src="<?=SITE_IMAGES?>/letter-two.jpg" alt="Click to view original letter">
+				<span class="letter__previewer__toggle / ss-zoomin"></span>
+				<p class="letter__previewer__linktext">View the original letter</p>
+			</a><!-- letter__previewer -->
+
+			<div class="letter__text">
+				<p class="l-flush-bottom l-text-align-center">
+					<span id="annotation-15" data-callout="#annotation-callout-15" class="annotation annotation-type--letters">
+						By the king
+					</span>
+				</p>
+				<br/>
+				Trusty and well-beloved 
+				<span id="annotation-16" data-callout="#annotation-callout-16" class="annotation annotation-type--language">
+					we 
+				</span>
+				greet you well / And have as well seen
+				the Letters written from you 
+				<span id="annotation-17" data-callout="#annotation-callout-17" class="annotation annotation-type--character">
+				Sir Piers of Dutton
+				</span>
+				 / to our right trusty and
+				well-beloved Counsellor Sir Thomas Audley, knight, [and] our Chancellor of
+				England, declaring the traitorous demeanour of 
+				<span id="annotation-18" data-callout="#annotation-callout-18" class="annotation annotation-type--character">
+				the late Abbot and canons
+				</span>
+				of the Monastery of Norton / used at the being there of our Commissioners for
+				the suppression thereof / and your wisdom, policy, and good endeavours used
+				for the apprehension of the same / for the which we give unto you our
+				right hearty thanks, and shall undoubtedly consider your faithful service
+				therein, to your singular rejoice and comfort hereafter / As other Letters
+				written from you 
+				<span id="annotation-19" data-callout="#annotation-callout-19" class="annotation annotation-type--character">
+				Sir William Brereton
+				</span>
+				to our right trusty and well-beloved councillor,
+				the Lord Cromwell, keeper of 
+				<span id="annotation-20" data-callout="#annotation-callout-20" class="annotation annotation-type--letters">
+				our Privy Seal
+				</span>
+				, touching the same
+				matter / For your good endeavours, also wherein, we give unto you our right hearty
+				thanks / For answer whereunto, you shall understand / that for as much
+				as it 
+				<span id="annotation-21" data-callout="#annotation-callout-21" class="annotation annotation-type--language">
+				appeareth
+				</span>
+				that the said Late Abbot and canons have most traito
+				traitorously used themselves against us / and our realm / and moved
+				insurrection against the common quiet of the same / Our 
+				<span id="annotation-22" data-callout="#annotation-callout-22" class="annotation annotation-type--language">
+				pleasure
+				and commandment
+				</span>
+				is
+				^ that if this shall appear to ?? you 
+				<span id="annotation-23" data-callout="#annotation-callout-23" class="annotation annotation-type--letters">
+				^ ??????esse? ^ 
+				</span>
+				[to be?] true that then ^ 
+				you shall immediately upon the sight hereof
+				without any manner of
+				^ of further circust[ııı??ıs?] of law or^ 
+				delay cause them to be ^ ???d hanged 
+				<span id="annotation-24" data-callout="#annotation-callout-24" class="annotation annotation-type--letters">
+				^ indicted and strait
+				thereupon arraigned and so without further traet put all to execution 
+				</span>
+				as most arrant traitors / 
+				^ in such sundry places as ye shall think requisite ^ 
+				setting up their heads and quarters round
+				abo[ut the] country for the 
+				<span id="annotation-25" data-callout="#annotation-callout-25" class="annotation annotation-type--language">
+				terrible example
+				</span>
+				of all others hereafter /
+				And herein fail you not to travail with such dexterity as this matter
+				may be finished with all possible diligence.
+				<span id="annotation-26" data-callout="#annotation-callout-26" class="annotation annotation-type--letters">
+				['Given under our signet at our Castle of Windsor
+				</span>
+				the xxth of October the xxviiith year of our reign, anno 1536']
+				<br/><em>Addressed:</em>
+				<br/>['To our trusty and well-beloved servant Sir Pearse Dutton and Sir William Brearton, Knights, and to every of them]
+
+			</div><!-- .letter__text -->
+
+			</div><!-- .letter -->
 
 		<div class="timeline__connector"></div>
 
@@ -248,6 +371,66 @@
 			<div class="annotation-callout__inner">
 			<p>(can't find content)</p>
 		</div></div><!-- annotation-callout -->
+		<div data-annotation="#annotation-15" id="annotation-callout-15" class="annotation-callout">
+			<div class="annotation-callout__inner">
+				<p>content yet to be added...</p>
+			</div>
+		</div>
+		<div data-annotation="#annotation-16" id="annotation-callout-16" class="annotation-callout">
+			<div class="annotation-callout__inner">
+				<p>content yet to be added...</p>
+			</div>
+		</div>
+		<div data-annotation="#annotation-17" id="annotation-callout-17" class="annotation-callout">
+			<div class="annotation-callout__inner">
+				<p>content yet to be added...</p>
+			</div>
+		</div>
+		<div data-annotation="#annotation-18" id="annotation-callout-18" class="annotation-callout">
+			<div class="annotation-callout__inner">
+				<p>content yet to be added...</p>
+			</div>
+		</div>
+		<div data-annotation="#annotation-19" id="annotation-callout-19" class="annotation-callout">
+			<div class="annotation-callout__inner">
+				<p>content yet to be added...</p>
+			</div>
+		</div>
+		<div data-annotation="#annotation-20" id="annotation-callout-20" class="annotation-callout">
+			<div class="annotation-callout__inner">
+				<p>content yet to be added...</p>
+			</div>
+		</div>
+		<div data-annotation="#annotation-21" id="annotation-callout-21" class="annotation-callout">
+			<div class="annotation-callout__inner">
+				<p>content yet to be added...</p>
+			</div>
+		</div>
+		<div data-annotation="#annotation-22" id="annotation-callout-22" class="annotation-callout">
+			<div class="annotation-callout__inner">
+				<p>content yet to be added...</p>
+			</div>
+		</div>
+		<div data-annotation="#annotation-23" id="annotation-callout-23" class="annotation-callout">
+			<div class="annotation-callout__inner">
+				<p>content yet to be added...</p>
+			</div>
+		</div>
+		<div data-annotation="#annotation-24" id="annotation-callout-24" class="annotation-callout">
+			<div class="annotation-callout__inner">
+				<p>content yet to be added...</p>
+			</div>
+		</div>
+		<div data-annotation="#annotation-25" id="annotation-callout-25" class="annotation-callout">
+			<div class="annotation-callout__inner">
+				<p>content yet to be added...</p>
+			</div>
+		</div>
+		<div data-annotation="#annotation-26" id="annotation-callout-26" class="annotation-callout">
+			<div class="annotation-callout__inner">
+				<p>content yet to be added...</p>
+			</div>
+		</div>
 	</div><!-- .letter__annotations -->
 
 </div><!-- .container -->
@@ -256,8 +439,8 @@
 	Show annotations only about:
 	<ul class="type-selector__options">
 		<li><button class="type-selector__option js-type-toggle" data-toggle="annotation-type--language">Language</button></li>
-		<li><button class="type-selector__option js-type-toggle" data-toggle="annotation-type--history">History</button></li>
 		<li><button class="type-selector__option js-type-toggle" data-toggle="annotation-type--character">Characters</button></li>
+		<li><button class="type-selector__option js-type-toggle" data-toggle="annotation-type--letters">Letter Writing</button></li>
 	</ul>
 </div><!-- #annotation-type-selector -->
 
