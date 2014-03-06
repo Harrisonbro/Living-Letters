@@ -287,8 +287,25 @@
 		<div class="timeline__connector timeline__connector--dashed timeline__connector--taller"></div>
 
 		<div class="timeline__item">
-			<h2 class="delta">2014...</h2>
-			<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+			<h2 class="alpha">2014...</h2>
+			<p class="epsilon">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+			<h3>Where to go next</h3>
+			<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.</p>
+			<ul>
+				<li>
+					<p><a href=""><strong>Place to visit »</strong></a><br>Text about place to go. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, animi, corrupti aut odio nesciunt a quidem fugiat illum quaerat mollitia.</p>
+				</li>
+				<li>
+					<p><a href=""><strong>Place to visit »</strong></a><br>Text about place to go. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, odit laudantium modi enim quidem veniam a. Ad, tempore eius quis.</p>
+				</li>
+				<li>
+					<p><a href=""><strong>Place to visit »</strong></a><br>Text about place to go. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, beatae hic quasi in deserunt perferendis illum. Accusantium vel dignissimos dolor.</p>
+				</li>
+				<li>
+					<p><a href=""><strong>Place to visit »</strong></a><br>Text about place to go. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, magni, eius in commodi rerum distinctio. Totam aliquid consequatur earum deserunt.</p>
+				</li>
+			</ul>
+			<p>Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
 		</div><!-- .timeline__item -->
 
 	</div><!-- .timeline -->
