@@ -21,15 +21,27 @@
 }
 .letter__previewer {
 	display: block;
+	padding: 1em; 
+	border: 1px solid darken(white, 20%);
+	background: $c-cream;
 	@include breakpoint($med) {
 		@include grid-span(1,2,2);
 	}
 	position: relative;
+	min-height: 8em*$bl;
 	overflow: hidden;
-	height: 8em*$bl;
 	@include border-radius(0.3em);
 	@extend %base-spacing;
+	text-decoration: none;
 	* { z-index: 1; position: relative; }
+}
+.letter__previewer__linktext {
+	text-align: center;
+	margin-top: 8em*$bl;
+	background: rgba(255,255,255,0.8);
+	color: lighten(black, 40%);
+	font-weight: bold;
+	padding: 0.5em;
 }
 .letter__previewer__image {
 	position: absolute;
@@ -40,8 +52,8 @@
 	z-index: 0;
 }
 .letter__previewer__toggle {
-	font-size: 2em;
-	$size: 2em;
+	font-size: 2.5em;
+	$size: 2.5em;
 	background: rgba(255,255,255,0.8);
 	color: lighten(black, 40%);
 	display: block;

@@ -41,6 +41,7 @@
 			<a href="<?=SITE_IMAGES?>/letter-one.jpg" class="letter__previewer js-modal-toggle" data-modal="#letter-one-preview">
 				<img class="letter__previewer__image" src="<?=SITE_IMAGES?>/letter-one.jpg" alt="Click to view original letter">
 				<span class="letter__previewer__toggle / ss-zoomin"></span>
+				<p class="letter__previewer__linktext">View the original letter</p>
 			</a><!-- letter__previewer -->
 
 			<div class="letter__text">

@@ -1,0 +1,8 @@
+.page {
+	
+}
+.page__main {
+	@include breakpoint($med) {
+		@include grid-span(6);
+	}
+}
