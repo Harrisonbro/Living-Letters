@@ -34,14 +34,23 @@ $c-annotation--history: blue;
 	}
 	background: white;
 	opacity: 0.6;
+	&, .annotation-callout__inner {
+		@include transition(all 0.4s);
+	}
+	.annotation-callout__inner {
+		overflow: hidden;
+		max-height: 7em;
+	}
+	
 	&:hover, 
 	&.hover { 
 		opacity: 1;
 		z-index: 10;
+		.annotation-callout__inner { max-height: 20em; }
 	}
 	border-width: 0.2em 1px 1px 1px;
 	border-style: solid;
-	@include border-radius(0 0 0.25em 0.25em);
+	@include border-radius(0 0 0.5em 0.5em);
 	&:before {
 		content: "";
 		position: absolute; 

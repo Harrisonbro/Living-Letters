@@ -172,55 +172,82 @@
 
 	<div class="letter__annotations">
 		<div data-annotation="#annotation-1" id="annotation-callout-1" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<h5>Address forms</h5>
 			<p>Formulaic rules governed the selection of titles and names (as they do, to a lesser degree, today). Choice reveals the relationship between the letter writer and the addressee <a href="#annotation-1-modal" data-modal="#annotation-1-modal" class="js-modal-toggle">Read more</a></p>
-		</div>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-2" id="annotation-callout-2" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<h5>"Bodies"</h5>
 			<p>Meaning 'person' or 'one's self', rather than 'dead bodies' - which would be the more probable modern interpretation. This sense of bodies survives in legal phrases 'body and goods'.</p>
-		</div>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-3" id="annotation-callout-3" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<h5>"Stranger"</h5>
 			<p>This word had a number of senses in EME: a foreigner, a new arrival, a guest or vistor in a household, an unknown person or a person not of one's kin or friendship network. It's not clear which meaning is intended here. What is interesting is the use of the definite article 'the stranger', which suggests he is (contradictorily, if going with the PDE sense) known to Dutton and Cromwell. This implies perhaps the sense of a new arrival or a guest or visitor, who has been at Norton for a while, rather than someone completely unknown.</p>
-		</div>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-4" id="annotation-callout-4" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<p>Parenthetical or 'aside' - evocative of more spoken language. The phrase was a translation of Latin <em>deo volente</em>.</p>
-		</div>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-5" id="annotation-callout-5" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<h4>"dan"</h4>
 			<p>dan is a respectful title, equivalent to 'Sir' or 'Master'. It was particularly common to refer to those of religious orders (as here). It was adopted into English from Old French 'dan', and survives in the modern-day form 'dom', used with the same meaning, in Portugese/Brazilian-Portugese.</p>
-		</div>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-6" id="annotation-callout-6" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<h4>Dan Rondull Wilmslow</h4>
 			<p>dan Rondull Wilmyslow: Monk appointed to vale royal, at Dutton's request, in June 1536 (or 1534) after death of previous abbot. Now Dutton seeks his appointment at Norton too. </p>
-		</div>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-7" id="annotation-callout-7" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<p>The forward slash [can't see the content in transcription notes]</p>
-		</div>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-8" id="annotation-callout-8" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<p>"which" [can't see the content in transcription notes]</p>
-		</div>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-9" id="annotation-callout-9" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<h4>The seid abbott/the seid Monke</h4>
 			<p>The past participle of verb say is used here in the sense 'the aforementioned', 'the one referred to previously/above'. Given the length of the letter, this precision of reference is quite striking, but is a feature typical of administrative and legal language, in which specificity and accuracy was paramount. Dutton may have been familiar with producing such documents in his role as Sheriff of Cheshire. This stylistic feature is also suggested by the coordinating adverbials: moreover and wherefore. It suggests Dutton was literate and an experienced letterwriter.</p>
-		</div>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-10" id="annotation-callout-10" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<p>The address of a letter was situated on the outer side of the folded and sealed page; this was the bearer's instruction, but it also indicated to those who carried and delivered the letter the relationship between writer and addressee. Dutton stipulates Cromwell's position as Secretary to the King - which suggests Dutton was writing before (or unknowing of) Cromwell's appointment as Lord Privy Seal and Earl of Essex in 1536 [explains Calendar dating of 1534].</p>
-		</div>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-11" id="annotation-callout-11" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<p>(can't find content)</p>
-		</div>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-12" id="annotation-callout-12" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<h4>Relative Pronouns</h4>
 			<p>In Modern English, we have different forms depending on whether the thing being referred to is alive (who) or inanimate (which). In sixteenth-century, this system was only just beginning to develop: which is why we find 'whiche [the monk] is a gud religious man'. There is an example of who, but this is used to refer to God 'our lord god who mercifully' . This reflects the origins of the who form, with God - as the entity at the top of the social hierarchy/Chain of Being - first getting an 'animate' relative marker. Over the next one hundred years, this would diffuse outwards to other types of animate being, including humans. If the letter had been written in 1635, the monk would be 'who'.</p>
-		</div>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-13" id="annotation-callout-13" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<h4>Closing Salutation Address</h4>
 			<p>The closing address 'by yours assured', is quite brief > normally we would expect the relationship between writer and addressee to be specified (e.g. Wyatt, 1536, below). This could indicate confidence on Dutton's part, both in his relationship with Cromwell, and in the persuasiveness of his letter. [If we find other letters from Dutton, we can compare this feature [found!]].</p>
-		</div>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-14" id="annotation-callout-14" class="annotation-callout">
+			<div class="annotation-callout__inner">
 			<p>(can't find content)</p>
-		</div>
+		</div></div><!-- annotation-callout -->
 	</div><!-- .letter__annotations -->
 
 </div><!-- .container -->
