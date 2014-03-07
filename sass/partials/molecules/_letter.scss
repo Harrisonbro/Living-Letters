@@ -70,6 +70,8 @@
 	&:before { margin-right: 0.15em;  }
 }
 .letter__text {
+	font-size: epsilon-size();
+	line-height: 1.5;
 	@include breakpoint($med) {
 		font-size: delta-size();
 		line-height: 2;
@@ -77,6 +79,8 @@
 	clear: both;
 	@extend %base-spacing;
 	padding: 1em;
+	margin-left: -1em;
+	margin-right: -1em;
 	@include breakpoint($med) {
 		padding: 2em;
 	}

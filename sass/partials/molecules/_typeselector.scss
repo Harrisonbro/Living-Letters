@@ -1,8 +1,8 @@
 .type-selector {
-	display: none; 
-	@include breakpoint($med) {
-		display: block; 
-	}
+	// display: none; 
+	// @include breakpoint($med) {
+	// 	display: block; 
+	// }
 	position: fixed;
 	bottom: 0;
 	width: 100%; 

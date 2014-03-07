@@ -127,6 +127,16 @@ jQuery(document).ready(function($) {
       calloutPositioning(annotationStyles); // reset callout positions
     });
 
+    // Mobile modals for annotations
+    $annotations.click(function(){
+      if( CATH.windowWidthInEms < CATH.breakpoints.med ) {
+        var selector = $this.attr('data-modal');
+        $(selector).modal({
+          showClose: false
+        });
+      }
+    });      
+
   };
 
 });

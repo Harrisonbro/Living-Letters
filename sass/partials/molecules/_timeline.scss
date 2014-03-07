@@ -54,4 +54,5 @@
 	max-width: 6em;
 	text-align: center;
 	margin: 0 auto;
+	@include border-radius(0.5em);
 }

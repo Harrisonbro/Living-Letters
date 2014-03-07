@@ -4,7 +4,7 @@ $c-annotation--language: green;
 $c-annotation--history: blue;
 $c-annotation--letters: purple;
 
-@include breakpoint($med) {
+// @include breakpoint($med) {
 
 	.annotation {
 		padding: 0.15em;
@@ -18,7 +18,7 @@ $c-annotation--letters: purple;
 		}
 	}
 
-}
+// }
 
 .annotation-callout {
 	font-size:0.9em;
@@ -73,7 +73,7 @@ $c-annotation--letters: purple;
 		background: rgba($color, .3); 
 	}
 }
-@include breakpoint($med) {
+// @include breakpoint($med) {
 	.annotation.annotation-type--character {
 		@include annotation-colors($c-annotation--character);
 	}
@@ -86,7 +86,7 @@ $c-annotation--letters: purple;
 	.annotation.annotation-type--letters {
 		@include annotation-colors($c-annotation--letters);
 	}
-}
+// }
 
 @mixin annotation-callout-colors($color) {
 	border-color: $color;
