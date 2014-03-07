@@ -8,8 +8,9 @@
 	width: 100%; 
 	background: white;
 	padding: 0.25em; 
-	border-top: 1px solid $c-grey;
+	border-top: 0.2em solid $c-green;
 	z-index: 10;
+	@include box-shadow(0 0 1em white);
 }
 .type-selector__options {
 	@extend .h-list;
@@ -26,8 +27,32 @@
 	padding: 1em*$bl/2;
 	border: 1px solid $c-grey;
 	font-weight: bold;
-	&.active {
+	&.active,
+	&:active {
 		background: darken(white, 10%);
-		text-decoration: underline;
+		outline: none;
+	}
+	@mixin type-selector-option($color) {
+		background: mix(white, $color, 90%);
+		border: 1px solid $color;
+		color: desaturate($color, 30%);
+		html[annotation-type-selector*="annotation-type--"] & {
+			background: desaturate(mix(white, $color, 90%), 30%);
+			color: desaturate($color, 50%);
+			&.active { 
+				background: mix(white, $color, 80%); 
+				color: desaturate($color, 30%);
+				@include box-shadow(0 0 0.5em rgba($color, 0.7) inset);
+			}
+		}
+	}
+	&[data-toggle="annotation-type--language"] {
+		@include type-selector-option($c-annotation--language);
+	}
+	&[data-toggle="annotation-type--character"] {
+		@include type-selector-option($c-annotation--character);
+	}
+	&[data-toggle="annotation-type--letters"] {
+		@include type-selector-option($c-annotation--letters);
 	}
 }

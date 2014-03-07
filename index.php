@@ -3,9 +3,15 @@
 <div class="container">
 
 	<div class="timeline">
+
+		<div class="timeline__item timeline__date">
+			1500
+		</div><!-- .timeline__item -->
+
+		<div class="timeline__connector timeline__connector--dashed timeline__connector--taller"></div>
 		
-		<div class="timeline__item">
-			<h2 class="delta">Some intro text</h2>
+		<div class="timeline__item timeline__item--narrow">
+			<h2 class="delta">1509: Henry VIII becomes king</h2>
 			<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
 		</div><!-- .timeline__item -->
 
@@ -21,7 +27,7 @@
 		<div class="timeline__item letter">
 			
 			<div class="letter__intro">
-				<h2 class="alpha">Letter 1</h2>
+				<h2>Dutton arrests the Abbot...</h2>
 				<div class="letter__meta">
 					<p>
 						<strong>From:</strong> Dutton
@@ -166,7 +172,7 @@
 		<div class="timeline__item letter">
 			
 			<div class="letter__intro">
-				<h2 class="alpha">Letter 2</h2>
+				<h2>King demands Abbot's head...</h2>
 				<div class="letter__meta">
 					<p>
 						<strong>From:</strong> Henry VIII 

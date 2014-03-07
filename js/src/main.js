@@ -29,7 +29,6 @@ jQuery(document).ready(function($) {
       event.preventDefault();
       $this = $(this);
       var selector = $this.attr('data-modal');
-      console.log( selector );
       $(selector).modal({
         showClose: false
       });
@@ -67,7 +66,6 @@ jQuery(document).ready(function($) {
         var annotationXPos = $annotation.find('.js-annotation-start').position().left
           , calloutXPos = $this.position().left
           , diff = calloutXPos - annotationXPos;
-        console.log($annotation.find('.js-annotation-start'));
         annotationStyleText += "
         #" + $this.attr('id') + ":before {
           width: " + diff + "px;
@@ -118,11 +116,13 @@ jQuery(document).ready(function($) {
       if( $this.hasClass('active') ) {
         $this.removeClass('active');
         $('.annotation, .annotation-callout').removeClass('hidden');
+        $('html').attr('annotation-type-selector', '');
       } else {
         $('.js-type-toggle').removeClass('active');
         $this.addClass('active');
         $('.annotation, .annotation-callout').removeClass('hidden');
         $('.annotation:not(.' + type + '), .annotation-callout:not(.' + type + ')').addClass('hidden');
+        $('html').attr('annotation-type-selector', $this.attr('data-toggle'));
       }
       calloutPositioning(annotationStyles); // reset callout positions
     });

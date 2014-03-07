@@ -2,7 +2,9 @@
 	
 }
 .page__main {
+	padding: 0.5em;
 	@include breakpoint($med) {
 		@include grid-span(6);
+		padding: 1em;
 	}
 }

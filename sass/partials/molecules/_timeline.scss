@@ -45,3 +45,13 @@
 .timeline__connector--taller {
 	height: $basespace * 3;
 }
+
+.timeline__date {
+	background: $c-grey;
+	color: white;
+	@extend .gamma;
+	font-family: $font-heading;
+	max-width: 6em;
+	text-align: center;
+	margin: 0 auto;
+}
