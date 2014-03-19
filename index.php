@@ -9,17 +9,25 @@
 		</div><!-- .timeline__item -->
 
 		<div class="timeline__connector timeline__connector--dashed timeline__connector--taller"></div>
-		
+
 		<div class="timeline__item timeline__item--narrow">
 			<h2 class="delta">1509: Henry VIII becomes king</h2>
-			<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
 		</div><!-- .timeline__item -->
 
 		<div class="timeline__connector"></div>
+		
+		<div class="timeline__item">
+			<h2 class="delta">Monasteries & Men</h2>
+			<p>In the early decades of the sixteenth century, the monastic houses in Lancashire and Cheshire played an important role in the lives of every-day people, providing spiritual and sometimes physical support for their local community. The close relationship between the abbots, monks, canons and the laity contrasts with the declining functionality of monastic houses in the south of England in the same period.</p>
+			<p>The North-West was viewed by those in the south as a conservative and devout county; some 50-years behind the times of the progressive communities in the capital. It is thus unsurprising that the region was unprepared for, and unwilling to accept, the religious and social changes brought about by Henry VIII, when he announced the dissolution of the smaller monasteries in 1536.</p>
+		</div><!-- .timeline__item -->
 
-		<div class="timeline__item timeline__item--narrow">
-			<h2 class="delta">Some narrow text</h2>
-			<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+		<div class="timeline__connector"></div>
+		
+		<div class="timeline__item">
+			<h2 class="delta">1536: North-west unrest</h2>
+			<p>In 1536 the decision was taken to close the small monasteries (those earning less than £200 a year), with the Crown taking their land and expensive possessions. This process was known as the dissolution. Men tasked with the dissolution procedures for the North-West were appointed on 24th April 1536, and they began their travels across the various monastic houses in early May 1536. The purpose of these visits was to assess the finances of the smaller monasteries, reallocating or releasing the religious men, and seizing goods and items of value, such as plate and jewels.</p>
+			<p>The impending closure of the monasteries caused great anxiety amongst the conservative, devoutly Catholic community; in part, arising from the economic uncertainty of lands moving from monastic to monarchic hands. It seems likely that the close social ties between monks and the common people provoked widespread discontent.</p>
 		</div><!-- .timeline__item -->
 
 		<div class="timeline__connector"></div>
@@ -38,10 +46,10 @@
 						<img class="letter__avatar" alt="Cromwell" src="<?=SITE_IMAGES?>/avatar-dutton.jpg" />
 					</p>
 					<p>
-						<strong>Date: </strong> 14 November 1834
+						<strong>Date: </strong> <span id="annotation-0" data-callout="#annotation-callout-0" class="annotation annotation-type--letters">4 August 1536</span>
 					</p>
 				</div><!-- letter__meta -->
-				<p>Intro text. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+				<p>Sir Piers Dutton reports to Cromwell that he has taken into his custody the Abbot of Norton and other men affiliated with the Abbey, although he offers no explanation for his actions in this letter. Having reported this news, he then asks if Cromwell would permit Dom Rondul of Wilmslow, a monk at Vale Royal, to become master of 'that house', with a promise that the monk will fulfil a promise previously discussed. <a href="#">Read more</a></p>
 			</div><!-- letter__intro -->
 
 			<a href="<?=SITE_IMAGES?>/letter-one.jpg" class="letter__previewer js-modal-toggle" data-modal="#letter-one-preview">
@@ -141,30 +149,27 @@
 
 			</div><!-- .letter__text -->
 
-			<div class="letter__video">
-				<h4>Hear from the expert:</h4>
-				<div class="video-container">
-					<iframe src="//player.vimeo.com/video/88231588?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				</div>
-				<p><a href="http://vimeo.com/88231588">View "Historical context" on Vimeo</a></p>
-			</div><!-- .letter__video -->
-
-			<div class="letter__audio">
-				<h4>Listen to this letter:</h4>
-				<audio controls>
-				  <source src="audio/letter1.ogg" type="audio/ogg">
-				  <source src="audio/letter1.mp3" type="audio/mpeg">
-					Your browser does not support audio playback of this letter. <a href="audio/letter1.mp3">Click here to download an mp3 version.</a>
-				</audio>
-			</div><!-- letter__audio -->
+			<h4>Listen to this letter:</h4>
+			<audio controls>
+			  <source src="audio/letter1.ogg" type="audio/ogg">
+			  <source src="audio/letter1.mp3" type="audio/mpeg">
+				Your browser does not support audio playback of this letter. <a href="audio/letter1.mp3">Click here to download an mp3 version.</a>
+			</audio>
 
 		</div><!-- .letter -->
 
 		<div class="timeline__connector"></div>
 
 		<div class="timeline__item timeline__item--narrow">
-			<h2 class="delta">Some narrow text</h2>
-			<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+			<h2 class="delta">October 1536: Uprisings in the North</h2>
+			<p>In October 1536 the common-people of the North-West rebelled against King Henry VIII and the local gentry serving in his interests. They began arming themselves in the first week of the month, which led Thomas, Lord Darcy, a local gentry man and soldier, to write to Henry and ask for a postal organisation to be set-up to allow swift communication between Lancashire and London, to allow the potential rebellion to be dealt with effectively. The rumblings in the North-West paralleled events in Lincolnshire and Yorkshire, where rebels rose in protestation against religious and social reform; an event known as 'The Pilgrimage of Grace'. </p>
+		</div><!-- .timeline__item -->
+
+		<div class="timeline__connector"></div>
+
+		<div class="timeline__item timeline__item--narrow">
+			<h2 class="delta">12 October 1536: The Abbott Attacks</h2>
+			<p>Sir Piers Dutton writes to Sir Thomas Audeley to inform him that the Abbott and Canons of Norton had gathered 200–300 persons and threatened to attack the King's commissioners. He has taken the Abbott and three of his Canons into custody.</p>
 		</div><!-- .timeline__item -->
 
 		<div class="timeline__connector"></div>
@@ -186,10 +191,10 @@
 						<img class="letter__avatar" alt="Brereton" src="<?=SITE_IMAGES?>/avatar-dutton.jpg" />
 					</p>
 					<p>
-						<strong>Date: </strong> 14 November 1834
+						<strong>Date: </strong> 20 October 1536
 					</p>
 				</div><!-- letter__meta -->
-				<p>Intro text. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+				<p>Following Dutton's letter to Audeley Henry VIII writes this warrant authorising the execution of the Abbot and his Canons.</p>
 			</div><!-- letter__intro -->
 
 			<a href="<?=SITE_IMAGES?>/letter-two.jpg" class="letter__previewer js-modal-toggle" data-modal="#letter-two-preview">
@@ -281,13 +286,29 @@
 
 			</div><!-- .letter__text -->
 
+			<h4>Listen to this letter:</h4>
+			<audio controls>
+			  <source src="audio/letter2.ogg" type="audio/ogg">
+			  <source src="audio/letter2.mp3" type="audio/mpeg">
+				Your browser does not support audio playback of this letter. <a href="audio/letter2.mp3">Click here to download an mp3 version.</a>
+			</audio>
+
 			</div><!-- .letter -->
 
 		<div class="timeline__connector"></div>
 
 		<div class="timeline__item timeline__item--narrow">
-			<h2 class="delta">Some narrow text</h2>
-			<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+			<h2 class="gamma">1537: The Abbott is released</h2>
+			<p>Historical records suggest that William Brereton cancelled the order to execute the abbot, due to the rebellions being quelled throughout the North - particularly the one in Yorkshire. Although, Cook (1965: 122) states 'the fate of the abbot is not known, but he is believed to have been executed', letters from Audley to Cromwell and Brereton to Cromwell suggest, instead, he was released. </p>
+			<p>[what happeend next video]</p>
+		</div><!-- .timeline__item -->
+
+		<div class="timeline__connector"></div>
+
+		<div class="timeline__item">
+			<h2 class="gamma">The End of the Monasteries and the Rise of Men</h2>
+			<p>Towards the end of February 1537, a royal Commission was dispatched to Lancashire to investigate those responsible for the rebellion, and to punish them accordingly. The commission collected numerous depositions from gentry and commons alike, as well as putting out an oath, swearing loyalty to the king, which was sworn by over 1000 commons and the majority of local gentry. Executions of the rebellion's ringleaders began in early March, including a number of abbots and monks from various Abbeys and priories across the county. Many monks from the smaller houses were moved to larger monasteries, or entered secular life, receiving a pension, and working a clerics or teachers.</p>
+			<p>Following the dissolution of the monasteries, the Crown and the local gentry benefitted from the acquisition of the old monastic lands. Thomas Cromwell gained the lease for the lands of Furness Abbey - although this financial coup ended with his execution in 1540. One local man, Thomas Holcroft, saw substantial benefits; his local and court connections enabled him to acquire Vale Royal Abbey, as well as friaries in Lancashire. Holcroft's deputy John Braddyll also purchased ex-monastic lands, including lands at Norton and Vale Royal. Edward Stanley, Earl of Derby, did not acquire any land; despite his service to the king and his role in quelling the rebellion in southern Lancashire and north Cheshire, he was not part of the inner circle of the Court and received no free grants of lands (as did Cromwell, for example) and he was in too much debt to purchase them outright. (Haigh 1969: 135-6).</p>
 		</div><!-- .timeline__item -->
 
 		<div class="timeline__connector timeline__connector--dashed timeline__connector--taller"></div>
@@ -317,6 +338,12 @@
 	</div><!-- .timeline -->
 
 	<div class="letter__annotations">
+		<div data-annotation="#annotation-0" id="annotation-callout-0" class="annotation-callout">
+			<div class="annotation-callout__inner">
+			<h5>Dating Historical Letters</h5>
+			<p>Letter writers were not always precise with their dates which makes it difficult to be wholly confident about when exactly they were written, or even in what order. [include letter dating video] <a href="#annotation-0-modal" data-modal="#annotation-0-modal" class="js-modal-toggle">Learn more from Mel Evans</a></p>
+			</div><!-- annotation-callout__inner -->
+		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-1" id="annotation-callout-1" class="annotation-callout">
 			<div class="annotation-callout__inner">
 			<h5>Address forms</h5>
