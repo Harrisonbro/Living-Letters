@@ -1,6 +1,6 @@
 	<div class="container">
 		<footer>
-			&copy; <?php echo date("Y"); ?> Ablos Media. All rights reserved.
+			&copy; <?php echo date("Y"); ?>. All rights reserved.
 		</footer>
 	</div><!-- .container -->
 

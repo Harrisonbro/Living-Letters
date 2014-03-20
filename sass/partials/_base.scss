@@ -9,6 +9,7 @@ $ratio: minor-third();
 // Base fonts
 $font-body: "proxima-nova-n3", "proxima-nova", "helvetica neue", arial, sans-serif; 
 $font-heading: "jubilat-n2", "jubilat", "helvetica neue", arial, sans-serif; 
+.font-heading { font-family: $font-heading; font-weight: 300; }
 
 // Base (default) spacing
 %base-spacing { 
@@ -27,3 +28,4 @@ $use-postfix: false;
 $use-island: false; 
 
 a { color: #87942A; }
+audio { width: 100%; }

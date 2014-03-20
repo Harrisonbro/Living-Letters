@@ -19,6 +19,7 @@
 @import "partials/atoms/media"; 
 @import "partials/atoms/layout"; 
 @import "partials/atoms/buttons"; 
+@import "partials/atoms/links"; 
 
 // Molecules
 @import "partials/molecules/type"; 
@@ -27,7 +28,9 @@
 @import "partials/molecules/page";  
 @import "partials/molecules/nav"; 
 @import "partials/molecules/timeline"; 
+@import "partials/molecules/timeline-header"; 
 @import "partials/molecules/letter"; 
 @import "partials/molecules/modal"; 
 @import "partials/molecules/annotation";
 @import "partials/molecules/typeselector";
+@import "partials/molecules/opentip";

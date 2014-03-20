@@ -16,6 +16,7 @@ module.exports = function(grunt){
             'js/src/consolefix.js',
             'js/src/vendor/jquery.min.js',
             'js/src/vendor/jquery.smartresize.js',
+            'js/src/vendor/jquery.opentip.js',
             'js/src/main.js',
             'js/src/vendor/jquery.fitvids.js',
             'js/src/vendor/jquery.modal.js',

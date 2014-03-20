@@ -92,7 +92,3 @@
 	.letter__audio { @include grid-span(3,4,6); }
 	.letter__video { @include grid-span(3,1,6); }
 }
-
-.letter__audio {
-	audio { width: 100%; }
-}

@@ -23,3 +23,26 @@ a {
 .link-complex:focus .link-complex__target {
   text-decoration: underline;
 }
+
+/**
+ * Read more link
+ */
+/* a */.read-more {
+	padding: 0.35em 0.75em;
+	margin: 0.25em 0;
+	background: lighten($c-green, 20%);
+	text-decoration: none; 
+	@extend .milli;
+	color: white;
+	text-transform: uppercase;
+	@include border-radius(0.25em);
+	@include transition(background 0.2s);
+	&:hover,
+	&:active {
+		color: white;
+		background: lighten($c-green, 5%);
+	}
+	& + * {
+		margin-top: 0.5em;
+	}
+}

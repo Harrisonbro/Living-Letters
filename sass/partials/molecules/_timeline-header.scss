@@ -1,0 +1,28 @@
+.timeline--header {
+	background: white url(../images/headerbg.jpg) center center;
+	background-size: 100%;
+	border: 0.25em solid lighten(black, 80%);
+	border-width: 0.15em 0;
+	.container {
+		padding: 2em 1em;
+	}
+}
+.timeline--header__sponsors {
+	@include box-sizing(border-box);
+	padding: 1em;
+	background: white;
+	@include border-radius(0.5em);
+	.sponsor {
+		margin: 0 0.5em 0.5em 0;
+		max-width: 7em;
+	}
+}
+
+@include breakpoint($med) {
+	.timeline--header__sponsors {
+		@include grid-span(2,4,5);
+	}
+	.timeline--header__intro {
+		@include grid-span(3,1,5);
+	}
+}

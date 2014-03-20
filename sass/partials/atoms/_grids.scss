@@ -18,3 +18,14 @@ $gutters: add-gutter(0.2 at $med);
 	margin: 0 auto;
 	position: relative;
 }
+
+.two-col {
+	@include breakpoint($med) {
+		.two-col__left {
+			@include grid-span(1,1,2);
+		}
+		.two-col__right {
+			@include grid-span(1,2,2);
+		}
+	}
+}
