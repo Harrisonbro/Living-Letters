@@ -1,3 +1,7 @@
+p {
+	margin-bottom: 1em;
+}
+
 // Font size scale
 
 @function giga-size() { @return ms(8,1em); }

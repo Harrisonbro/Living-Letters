@@ -63,6 +63,16 @@ $c-annotation--letters: purple;
 	:last-child {
 		margin-bottom: 0;
 	}
+	.js-modal-toggle {
+		padding: 0.35em 0.75em;
+		margin: 0.25em 0;
+		background: lighten($c-green, 20%);
+		text-decoration: none; 
+		@extend .milli;
+		color: white;
+		text-transform: uppercase;
+		@include border-radius(0.25em);
+	}
 }
 
 @mixin annotation-colors($color) {

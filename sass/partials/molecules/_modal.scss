@@ -9,6 +9,7 @@
   padding: 15px 30px;
   border: 0.25em solid darken(white, 10%);
   @include box-shadow(0 0 1em black);
+  z-index: 11 !important; // to beat annotation callout
 }
 
 .modal .close-modal {
