@@ -129,13 +129,19 @@ jQuery(document).ready(function($) {
 
     // Mobile modals for annotations
     $annotations.click(function(){
-      if( CATH.windowWidthInEms < CATH.breakpoints.med ) {
-        var selector = $this.attr('data-modal');
-        $(selector).modal({
-          showClose: false
-        });
-      }
-    });      
+      if( CATH.windowWidthInEms() > CATH.breakpoints.med ) { return; }
+      var $this = $(this);
+      var selector = $this.attr('data-modal');
+      $(selector).modal({
+        showClose: false
+      });
+    });  
+    $annotationCallouts.on($.modal.OPEN, function(event, modal){
+      $(modal).addClass('hover');
+    });
+    $annotationCallouts.on($.modal.CLOSE, function(event, modal){
+      $(modal).removeClass('hover');
+    });
 
   };
 
@@ -148,7 +154,7 @@ jQuery(document).ready(function($) {
 
   CATH.responsiveVideo();
   CATH.modals();
-  CATH.annotations();
+  //CATH.annotations();
 
 });
 /**

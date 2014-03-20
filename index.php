@@ -80,7 +80,7 @@
 						<img class="letter__avatar" alt="Dutton" src="<?=SITE_IMAGES?>/avatar-cromwell.jpg" />
 					</a></p>
 					<p>
-						<strong>Date: </strong> <span id="annotation-0" data-callout="#annotation-callout-0" class="annotation annotation-type--letters">4 August 1536</span>
+						<strong>Date: </strong> <span id="annotation-0" data-callout="#annotation-callout-0" data-modal="#annotation-callout-0" class="annotation annotation-type--letters">4 August 1536</span>
 					</p>
 				</div><!-- letter__meta -->
 				<p>Sir Piers Dutton reports to Cromwell that he has taken into his custody the Abbot of Norton and other men affiliated with the Abbey, although he offers no explanation for his actions in this letter. Having reported this news, he then asks if Cromwell would permit Dom Rondul of Wilmslow, a monk at Vale Royal, to become master of 'that house', with a promise that the monk will fulfil a promise previously discussed.</p>
