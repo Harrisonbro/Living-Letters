@@ -35,7 +35,7 @@
 		</div><!-- .timeline__item -->
 
 		<div class="timeline__connector"></div>
-		
+
 		<div class="timeline__item">
 			<div class="two-col">
 				<div class="two-col__left">
@@ -43,7 +43,7 @@
 					<p>In the early decades of the sixteenth century, the monastic houses in Lancashire and Cheshire played an important role in the lives of every-day people, providing spiritual and sometimes physical support for their local community. The close relationship between the abbots, monks, canons and the laity contrasts with the declining functionality of monastic houses in the south of England in the same period.</p>
 				</div><!-- two-col__left -->
 				<div class="two-col__right">
-					<div class="video-container">
+					<div class="video-container" style="max-width: 19em;">
 						<iframe src="//player.vimeo.com/video/88231588" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div><!-- video-container -->
 				</div><!-- two-col__right -->
@@ -614,7 +614,7 @@
 <div id="annotation-0-modal" class="modal">
 	<h2>Dating historical letters</h2>
 	<div class="video-container">
-		<iframe src="//player.vimeo.com/video/89598410" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<iframe src="//player.vimeo.com/video/89694549" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</div><!-- video-container -->
 </div>
 
@@ -741,7 +741,7 @@
 		</div>
 		<div class="two-col__right">
 			<div class="video-container">
-				<iframe src="//player.vimeo.com/video/89598410" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe src="//player.vimeo.com/video/89694549" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div><!-- video-container -->
 		</div>
 	</div><!-- two-col -->
