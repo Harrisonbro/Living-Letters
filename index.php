@@ -215,7 +215,7 @@
 				<h2>King demands Abbot's head...</h2>
 				<div class="letter__meta">
 					<p>
-						<strong>From:</strong> <a style="text-decoration:none;" href="#" data-ot="King Henry VIII – click for more info...">Cromwell
+						<strong>From:</strong> <a style="text-decoration:none;" href="#" data-ot="King Henry VIII – click for more info...">King Henry VIII
 						<img class="letter__avatar" alt="King Henry VIII" src="<?=SITE_IMAGES?>/avatar-henry.jpg" />
 					</a></p>
 					<p>
