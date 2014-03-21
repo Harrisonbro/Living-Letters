@@ -28,6 +28,10 @@
 			<img src="<?=SITE_IMAGES?>/logo-leicester.jpg" alt="" class="sponsor">
 		</div><!-- .page__island -->
 		
+		<h2>Credits</h2>
+		<ul>
+			<li><strong>Audio recordings:</strong> José A. Pérez Díez, Doctoral Researcher at the Shakespeare Institute, University of Birmingham</li>
+		</ul>
 
 	</div><!-- page__main -->
 </div><!-- .container -->
