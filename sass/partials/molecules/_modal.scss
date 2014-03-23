@@ -1,15 +1,20 @@
 .modal {
   display: none;
   width: 900px;
-  max-width: 80%; 
+  max-width: 95%; 
   max-height: 90%; 
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
   background: #fff;
-  padding: 15px 30px;
+  padding: 0.5em;
   border: 0.25em solid darken(white, 10%);
   @include box-shadow(0 0 1em black);
   z-index: 11 !important; // to beat annotation callout
+  @include breakpoint($med) {
+    max-width: 80%; 
+    padding: 1em 1.5em;
+  }
 }
 
 .modal .close-modal {

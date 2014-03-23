@@ -416,7 +416,7 @@
 		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-4" id="annotation-callout-4" class="annotation-callout">
 			<div class="annotation-callout__inner">
-				<h4>Speeth & writing</h4>
+				<h4>Speech & writing</h4>
 				<p>Parenthetical or 'aside' - evocative of more spoken language. The phrase was a translation of Latin <em>deo volente</em>.</p>
 			</div><!-- annotation-callout__inner -->
 		</div><!-- annotation-callout -->

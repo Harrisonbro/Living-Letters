@@ -25,10 +25,18 @@ jQuery(document).ready(function($) {
   };
 
   CATH.modals = function() {
+    var modalSelectors = {};
     $('.js-modal-toggle').click(function(event){
       event.preventDefault();
+      console.log( event );
       $this = $(this);
       var selector = $this.attr('data-modal');
+      $(selector).on($.modal.OPEN, function(event, modal){
+        $('html').addClass('modalActive');
+      });
+      $(selector).on($.modal.CLOSE, function(event, modal){
+        $('html').removeClass('modalActive');
+      });
       $(selector).modal({
         showClose: false
       });
@@ -132,6 +140,12 @@ jQuery(document).ready(function($) {
       if( CATH.windowWidthInEms() > CATH.breakpoints.med ) { return; }
       var $this = $(this);
       var selector = $this.attr('data-modal');
+      $(selector).on($.modal.OPEN, function(event, modal){
+        $('html').addClass('modalActive');
+      });
+      $(selector).on($.modal.CLOSE, function(event, modal){
+        $('html').removeClass('modalActive');
+      });
       $(selector).modal({
         showClose: false
       });
