@@ -1,0 +1,3164 @@
+@charset "UTF-8";
+/* line 14, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_html5.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 21, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_html5.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* line 27, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_html5.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 33, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_html5.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 2, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_base.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 16, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_base.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 21, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_base.scss */
+body {
+  margin: 0;
+}
+
+/* line 4, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_links.scss */
+a:focus {
+  outline: thin dotted;
+}
+/* line 10, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_links.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 3, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 9, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 15, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 20, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 25, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 32, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 41, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 47, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/* line 52, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 57, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+small {
+  font-size: 75%;
+}
+
+/* line 64, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 71, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 75, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 2, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_embedded.scss */
+img {
+  border: 0;
+}
+
+/* line 8, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_embedded.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 3, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_figures.scss */
+figure {
+  margin: 0;
+}
+
+/* line 3, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 9, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 19, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* line 31, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 40, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 50, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 57, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 62, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 70, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 82, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* line 88, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 93, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 3, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_tables.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 3, ../sass/modules/_utilities.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 10, ../sass/modules/_utilities.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 25, ../sass/modules/_utilities.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 36, ../sass/modules/_utilities.scss */
+.invisible {
+  visibility: hidden;
+}
+
+@media only screen and (max-device-width: 568px) {
+  /* line 6, ../sass/modules/_fixes.scss */
+  input[type="text"]:focus,
+  textarea:focus,
+  select:focus {
+    font-size: 16px;
+  }
+}
+/* line 11, ../sass/modules/_fixes.scss */
+img {
+  max-width: 100%;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+/* line 24, ../sass/modules/_fixes.scss */
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle;
+}
+
+/*!Colours */
+/*
+* Symbolset
+* www.symbolset.com
+* Copyright © 2012 Oak Studios LLC
+*
+* Upload this file to your web server
+* and place this within your <head> tags.
+* <link href="webfonts/ss-standard.css" rel="stylesheet" />
+*/
+@font-face {
+  font-family: "SSStandard";
+  src: url("../fonts/ss-standard/ss-standard.eot");
+  src: url("../fonts/ss-standard/ss-standard.eot?#iefix") format("embedded-opentype"), url("../fonts/ss-standard/ss-standard.woff") format("woff"), url("../fonts/ss-standard/ss-standard.ttf") format("truetype"), url("../fonts/ss-standard/ss-standard.svg#SSStandard") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* This triggers a redraw in IE to Fix IE8's :before content rendering. */
+/* line 25, ../fonts/ss-standard/_ss-standard.scss */
+html:hover [class^="ss-"] {
+  -ms-zoom: 1;
+}
+
+/* line 31, ../fonts/ss-standard/_ss-standard.scss */
+.modal .close-modal:before, .ss-icon, .ss-icon.ss-standard,
+[class^="ss-"]:before, [class*=" ss-"]:before,
+[class^="ss-"].ss-standard:before, [class*=" ss-"].ss-standard:before,
+[class^="ss-"].ss-right:after, [class*=" ss-"].ss-right:after,
+[class^="ss-"].ss-standard.ss-right:after, [class*=" ss-"].ss-standard.ss-right:after {
+  font-family: "SSStandard";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 48, ../fonts/ss-standard/_ss-standard.scss */
+[class^="ss-"].ss-right:before,
+[class*=" ss-"].ss-right:before {
+  display: none;
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-cursor:before, .ss-cursor.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-crosshair:before, .ss-crosshair.ss-right:after {
+  content: '⌖';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-search:before, .ss-search.ss-right:after {
+  content: '🔎';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-zoomin:before, .ss-zoomin.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-zoomout:before, .ss-zoomout.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-view:before, .ss-view.ss-right:after {
+  content: '👀';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-attach:before, .ss-attach.ss-right:after {
+  content: '📎';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-link:before, .ss-link.ss-right:after {
+  content: '🔗';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-move:before, .ss-move.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-write:before, .ss-write.ss-right:after {
+  content: '✎';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-writingdisabled:before, .ss-writingdisabled.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-erase:before, .ss-erase.ss-right:after {
+  content: '✐';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-compose:before, .ss-compose.ss-right:after {
+  content: '📝';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-lock:before, .ss-lock.ss-right:after {
+  content: '🔒';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-unlock:before, .ss-unlock.ss-right:after {
+  content: '🔓';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-key:before, .ss-key.ss-right:after {
+  content: '🔑';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-backspace:before, .ss-backspace.ss-right:after {
+  content: '⌫';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-ban:before, .ss-ban.ss-right:after {
+  content: '🚫';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-trash:before, .ss-trash.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-target:before, .ss-target.ss-right:after {
+  content: '◎';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-tag:before, .ss-tag.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-bookmark:before, .ss-bookmark.ss-right:after {
+  content: '🔖';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-flag:before, .ss-flag.ss-right:after {
+  content: '⚑';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-like:before, .ss-like.ss-right:after {
+  content: '👍';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-dislike:before, .ss-dislike.ss-right:after {
+  content: '👎';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-heart:before, .ss-heart.ss-right:after {
+  content: '♥';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-halfheart:before, .ss-halfheart.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-star:before, .ss-star.ss-right:after {
+  content: '⋆';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-halfstar:before, .ss-halfstar.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-sample:before, .ss-sample.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-crop:before, .ss-crop.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-layers:before, .ss-layers.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-fill:before, .ss-fill.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-stroke:before, .ss-stroke.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-phone:before, .ss-phone.ss-right:after {
+  content: '📞';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-phonedisabled:before, .ss-phonedisabled.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-rss:before, .ss-rss.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-facetime:before, .ss-facetime.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-reply:before, .ss-reply.ss-right:after {
+  content: '↩';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-send:before, .ss-send.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-mail:before, .ss-mail.ss-right:after {
+  content: '✉';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-inbox:before, .ss-inbox.ss-right:after {
+  content: '📥';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-chat:before, .ss-chat.ss-right:after {
+  content: '💬';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-ellipsischat:before, .ss-ellipsischat.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-ellipsis:before, .ss-ellipsis.ss-right:after {
+  content: '…';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-user:before, .ss-user.ss-right:after {
+  content: '👤';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-femaleuser:before, .ss-femaleuser.ss-right:after {
+  content: '👧';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-users:before, .ss-users.ss-right:after {
+  content: '👥';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-cart:before, .ss-cart.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-creditcard:before, .ss-creditcard.ss-right:after {
+  content: '💳';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-dollarsign:before, .ss-dollarsign.ss-right:after {
+  content: '💲';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-barchart:before, .ss-barchart.ss-right:after {
+  content: '📊';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-piechart:before, .ss-piechart.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-box:before, .ss-box.ss-right:after {
+  content: '📦';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-home:before, .ss-home.ss-right:after {
+  content: '⌂';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-buildings:before, .ss-buildings.ss-right:after {
+  content: '🏢';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-warehouse:before, .ss-warehouse.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-globe:before, .ss-globe.ss-right:after {
+  content: '🌎';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-navigate:before, .ss-navigate.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-compass:before, .ss-compass.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-signpost:before, .ss-signpost.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-map:before, .ss-map.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-location:before, .ss-location.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-pin:before, .ss-pin.ss-right:after {
+  content: '📍';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-database:before, .ss-database.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-hdd:before, .ss-hdd.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-music:before, .ss-music.ss-right:after {
+  content: '♫';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-mic:before, .ss-mic.ss-right:after {
+  content: '🎤';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-volume:before, .ss-volume.ss-right:after {
+  content: '🔈';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-lowvolume:before, .ss-lowvolume.ss-right:after {
+  content: '🔉';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-highvolume:before, .ss-highvolume.ss-right:after {
+  content: '🔊';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-airplay:before, .ss-airplay.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-camera:before, .ss-camera.ss-right:after {
+  content: '📷';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-picture:before, .ss-picture.ss-right:after {
+  content: '🌄';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-video:before, .ss-video.ss-right:after {
+  content: '📹';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-play:before, .ss-play.ss-right:after {
+  content: '▶';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-pause:before, .ss-pause.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-stop:before, .ss-stop.ss-right:after {
+  content: '■';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-record:before, .ss-record.ss-right:after {
+  content: '●';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-rewind:before, .ss-rewind.ss-right:after {
+  content: '⏪';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-fastforward:before, .ss-fastforward.ss-right:after {
+  content: '⏩';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-skipback:before, .ss-skipback.ss-right:after {
+  content: '⏮';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-skipforward:before, .ss-skipforward.ss-right:after {
+  content: '⏭';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-eject:before, .ss-eject.ss-right:after {
+  content: '⏏';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-repeat:before, .ss-repeat.ss-right:after {
+  content: '🔁';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-replay:before, .ss-replay.ss-right:after {
+  content: '↺';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-shuffle:before, .ss-shuffle.ss-right:after {
+  content: '🔀';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-book:before, .ss-book.ss-right:after {
+  content: '📕';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-openbook:before, .ss-openbook.ss-right:after {
+  content: '📖';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-notebook:before, .ss-notebook.ss-right:after {
+  content: '📓';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-newspaper:before, .ss-newspaper.ss-right:after {
+  content: '📰';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-grid:before, .ss-grid.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-rows:before, .ss-rows.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-columns:before, .ss-columns.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-thumbnails:before, .ss-thumbnails.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-filter:before, .ss-filter.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-desktop:before, .ss-desktop.ss-right:after {
+  content: '💻';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-laptop:before, .ss-laptop.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-tablet:before, .ss-tablet.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-cell:before, .ss-cell.ss-right:after {
+  content: '📱';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-battery:before, .ss-battery.ss-right:after {
+  content: '🔋';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-highbattery:before, .ss-highbattery.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-mediumbattery:before, .ss-mediumbattery.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-lowbattery:before, .ss-lowbattery.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-emptybattery:before, .ss-emptybattery.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-lightbulb:before, .ss-lightbulb.ss-right:after {
+  content: '💡';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-downloadcloud:before, .ss-downloadcloud.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-download:before, .ss-download.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-uploadcloud:before, .ss-uploadcloud.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-upload:before, .ss-upload.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-fork:before, .ss-fork.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-merge:before, .ss-merge.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-transfer:before, .ss-transfer.ss-right:after {
+  content: '⇆';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-refresh:before, .ss-refresh.ss-right:after {
+  content: '↻';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-sync:before, .ss-sync.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-loading:before, .ss-loading.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-wifi:before, .ss-wifi.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-connection:before, .ss-connection.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-file:before, .ss-file.ss-right:after {
+  content: '📄';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-folder:before, .ss-folder.ss-right:after {
+  content: '📁';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-quote:before, .ss-quote.ss-right:after {
+  content: '“';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-text:before, .ss-text.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-font:before, .ss-font.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-print:before, .ss-print.ss-right:after {
+  content: '⎙';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-fax:before, .ss-fax.ss-right:after {
+  content: '📠';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-list:before, .ss-list.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-layout:before, .ss-layout.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-action:before, .ss-action.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-redirect:before, .ss-redirect.ss-right:after {
+  content: '↪';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-expand:before, .ss-expand.ss-right:after {
+  content: '⤢';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-contract:before, .ss-contract.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-help:before, .ss-help.ss-right:after {
+  content: '❓';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-info:before, .ss-info.ss-right:after {
+  content: 'ℹ';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-alert:before, .ss-alert.ss-right:after {
+  content: '⚠';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-caution:before, .ss-caution.ss-right:after {
+  content: '⛔';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-logout:before, .ss-logout.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-plus:before, .ss-plus.ss-right:after {
+  content: '+';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-hyphen:before, .ss-hyphen.ss-right:after {
+  content: '-';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-check:before, .ss-check.ss-right:after {
+  content: '✓';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-delete:before, .ss-delete.ss-right:after {
+  content: '␡';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-settings:before, .ss-settings.ss-right:after {
+  content: '⚙';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-dashboard:before, .ss-dashboard.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-notifications:before, .ss-notifications.ss-right:after {
+  content: '🔔';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-notificationsdisabled:before, .ss-notificationsdisabled.ss-right:after {
+  content: '🔕';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-clock:before, .ss-clock.ss-right:after {
+  content: '⏲';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-stopwatch:before, .ss-stopwatch.ss-right:after {
+  content: '⏱';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-calendar:before, .ss-calendar.ss-right:after {
+  content: '📅';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-addcalendar:before, .ss-addcalendar.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-removecalendar:before, .ss-removecalendar.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-checkcalendar:before, .ss-checkcalendar.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-deletecalendar:before, .ss-deletecalendar.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-briefcase:before, .ss-briefcase.ss-right:after {
+  content: '💼';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-cloud:before, .ss-cloud.ss-right:after {
+  content: '☁';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-droplet:before, .ss-droplet.ss-right:after {
+  content: '💧';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-flask:before, .ss-flask.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-up:before, .ss-up.ss-right:after {
+  content: '⬆';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-upright:before, .ss-upright.ss-right:after {
+  content: '⬈';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-right:before, .ss-right.ss-right:after {
+  content: '➡';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-downright:before, .ss-downright.ss-right:after {
+  content: '⬊';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-down:before, .ss-down.ss-right:after {
+  content: '⬇';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-downleft:before, .ss-downleft.ss-right:after {
+  content: '⬋';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-left:before, .ss-left.ss-right:after {
+  content: '⬅';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-upleft:before, .ss-upleft.ss-right:after {
+  content: '⬉';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-navigateup:before, .ss-navigateup.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-navigateright:before, .ss-navigateright.ss-right:after {
+  content: '▻';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-navigatedown:before, .ss-navigatedown.ss-right:after {
+  content: '';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-navigateleft:before, .ss-navigateleft.ss-right:after {
+  content: '◅';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-directup:before, .ss-directup.ss-right:after {
+  content: '▴';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-directright:before, .ss-directright.ss-right:after {
+  content: '▹';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-dropdown:before, .ss-dropdown.ss-right:after {
+  content: '▾';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-directleft:before, .ss-directleft.ss-right:after {
+  content: '◃';
+}
+
+/* line 50, ../fonts/ss-standard/_ss-standard.scss */
+.ss-retweet:before, .ss-retweet.ss-right:after {
+  content: '';
+}
+
+/* Legacy classes */
+/* line 53, ../fonts/ss-standard/_ss-standard.scss */
+.ss-volumelow:before, .ss-volumelow.ss-right:after {
+  content: '🔉';
+}
+
+/* line 53, ../fonts/ss-standard/_ss-standard.scss */
+.ss-volumehigh:before, .ss-volumehigh.ss-right:after {
+  content: '🔊';
+}
+
+/* line 53, ../fonts/ss-standard/_ss-standard.scss */
+.ss-batteryhigh:before, .ss-batteryhigh.ss-right:after {
+  content: '';
+}
+
+/* line 53, ../fonts/ss-standard/_ss-standard.scss */
+.ss-batterymedium:before, .ss-batterymedium.ss-right:after {
+  content: '';
+}
+
+/* line 53, ../fonts/ss-standard/_ss-standard.scss */
+.ss-batterylow:before, .ss-batterylow.ss-right:after {
+  content: '';
+}
+
+/* line 53, ../fonts/ss-standard/_ss-standard.scss */
+.ss-batteryempty:before, .ss-batteryempty.ss-right:after {
+  content: '';
+}
+
+/* line 53, ../fonts/ss-standard/_ss-standard.scss */
+.ss-clouddownload:before, .ss-clouddownload.ss-right:after {
+  content: '';
+}
+
+/* line 53, ../fonts/ss-standard/_ss-standard.scss */
+.ss-cloudupload:before, .ss-cloudupload.ss-right:after {
+  content: '';
+}
+
+/* line 53, ../fonts/ss-standard/_ss-standard.scss */
+.ss-calendaradd:before, .ss-calendaradd.ss-right:after {
+  content: '';
+}
+
+/* line 53, ../fonts/ss-standard/_ss-standard.scss */
+.ss-calendarremove:before, .ss-calendarremove.ss-right:after {
+  content: '';
+}
+
+/* line 53, ../fonts/ss-standard/_ss-standard.scss */
+.ss-calendarcheck:before, .ss-calendarcheck.ss-right:after {
+  content: '';
+}
+
+/* line 53, ../fonts/ss-standard/_ss-standard.scss */
+.ss-calendardelete:before, .ss-calendardelete.ss-right:after {
+  content: '';
+}
+
+/* Fix baseline for SymbolSet icons */
+/* line 5, ../sass/modules/_fonts.scss */
+[class*=ss-]:before,
+[class*=ss-].ss-right:after {
+  position: relative;
+  top: 0.17em;
+}
+
+/* line 9, ../sass/modules/_fonts.scss */
+[class*=ss-]:before {
+  margin-right: 0.4em;
+}
+
+/* line 10, ../sass/modules/_fonts.scss */
+[class*=ss-].ss-right:after {
+  margin-left: 0.3em;
+}
+
+/* line 13, ../sass/modules/_fonts.scss */
+.ss-small-icon:before,
+.ss-small-icon.right:after {
+  top: 0.1em;
+  margin-left: 0.2em;
+}
+
+/* line 12, ../sass/partials/_base.scss */
+.font-heading {
+  font-family: "jubilat-n2", "jubilat", "helvetica neue", arial, sans-serif;
+  font-weight: 300;
+}
+
+/* line 15, ../sass/partials/_base.scss */
+h1, h2, h3, h4, h5, h6, hgroup,
+ul, ol, dl,
+p, figure, form,
+pre, table, fieldset, hr, .letter__intro, .letter__previewer, .letter__text {
+  margin-top: 0;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+}
+
+/* line 30, ../sass/partials/_base.scss */
+a {
+  color: #87942A;
+}
+
+/* line 31, ../sass/partials/_base.scss */
+audio {
+  width: 100%;
+}
+
+/* line 14, ../sass/partials/atoms/_grids.scss */
+.container {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1;
+  max-width: 80em;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 48, /Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
+.container:before, .container:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+/* line 55, /Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
+.container:after {
+  clear: both;
+}
+
+@media (min-width: 37.5em) {
+  /* line 24, ../sass/partials/atoms/_grids.scss */
+  .two-col .two-col__left {
+    width: 45.45455%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+  /* line 27, ../sass/partials/atoms/_grids.scss */
+  .two-col .two-col__right {
+    width: 45.45455%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+
+/* line 1, ../sass/partials/atoms/_globals.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 8, ../sass/partials/atoms/_globals.scss */
+html,
+body {
+  font-size: 16px;
+  font-family: "proxima-nova-n3", "proxima-nova", "helvetica neue", arial, sans-serif;
+  line-height: 1.5;
+  color: #444444;
+  background-color: #f3f4ec;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+/* line 22, ../sass/partials/atoms/_globals.scss */
+body {
+  padding-bottom: 7.5em;
+}
+
+/**
+ * Browser upgrade notice
+ */
+/* line 29, ../sass/partials/atoms/_globals.scss */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* line 1, ../sass/partials/atoms/_type.scss */
+p {
+  margin-bottom: 1em;
+}
+
+/* line 9, ../sass/partials/atoms/_type.scss */
+.giga {
+  font-size: 4.29982em;
+  line-height: 1.35;
+  margin-bottom: 0.5em;
+}
+
+/* line 19, ../sass/partials/atoms/_type.scss */
+.mega {
+  font-size: 3.58318em;
+  line-height: 1.35;
+  margin-bottom: 0.5em;
+}
+
+/* line 29, ../sass/partials/atoms/_type.scss */
+.kilo {
+  font-size: 2.98598em;
+  line-height: 1.35;
+  margin-bottom: 0.5em;
+}
+
+/* line 39, ../sass/partials/atoms/_type.scss */
+.alpha, h1 {
+  font-size: 2.48832em;
+  line-height: 1.35;
+  margin-bottom: 0.5em;
+}
+
+/* line 49, ../sass/partials/atoms/_type.scss */
+.beta, h2 {
+  font-size: 2.0736em;
+  line-height: 1.35;
+  margin-bottom: 0.5em;
+}
+
+/* line 59, ../sass/partials/atoms/_type.scss */
+.gamma, h3, .timeline__date {
+  font-size: 1.728em;
+  line-height: 1.35;
+  margin-bottom: 0.5em;
+}
+
+/* line 69, ../sass/partials/atoms/_type.scss */
+.delta, h4, .header__logo {
+  font-size: 1.44em;
+  line-height: 1.35;
+  margin-bottom: 0.5em;
+}
+
+/* line 79, ../sass/partials/atoms/_type.scss */
+.epsilon, h5, .letter__meta {
+  font-size: 1.2em;
+  line-height: 1.35;
+  margin-bottom: 0.5em;
+}
+
+/* line 89, ../sass/partials/atoms/_type.scss */
+.zeta, h6 {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+}
+
+/* line 99, ../sass/partials/atoms/_type.scss */
+.milli, small, .read-more {
+  font-size: 0.83333em;
+  line-height: 1.5;
+}
+
+/* line 108, ../sass/partials/atoms/_type.scss */
+.micro,
+.ss-small-icon:before,
+.ss-small-icon.right:after {
+  font-size: 0.69444em;
+  line-height: 1.5;
+}
+
+/* line 117, ../sass/partials/atoms/_type.scss */
+.nano {
+  font-size: 0.5787em;
+  line-height: 1.5;
+}
+
+/* line 126, ../sass/partials/atoms/_type.scss */
+.pico {
+  font-size: 0.48225em;
+  line-height: 1.5;
+}
+
+/* line 134, ../sass/partials/atoms/_type.scss */
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: "jubilat-n2", "jubilat", "helvetica neue", arial, sans-serif;
+  color: #222222;
+  position: relative;
+  top: 0em;
+  font-weight: 200;
+}
+
+/* line 163, ../sass/partials/atoms/_type.scss */
+hr {
+  border: 0;
+  height: 1px;
+  background: grey;
+}
+
+/* line 169, ../sass/partials/atoms/_type.scss */
+abbr {
+  border-bottom: 1px dotted grey;
+  cursor: help;
+}
+
+/* line 187, ../sass/partials/atoms/_type.scss */
+abbr,
+acronym,
+blockquote,
+code,
+dir,
+kbd,
+listing,
+plaintext,
+q,
+samp,
+tt,
+var,
+xmp {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}
+
+/**
+ * Horizontal rules, extend `hr`.
+ * Demo: jsfiddle.net/inuitcss/L6GuZ
+ *
+ */
+/* line 197, ../sass/partials/atoms/_type.scss */
+.rule {
+  color: #444444;
+  border: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 23px;
+  margin-bottom: 1.4375rem;
+}
+
+/* line 207, ../sass/partials/atoms/_type.scss */
+.rule--dotted {
+  border-bottom-style: dotted;
+}
+
+/* line 212, ../sass/partials/atoms/_type.scss */
+.rule--dashed {
+  border-bottom-style: dashed;
+}
+
+/* line 2, ../sass/partials/atoms/_media.scss */
+img, video, object {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 11, ../sass/partials/atoms/_media.scss */
+figcaption {
+  font-style: italic;
+}
+
+/* line 4, ../sass/partials/atoms/_layout.scss */
+.media .media__body {
+  overflow: hidden;
+  _overflow: visible;
+  zoom: 1;
+}
+/* line 5, ../sass/partials/atoms/_layout.scss */
+.media .media__img {
+  float: left;
+  margin-right: 1em;
+}
+/* line 6, ../sass/partials/atoms/_layout.scss */
+.media .media__img img {
+  display: block;
+}
+/* line 7, ../sass/partials/atoms/_layout.scss */
+.media .media__img--alt {
+  float: right;
+  margin-left: 1em;
+  margin-right: 0;
+}
+
+/* line 11, ../sass/partials/atoms/_layout.scss */
+.l-right {
+  float: right;
+}
+
+/* line 12, ../sass/partials/atoms/_layout.scss */
+.l-left {
+  float: left;
+}
+
+/* line 13, ../sass/partials/atoms/_layout.scss */
+.l-clear-right {
+  clear: right;
+}
+
+/* line 14, ../sass/partials/atoms/_layout.scss */
+.l-clear-left {
+  clear: left;
+}
+
+/* line 15, ../sass/partials/atoms/_layout.scss */
+.l-clear-both {
+  clear: both;
+}
+
+/* line 16, ../sass/partials/atoms/_layout.scss */
+.l-full-width {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 17, ../sass/partials/atoms/_layout.scss */
+.l-flush-top {
+  margin-top: 0 !important;
+}
+
+/* line 18, ../sass/partials/atoms/_layout.scss */
+.l-flush-bottom, .header__logo {
+  margin-bottom: 0 !important;
+}
+
+/* line 19, ../sass/partials/atoms/_layout.scss */
+.l-push-top {
+  margin-top: 24px;
+}
+
+/* line 20, ../sass/partials/atoms/_layout.scss */
+.l-push-bottom {
+  margin-bottom: 24px;
+}
+
+/* line 21, ../sass/partials/atoms/_layout.scss */
+.l-text-align-left {
+  text-align: left;
+}
+
+/* line 22, ../sass/partials/atoms/_layout.scss */
+.l-text-align-right {
+  text-align: right;
+}
+
+/* line 23, ../sass/partials/atoms/_layout.scss */
+.l-text-align-center {
+  text-align: center;
+}
+
+/* line 26, ../sass/partials/atoms/_layout.scss */
+.constrained-measure {
+  max-width: 40em;
+}
+
+/*------------------------------------*\
+    $BEAUTONS.CSS
+\*------------------------------------*/
+/**
+ * beautons is a beautifully simple button toolkit.
+ *
+ * LICENSE
+ * 
+ * Copyright 2013 Harry Roberts
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ * http://apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * 
+ */
+/*!*
+ * 
+ * @csswizardry -- csswizardry.com/beautons
+ * 
+ */
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+/**
+ * Base button styles.
+ *
+ * 1. Allow us to better style box model properties.
+ * 2. Line different sized buttons up a little nicer.
+ * 3. Stop buttons wrapping and looking broken.
+ * 4. Make buttons inherit font styles.
+ * 5. Force all elements using beautons to appear clickable.
+ * 6. Normalise box model styles.
+ * 7. If the button’s text is 1em, and the button is (3 * font-size) tall, then
+ *    there is 1em of space above and below that text. We therefore apply 1em
+ *    of space to the left and right, as padding, to keep consistent spacing.
+ * 8. Basic cosmetics for default buttons. Change or override at will.
+ * 9. Don’t allow buttons to have underlines; it kinda ruins the illusion.
+ */
+/* line 56, ../sass/partials/atoms/_buttons.scss */
+.btn {
+  display: inline-block;
+  /* [1] */
+  vertical-align: middle;
+  /* [2] */
+  white-space: nowrap;
+  /* [3] */
+  font-family: inherit;
+  /* [4] */
+  font-size: 100%;
+  /* [4] */
+  cursor: pointer;
+  /* [5] */
+  border: none;
+  /* [6] */
+  margin: 0;
+  /* [6] */
+  padding-top: 0;
+  /* [6] */
+  padding-bottom: 0;
+  /* [6] */
+  line-height: 3;
+  /* [7] */
+  padding-right: 1em;
+  /* [7] */
+  padding-left: 1em;
+  /* [7] */
+  border-radius: 0.2em;
+  /* [8] */
+}
+
+/* line 76, ../sass/partials/atoms/_buttons.scss */
+.btn, .btn:hover {
+  text-decoration: none;
+  /* [9] */
+}
+/* line 81, ../sass/partials/atoms/_buttons.scss */
+.btn:active, .btn:focus {
+  outline: none;
+}
+
+/*------------------------------------*\
+    $SIZES
+\*------------------------------------*/
+/**
+ * Button size modifiers.
+ *
+ * These all follow the same sizing rules as above; text is 1em, space around it
+ * remains uniform.
+ */
+/* line 99, ../sass/partials/atoms/_buttons.scss */
+.btn--small {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  line-height: 2;
+}
+
+/* line 105, ../sass/partials/atoms/_buttons.scss */
+.btn--large {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  line-height: 4;
+}
+
+/* line 111, ../sass/partials/atoms/_buttons.scss */
+.btn--huge {
+  padding-right: 2em;
+  padding-left: 2em;
+  line-height: 5;
+}
+
+/**
+ * These buttons will fill the entirety of their container.
+ *
+ * 1. Remove padding so that widths and paddings don’t conflict.
+ */
+/* line 122, ../sass/partials/atoms/_buttons.scss */
+.btn--full {
+  width: 100%;
+  padding-right: 0;
+  /* [1] */
+  padding-left: 0;
+  /* [1] */
+  text-align: center;
+}
+
+/*------------------------------------*\
+    $FONT-SIZES
+\*------------------------------------*/
+/**
+ * Button font-size modifiers.
+ */
+/* line 139, ../sass/partials/atoms/_buttons.scss */
+.btn--alpha {
+  font-size: 3rem;
+}
+
+/* line 143, ../sass/partials/atoms/_buttons.scss */
+.btn--beta {
+  font-size: 2rem;
+}
+
+/* line 147, ../sass/partials/atoms/_buttons.scss */
+.btn--gamma {
+  font-size: 1rem;
+}
+
+/**
+ * Make the button inherit sizing from its parent.
+ */
+/* line 154, ../sass/partials/atoms/_buttons.scss */
+.btn--natural {
+  vertical-align: baseline;
+  font-size: inherit;
+  line-height: inherit;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+/*------------------------------------*\
+    $FUNCTIONS
+\*------------------------------------*/
+/**
+ * Button function modifiers.
+ */
+/**
+ * Positive actions; e.g. sign in, purchase, submit, etc.
+ */
+/* line 179, ../sass/partials/atoms/_buttons.scss */
+.btn--positive {
+  background-color: #4A993E;
+  color: #fff;
+}
+
+/**
+ * Negative actions; e.g. close account, delete photo, remove friend, etc.
+ */
+/* line 187, ../sass/partials/atoms/_buttons.scss */
+.btn--negative {
+  background-color: #b33630;
+  color: #fff;
+}
+
+/**
+ * Inactive, disabled buttons.
+ * 
+ * 1. Make the button look like normal text when hovered.
+ */
+/* line 200, ../sass/partials/atoms/_buttons.scss */
+.btn--inactive,
+.btn--inactive:hover,
+.btn--inactive:active,
+.btn--inactive:focus {
+  background-color: #ddd;
+  color: #777;
+  cursor: text;
+  /* [1] */
+}
+
+/*------------------------------------*\
+    $STYLES
+\*------------------------------------*/
+/**
+ * Button style modifiers.
+ *
+ * 1. Use an overly-large number to ensure completely rounded, pill-like ends.
+ */
+/* line 218, ../sass/partials/atoms/_buttons.scss */
+.btn--soft {
+  border-radius: 200px;
+  /* [1] */
+}
+
+/* line 222, ../sass/partials/atoms/_buttons.scss */
+.btn--hard {
+  border-radius: 0;
+}
+
+/* line 1, ../sass/partials/atoms/_links.scss */
+a {
+  color: #87942a;
+  text-decoration: underline;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* line 5, ../sass/partials/atoms/_links.scss */
+a:hover {
+  color: #c0cf55;
+}
+
+/**
+ * Complex link
+ * Adds hover behaviour only to selected items within links
+ * See jsfiddle.net/inuitcss/rt9M3
+ */
+/* line 18, ../sass/partials/atoms/_links.scss */
+.link-complex,
+.link-complex:hover,
+.link-complex:active,
+.link-complex:focus {
+  text-decoration: none;
+}
+
+/* line 23, ../sass/partials/atoms/_links.scss */
+.link-complex:hover .link-complex__target,
+.link-complex:active .link-complex__target,
+.link-complex:focus .link-complex__target {
+  text-decoration: underline;
+}
+
+/**
+ * Read more link
+ */
+/* a */
+/* line 30, ../sass/partials/atoms/_links.scss */
+.read-more {
+  padding: 0.35em 0.75em;
+  margin: 0.25em 0;
+  background: #c0cf55;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  -o-border-radius: 0.25em;
+  border-radius: 0.25em;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  transition: background 0.2s;
+}
+/* line 41, ../sass/partials/atoms/_links.scss */
+.read-more:hover, .read-more:active {
+  color: white;
+  background: #99a830;
+}
+/* line 45, ../sass/partials/atoms/_links.scss */
+.read-more + * {
+  margin-top: 0.5em;
+}
+
+/**
+ * Heading groups
+ * Include the sub heading or super heading within the heading element, eg:
+ *
+ * <h1>
+ *   Main Heading
+ *   <span class="sub-heading">Sub Heading</span>
+ * </h1>
+ *
+ * or
+ *
+ * <h1>
+ * 	 <span class="super-heading">Super Heading</span>
+ *   Main Heading
+ * </h1>
+ * 
+ */
+/* line 19, ../sass/partials/molecules/_type.scss */
+.sub-heading,
+.super-heading {
+  position: absolute;
+  display: block;
+  font-weight: normal;
+}
+
+/* line 25, ../sass/partials/molecules/_type.scss */
+.super-heading {
+  position: absolute;
+  top: -36px;
+}
+
+/**
+ * Inline label form row
+ *
+ * Widths of the label and field elements 
+ * can/should be overwritten by grid system
+ * 
+ */
+/* line 8, ../sass/partials/molecules/_lists.scss */
+.row--inline {
+  clear: both;
+}
+/* line 10, ../sass/partials/molecules/_lists.scss */
+.row--inline label, .row--inline input, .row--inline select, .row--inline textarea {
+  display: inline;
+  width: auto;
+}
+/* line 11, ../sass/partials/molecules/_lists.scss */
+.row--inline label {
+  margin-right: 0.5em;
+}
+
+/**
+ * Plain list
+ */
+/* line 17, ../sass/partials/molecules/_lists.scss */
+.plain-list, .h-list, .header__nav, .type-selector__options {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/** 
+ * Horizontal list
+ */
+/* line 30, ../sass/partials/molecules/_lists.scss */
+.h-list > li, .header__nav > li, .type-selector__options > li,
+.h-list > li > a,
+.header__nav > li > a,
+.type-selector__options > li > a {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+/* line 35, ../sass/partials/molecules/_lists.scss */
+.h-list > li, .header__nav > li, .type-selector__options > li {
+  margin-right: -0.25em;
+}
+
+/* line 4, ../sass/partials/molecules/_page.scss */
+.page__main {
+  padding: 0.5em;
+}
+@media (min-width: 37.5em) {
+  /* line 4, ../sass/partials/molecules/_page.scss */
+  .page__main {
+    width: 66.03774%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+    padding: 1em;
+  }
+}
+
+/* line 11, ../sass/partials/molecules/_page.scss */
+.page__island {
+  padding: 1em;
+  margin-bottom: 1em;
+  background: white;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+
+/* line 17, ../sass/partials/molecules/_page.scss */
+.page .sponsor {
+  margin: 0 0 0.5em 0;
+}
+
+/* line 1, ../sass/partials/molecules/_nav.scss */
+.header {
+  background: #87942a;
+}
+/* line 3, ../sass/partials/molecules/_nav.scss */
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 8, ../sass/partials/molecules/_nav.scss */
+.header__logo {
+  margin-left: 0.69444em;
+  line-height: 1;
+  line-height: 2.43056;
+  font-weight: 400;
+  float: left;
+}
+
+/* line 17, ../sass/partials/molecules/_nav.scss */
+.header__nav {
+  float: right;
+  margin: 0;
+}
+/* line 21, ../sass/partials/molecules/_nav.scss */
+.header__nav a {
+  display: block;
+  padding: 1em;
+}
+/* line 24, ../sass/partials/molecules/_nav.scss */
+.header__nav a:hover, .header__nav a:focus {
+  background: #758024;
+}
+/* line 27, ../sass/partials/molecules/_nav.scss */
+.header__nav a:active {
+  background: #636c1f;
+}
+
+/* line 1, ../sass/partials/molecules/_timeline.scss */
+.timeline {
+  margin: 24px 0;
+}
+@media (min-width: 37.5em) {
+  /* line 1, ../sass/partials/molecules/_timeline.scss */
+  .timeline {
+    width: 66.03774%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+
+/* line 8, ../sass/partials/molecules/_timeline.scss */
+.timeline__item {
+  clear: both;
+  padding: 1em;
+  background: white;
+  border: 1px solid grey;
+  border-width: 1px 0;
+}
+@media (min-width: 37.5em) {
+  /* line 8, ../sass/partials/molecules/_timeline.scss */
+  .timeline__item {
+    border-width: 1px 1px 1px 0;
+    -webkit-border-radius: 0 0.5em 0.5em 0;
+    -moz-border-radius: 0 0.5em 0.5em 0;
+    -ms-border-radius: 0 0.5em 0.5em 0;
+    -o-border-radius: 0 0.5em 0.5em 0;
+    border-radius: 0 0.5em 0.5em 0;
+  }
+}
+@media (min-width: 80em) {
+  /* line 8, ../sass/partials/molecules/_timeline.scss */
+  .timeline__item {
+    border-width: 1px;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    border-radius: 0.5em;
+  }
+}
+/* line 22, ../sass/partials/molecules/_timeline.scss */
+.timeline__item > :last-child {
+  margin-bottom: 0;
+}
+
+/* line 26, ../sass/partials/molecules/_timeline.scss */
+.timeline__item--narrow {
+  border-width: 1px 0;
+}
+@media (min-width: 37.5em) {
+  /* line 26, ../sass/partials/molecules/_timeline.scss */
+  .timeline__item--narrow {
+    width: 65.71429%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 17.14286%;
+    clear: none;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    border-radius: 0.5em;
+    border-width: 1px;
+  }
+}
+
+/* line 35, ../sass/partials/molecules/_timeline.scss */
+.timeline__connector {
+  clear: both;
+  margin: 0 auto;
+  height: 24px;
+  width: 0;
+  border: 0.2em solid grey;
+}
+
+/* line 42, ../sass/partials/molecules/_timeline.scss */
+.timeline__connector--dashed {
+  border-style: dashed;
+}
+
+/* line 45, ../sass/partials/molecules/_timeline.scss */
+.timeline__connector--taller {
+  height: 72px;
+}
+
+/* line 49, ../sass/partials/molecules/_timeline.scss */
+.timeline__date {
+  background: grey;
+  color: white;
+  font-family: "jubilat-n2", "jubilat", "helvetica neue", arial, sans-serif;
+  max-width: 6em;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+
+/* line 1, ../sass/partials/molecules/_timeline-header.scss */
+.timeline--header {
+  background: white url(../images/headerbg.jpg) center center;
+  background-size: 100%;
+  border: 0.25em solid #cccccc;
+  border-width: 0.15em 0;
+}
+/* line 6, ../sass/partials/molecules/_timeline-header.scss */
+.timeline--header .container {
+  padding: 2em 1em;
+}
+
+/* line 10, ../sass/partials/molecules/_timeline-header.scss */
+.timeline--header__sponsors {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1em;
+  background: white;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+/* line 15, ../sass/partials/molecules/_timeline-header.scss */
+.timeline--header__sponsors .sponsor {
+  margin: 0 0.5em 0.5em 0;
+  max-width: 7em;
+}
+
+@media (min-width: 37.5em) {
+  /* line 22, ../sass/partials/molecules/_timeline-header.scss */
+  .timeline--header__sponsors {
+    width: 37.93103%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+
+  /* line 25, ../sass/partials/molecules/_timeline-header.scss */
+  .timeline--header__intro {
+    width: 58.62069%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+/* line 1, ../sass/partials/molecules/_letter.scss */
+.letter {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1;
+}
+/* line 48, /Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
+.letter:before, .letter:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+/* line 55, /Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
+.letter:after {
+  clear: both;
+}
+
+@media (min-width: 37.5em) {
+  /* line 4, ../sass/partials/molecules/_letter.scss */
+  .letter__intro {
+    width: 45.45455%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+
+/* line 10, ../sass/partials/molecules/_letter.scss */
+.letter__meta {
+  line-height: 1.75;
+  font-family: "jubilat-n2", "jubilat", "helvetica neue", arial, sans-serif;
+  font-weight: 200;
+}
+/* line 15, ../sass/partials/molecules/_letter.scss */
+.letter__meta * {
+  margin: 0;
+}
+
+/* line 17, ../sass/partials/molecules/_letter.scss */
+.letter__avatar {
+  width: 1.5em;
+  -webkit-border-radius: 999em;
+  -moz-border-radius: 999em;
+  -ms-border-radius: 999em;
+  -o-border-radius: 999em;
+  border-radius: 999em;
+  display: inline-block;
+}
+
+/* line 22, ../sass/partials/molecules/_letter.scss */
+.letter__previewer {
+  display: block;
+  padding: 1em;
+  border: 1px solid #cccccc;
+  background: #f3f4ec;
+  position: relative;
+  min-height: 12em;
+  overflow: hidden;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  text-decoration: none;
+}
+@media (min-width: 37.5em) {
+  /* line 22, ../sass/partials/molecules/_letter.scss */
+  .letter__previewer {
+    width: 45.45455%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+/* line 36, ../sass/partials/molecules/_letter.scss */
+.letter__previewer * {
+  z-index: 1;
+  position: relative;
+}
+
+/* line 38, ../sass/partials/molecules/_letter.scss */
+.letter__previewer__linktext {
+  text-align: center;
+  margin-top: 12em;
+  background: rgba(255, 255, 255, 0.8);
+  color: #666666;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+/* line 46, ../sass/partials/molecules/_letter.scss */
+.letter__previewer__image {
+  position: absolute;
+  width: 130%;
+  max-width: 130%;
+  left: 0;
+  top: -10%;
+  z-index: 0;
+}
+
+/* line 54, ../sass/partials/molecules/_letter.scss */
+.letter__previewer__toggle {
+  font-size: 2.5em;
+  background: rgba(255, 255, 255, 0.8);
+  color: #666666;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -1.25em;
+  margin-top: -1.25em;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+  -webkit-border-radius: 999em;
+  -moz-border-radius: 999em;
+  -ms-border-radius: 999em;
+  -o-border-radius: 999em;
+  border-radius: 999em;
+}
+/* line 70, ../sass/partials/molecules/_letter.scss */
+.letter__previewer__toggle:before {
+  margin-right: 0.15em;
+}
+
+/* line 72, ../sass/partials/molecules/_letter.scss */
+.letter__text {
+  font-size: 1.2em;
+  line-height: 1.5;
+  clear: both;
+  padding: 1em;
+  margin-left: -1em;
+  margin-right: -1em;
+  background: url(../images/letter-texture.jpg) center center repeat;
+  font-family: "jubilat-n2", "jubilat", "helvetica neue", arial, sans-serif;
+}
+@media (min-width: 37.5em) {
+  /* line 72, ../sass/partials/molecules/_letter.scss */
+  .letter__text {
+    font-size: 1.44em;
+    line-height: 2;
+  }
+}
+@media (min-width: 37.5em) {
+  /* line 72, ../sass/partials/molecules/_letter.scss */
+  .letter__text {
+    padding: 2em;
+  }
+}
+
+@media (min-width: 37.5em) {
+  /* line 92, ../sass/partials/molecules/_letter.scss */
+  .letter__audio {
+    width: 48.57143%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+
+  /* line 93, ../sass/partials/molecules/_letter.scss */
+  .letter__video {
+    width: 48.57143%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+/* line 1, ../sass/partials/molecules/_modal.scss */
+.modal {
+  display: none;
+  width: 900px;
+  max-width: 95%;
+  max-height: 90%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+  background: #fff;
+  padding: 0.5em;
+  border: 0.25em solid #e6e6e6;
+  -webkit-box-shadow: 0 0 1em black;
+  -moz-box-shadow: 0 0 1em black;
+  box-shadow: 0 0 1em black;
+  z-index: 11 !important;
+}
+@media (min-width: 37.5em) {
+  /* line 1, ../sass/partials/molecules/_modal.scss */
+  .modal {
+    max-width: 80%;
+    padding: 1em 1.5em;
+  }
+}
+
+/* line 20, ../sass/partials/molecules/_modal.scss */
+.modal .close-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  font-size: 1.2em;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  background: #e6e6e6;
+  cursor: pointer;
+}
+/* line 33, ../sass/partials/molecules/_modal.scss */
+.modal .close-modal:before {
+  content: '␡';
+}
+
+/* line 39, ../sass/partials/molecules/_modal.scss */
+.modal-spinner {
+  display: none;
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -32px;
+  margin-top: -32px;
+  background: url(spinner.gif) #111111 no-repeat center center;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+
+/* line 52, ../sass/partials/molecules/_modal.scss */
+.modal--image {
+  text-align: center;
+}
+
+/* line 57, ../sass/partials/molecules/_modal.scss */
+#example-annotation-modal .left {
+  width: 47.61905%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+}
+/* line 58, ../sass/partials/molecules/_modal.scss */
+#example-annotation-modal .right {
+  width: 47.61905%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+
+/* line 9, ../sass/partials/molecules/_annotation.scss */
+.annotation {
+  padding: 0.15em;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  border: 0.1em solid red;
+  background: rgba(255, 0, 0, 0.1);
+}
+/* line 16, ../sass/partials/molecules/_annotation.scss */
+.annotation:hover {
+  background: rgba(255, 0, 0, 0.3);
+}
+/* line 19, ../sass/partials/molecules/_annotation.scss */
+.annotation.hidden {
+  display: inline !important;
+  visibility: visible !important;
+  background: none;
+  border: none;
+}
+
+/* line 29, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout {
+  font-size: 0.9em;
+  display: none;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  background: white;
+  opacity: 0.6;
+  border-width: 0.2em 1px 1px 1px;
+  border-style: solid;
+  -webkit-border-radius: 0 0 0.5em 0.5em;
+  -moz-border-radius: 0 0 0.5em 0.5em;
+  -ms-border-radius: 0 0 0.5em 0.5em;
+  -o-border-radius: 0 0 0.5em 0.5em;
+  border-radius: 0 0 0.5em 0.5em;
+}
+@media (min-width: 37.5em) {
+  /* line 29, ../sass/partials/molecules/_annotation.scss */
+  .annotation-callout {
+    display: block;
+  }
+}
+@media (min-width: 37.5em) {
+  /* line 29, ../sass/partials/molecules/_annotation.scss */
+  .annotation-callout {
+    width: 32.07547%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+    margin: 0;
+  }
+}
+/* line 44, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout, .annotation-callout .annotation-callout__inner {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/* line 47, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout .annotation-callout__inner {
+  overflow: hidden;
+  max-height: 7em;
+}
+/* line 53, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout:hover, .annotation-callout.hover {
+  opacity: 1;
+  z-index: 10;
+}
+/* line 56, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout:hover .annotation-callout__inner, .annotation-callout.hover .annotation-callout__inner {
+  max-height: 40em;
+}
+/* line 61, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 0;
+  left: -0;
+  top: -0.2em;
+}
+/* line 69, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout :last-child {
+  margin-bottom: 0;
+}
+
+/* line 83, ../sass/partials/molecules/_annotation.scss */
+.annotation.annotation-type--character {
+  border-color: red;
+  background: rgba(255, 0, 0, 0.1);
+}
+/* line 78, ../sass/partials/molecules/_annotation.scss */
+.annotation.annotation-type--character:hover, .annotation.annotation-type--character.hover {
+  background: rgba(255, 0, 0, 0.3);
+}
+
+/* line 86, ../sass/partials/molecules/_annotation.scss */
+.annotation.annotation-type--history {
+  border-color: blue;
+  background: rgba(0, 0, 255, 0.1);
+}
+/* line 78, ../sass/partials/molecules/_annotation.scss */
+.annotation.annotation-type--history:hover, .annotation.annotation-type--history.hover {
+  background: rgba(0, 0, 255, 0.3);
+}
+
+/* line 89, ../sass/partials/molecules/_annotation.scss */
+.annotation.annotation-type--language {
+  border-color: green;
+  background: rgba(0, 128, 0, 0.1);
+}
+/* line 78, ../sass/partials/molecules/_annotation.scss */
+.annotation.annotation-type--language:hover, .annotation.annotation-type--language.hover {
+  background: rgba(0, 128, 0, 0.3);
+}
+
+/* line 92, ../sass/partials/molecules/_annotation.scss */
+.annotation.annotation-type--letters {
+  border-color: purple;
+  background: rgba(128, 0, 128, 0.1);
+}
+/* line 78, ../sass/partials/molecules/_annotation.scss */
+.annotation.annotation-type--letters:hover, .annotation.annotation-type--letters.hover {
+  background: rgba(128, 0, 128, 0.3);
+}
+
+/* line 101, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout.annotation-type--character {
+  border-color: red;
+}
+/* line 99, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout.annotation-type--character:before {
+  background: red;
+}
+
+/* line 104, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout.annotation-type--history {
+  border-color: blue;
+}
+/* line 99, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout.annotation-type--history:before {
+  background: blue;
+}
+
+/* line 107, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout.annotation-type--language {
+  border-color: green;
+}
+/* line 99, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout.annotation-type--language:before {
+  background: green;
+}
+
+/* line 110, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout.annotation-type--letters {
+  border-color: purple;
+}
+/* line 99, ../sass/partials/molecules/_annotation.scss */
+.annotation-callout.annotation-type--letters:before {
+  background: purple;
+}
+
+/* line 1, ../sass/partials/molecules/_typeselector.scss */
+.type-selector {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  padding: 0.25em;
+  border-top: 0.2em solid #87942a;
+  z-index: 10;
+  -webkit-box-shadow: 0 0 1em white;
+  -moz-box-shadow: 0 0 1em white;
+  box-shadow: 0 0 1em white;
+  font-size: 0.8em;
+  /* html */
+}
+@media (min-width: 37.5em) {
+  /* line 1, ../sass/partials/molecules/_typeselector.scss */
+  .type-selector {
+    font-size: 1em;
+  }
+}
+/* line 18, ../sass/partials/molecules/_typeselector.scss */
+.modalActive .type-selector {
+  display: none;
+}
+
+/* line 22, ../sass/partials/molecules/_typeselector.scss */
+.type-selector__options {
+  width: 100%;
+  display: table;
+  margin: 0.25em 0 0 0;
+}
+/* line 27, ../sass/partials/molecules/_typeselector.scss */
+.type-selector__options li {
+  display: table-cell;
+}
+
+/* line 31, ../sass/partials/molecules/_typeselector.scss */
+.type-selector__option {
+  width: 100%;
+  background: white;
+  padding: 1em 0.5em;
+  border: 1px solid grey;
+  font-weight: bold;
+}
+@media (min-width: 37.5em) {
+  /* line 31, ../sass/partials/molecules/_typeselector.scss */
+  .type-selector__option {
+    padding: 0.75em;
+  }
+}
+/* line 41, ../sass/partials/molecules/_typeselector.scss */
+.type-selector__option.active, .type-selector__option:active {
+  background: #e6e6e6;
+  outline: none;
+}
+/* line 59, ../sass/partials/molecules/_typeselector.scss */
+.type-selector__option[data-toggle="annotation-type--language"] {
+  background: #e5f2e5;
+  border: 1px solid green;
+  color: #136d13;
+}
+/* line 49, ../sass/partials/molecules/_typeselector.scss */
+html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-toggle="annotation-type--language"] {
+  background: #ebeceb;
+  color: #206020;
+}
+/* line 52, ../sass/partials/molecules/_typeselector.scss */
+html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-toggle="annotation-type--language"].active {
+  background: #cce5cc;
+  color: #136d13;
+  -webkit-box-shadow: 0 0 0.5em rgba(0, 128, 0, 0.7) inset;
+  -moz-box-shadow: 0 0 0.5em rgba(0, 128, 0, 0.7) inset;
+  box-shadow: 0 0 0.5em rgba(0, 128, 0, 0.7) inset;
+}
+/* line 62, ../sass/partials/molecules/_typeselector.scss */
+.type-selector__option[data-toggle="annotation-type--character"] {
+  background: #ffe5e5;
+  border: 1px solid red;
+  color: #d92626;
+}
+/* line 49, ../sass/partials/molecules/_typeselector.scss */
+html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-toggle="annotation-type--character"] {
+  background: #fbe9e9;
+  color: #bf4040;
+}
+/* line 52, ../sass/partials/molecules/_typeselector.scss */
+html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-toggle="annotation-type--character"].active {
+  background: #ffcccc;
+  color: #d92626;
+  -webkit-box-shadow: 0 0 0.5em rgba(255, 0, 0, 0.7) inset;
+  -moz-box-shadow: 0 0 0.5em rgba(255, 0, 0, 0.7) inset;
+  box-shadow: 0 0 0.5em rgba(255, 0, 0, 0.7) inset;
+}
+/* line 65, ../sass/partials/molecules/_typeselector.scss */
+.type-selector__option[data-toggle="annotation-type--letters"] {
+  background: #f2e5f2;
+  border: 1px solid purple;
+  color: #6d136d;
+}
+/* line 49, ../sass/partials/molecules/_typeselector.scss */
+html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-toggle="annotation-type--letters"] {
+  background: #ecebec;
+  color: #602060;
+}
+/* line 52, ../sass/partials/molecules/_typeselector.scss */
+html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-toggle="annotation-type--letters"].active {
+  background: #e5cce5;
+  color: #6d136d;
+  -webkit-box-shadow: 0 0 0.5em rgba(128, 0, 128, 0.7) inset;
+  -moz-box-shadow: 0 0 0.5em rgba(128, 0, 128, 0.7) inset;
+  box-shadow: 0 0 0.5em rgba(128, 0, 128, 0.7) inset;
+}
+
+/* line 2, ../sass/partials/molecules/_opentip.scss */
+.opentip-container,
+.opentip-container * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, ../sass/partials/molecules/_opentip.scss */
+.opentip-container {
+  position: absolute;
+  max-width: 300px;
+  z-index: 100;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  -moz-transition: -moz-transform 1s ease-in-out;
+  -o-transition: -o-transform 1s ease-in-out;
+  -ms-transition: -ms-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  pointer-events: none;
+  -webkit-transform: translateX(0) translateY(0);
+  -moz-transform: translateX(0) translateY(0);
+  -o-transform: translateX(0) translateY(0);
+  -ms-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
+}
+
+/* line 25, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-fixed.ot-hidden.stem-top.stem-center,
+.opentip-container.ot-fixed.ot-going-to-show.stem-top.stem-center,
+.opentip-container.ot-fixed.ot-hiding.stem-top.stem-center {
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+/* line 34, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-fixed.ot-hidden.stem-top.stem-right,
+.opentip-container.ot-fixed.ot-going-to-show.stem-top.stem-right,
+.opentip-container.ot-fixed.ot-hiding.stem-top.stem-right {
+  -webkit-transform: translateY(-5px) translateX(5px);
+  -moz-transform: translateY(-5px) translateX(5px);
+  -o-transform: translateY(-5px) translateX(5px);
+  -ms-transform: translateY(-5px) translateX(5px);
+  transform: translateY(-5px) translateX(5px);
+}
+
+/* line 43, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-fixed.ot-hidden.stem-middle.stem-right,
+.opentip-container.ot-fixed.ot-going-to-show.stem-middle.stem-right,
+.opentip-container.ot-fixed.ot-hiding.stem-middle.stem-right {
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -o-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  transform: translateX(5px);
+}
+
+/* line 52, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-fixed.ot-hidden.stem-bottom.stem-right,
+.opentip-container.ot-fixed.ot-going-to-show.stem-bottom.stem-right,
+.opentip-container.ot-fixed.ot-hiding.stem-bottom.stem-right {
+  -webkit-transform: translateY(5px) translateX(5px);
+  -moz-transform: translateY(5px) translateX(5px);
+  -o-transform: translateY(5px) translateX(5px);
+  -ms-transform: translateY(5px) translateX(5px);
+  transform: translateY(5px) translateX(5px);
+}
+
+/* line 61, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-fixed.ot-hidden.stem-bottom.stem-center,
+.opentip-container.ot-fixed.ot-going-to-show.stem-bottom.stem-center,
+.opentip-container.ot-fixed.ot-hiding.stem-bottom.stem-center {
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+/* line 70, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-fixed.ot-hidden.stem-bottom.stem-left,
+.opentip-container.ot-fixed.ot-going-to-show.stem-bottom.stem-left,
+.opentip-container.ot-fixed.ot-hiding.stem-bottom.stem-left {
+  -webkit-transform: translateY(5px) translateX(-5px);
+  -moz-transform: translateY(5px) translateX(-5px);
+  -o-transform: translateY(5px) translateX(-5px);
+  -ms-transform: translateY(5px) translateX(-5px);
+  transform: translateY(5px) translateX(-5px);
+}
+
+/* line 79, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-fixed.ot-hidden.stem-middle.stem-left,
+.opentip-container.ot-fixed.ot-going-to-show.stem-middle.stem-left,
+.opentip-container.ot-fixed.ot-hiding.stem-middle.stem-left {
+  -webkit-transform: translateX(-5px);
+  -moz-transform: translateX(-5px);
+  -o-transform: translateX(-5px);
+  -ms-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+
+/* line 88, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-fixed.ot-hidden.stem-top.stem-left,
+.opentip-container.ot-fixed.ot-going-to-show.stem-top.stem-left,
+.opentip-container.ot-fixed.ot-hiding.stem-top.stem-left {
+  -webkit-transform: translateY(-5px) translateX(-5px);
+  -moz-transform: translateY(-5px) translateX(-5px);
+  -o-transform: translateY(-5px) translateX(-5px);
+  -ms-transform: translateY(-5px) translateX(-5px);
+  transform: translateY(-5px) translateX(-5px);
+}
+
+/* line 95, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-fixed .opentip {
+  pointer-events: auto;
+}
+
+/* line 98, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-hidden {
+  display: none;
+}
+
+/* line 101, ../sass/partials/molecules/_opentip.scss */
+.opentip-container .opentip {
+  position: relative;
+  font-size: 13px;
+  line-height: 120%;
+  padding: 9px 14px;
+  color: #4f4b47;
+  text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.2);
+}
+
+/* line 109, ../sass/partials/molecules/_opentip.scss */
+.opentip-container .opentip .header {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 113, ../sass/partials/molecules/_opentip.scss */
+.opentip-container .opentip .ot-close {
+  pointer-events: auto;
+  display: block;
+  position: absolute;
+  top: -12px;
+  left: 60px;
+  color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+
+/* line 123, ../sass/partials/molecules/_opentip.scss */
+.opentip-container .opentip .ot-close span {
+  display: none;
+}
+
+/* line 126, ../sass/partials/molecules/_opentip.scss */
+.opentip-container .opentip .ot-loading-indicator {
+  display: none;
+}
+
+/* line 129, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-loading .ot-loading-indicator {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  display: block;
+}
+
+/* line 137, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-loading .ot-loading-indicator span {
+  display: block;
+  -webkit-animation: otloading 2s linear infinite;
+  -moz-animation: otloading 2s linear infinite;
+  -o-animation: otloading 2s linear infinite;
+  -ms-animation: otloading 2s linear infinite;
+  animation: otloading 2s linear infinite;
+  text-align: center;
+}
+
+/* line 147, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.style-dark .opentip,
+.opentip-container.style-alert .opentip {
+  color: #f8f8f8;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* line 151, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.style-glass .opentip {
+  padding: 15px 25px;
+  color: #317cc5;
+  text-shadow: 1px 1px 8px rgba(0, 94, 153, 0.3);
+}
+
+/* line 156, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-hide-effect-fade {
+  -webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -moz-transition: -moz-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -ms-transition: -ms-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  transition: transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+/* line 166, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-hide-effect-fade.ot-hiding {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+/* line 172, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-show-effect-appear.ot-going-to-show,
+.opentip-container.ot-show-effect-appear.ot-showing {
+  -webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -moz-transition: -moz-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -ms-transition: -ms-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  transition: transform 0.5s ease-in-out, opacity 1s ease-in-out;
+}
+
+/* line 179, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-show-effect-appear.ot-going-to-show {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+/* line 184, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-show-effect-appear.ot-showing {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+/* line 189, ../sass/partials/molecules/_opentip.scss */
+.opentip-container.ot-show-effect-appear.ot-visible {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+@-moz-keyframes otloading {
+  /* line 195, ../sass/partials/molecules/_opentip.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 203, ../sass/partials/molecules/_opentip.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes otloading {
+  /* line 212, ../sass/partials/molecules/_opentip.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 220, ../sass/partials/molecules/_opentip.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes otloading {
+  /* line 229, ../sass/partials/molecules/_opentip.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 237, ../sass/partials/molecules/_opentip.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes otloading {
+  /* line 246, ../sass/partials/molecules/_opentip.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 254, ../sass/partials/molecules/_opentip.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes otloading {
+  /* line 263, ../sass/partials/molecules/_opentip.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 271, ../sass/partials/molecules/_opentip.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
