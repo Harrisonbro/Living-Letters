@@ -703,11 +703,13 @@
 	<div class="video-container">
 		<iframe src="//player.vimeo.com/video/88231592" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</div><!-- video-container -->
+	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="annotation-17-modal" class="modal">
 	<h3>Spelling: Name inconsistency</h3>
 	<p>The author of the letter to Cromwell is generally referred to in the history books as Piers Dutton. However, the signature on this letter offers a different spelling: Perus Dutton. This seems to have been Piers' preferred spelling, for his autograph at least. However, in the sixteenth century, preference counted for little and personal names - like other elements of English spelling - were variable and fluid. In the letter from Henry VIII [link], Piers is spelled both Piers and Pearse; but not Perus. Dutton is not alone in his inconstant naming: Shakespeare famously spelled his name three or four different ways, and none of them in the form we now use today.</p>
+	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="annotation-20-modal" class="modal / two-col">
@@ -718,18 +720,21 @@
 	<div class="two-col__right">
 		<img src="<?=SITE_IMAGES?>/royal-seal.jpg" alt="" />
 	</div><!-- .two-col__right -->
+	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="annotation-21-modal" class="modal">
 	<h3>Changing grammar</h3>
 	<p>The king's scribe uses a verbal suffix '-eth' that is no longer found in Present-Day English. The modern day equivalent is '-s' e.g. it appears that, although '-eth' is sometimes associated with more formal, perhaps religious language.</p>
 	<p>The change took place during the sixteenth and seventeenth centuries, with '-s' originating in the northern parts of the country and diffusing south. Although Henry VIII seems to have used the older, traditional form, his youngest daughter Elizabeth I was at the head of this linguistic trend, using both -s and -eth in her earliest writings from the mid-1540s.</p>
+	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="annotation-22-modal" class="modal">
 	<h3>Royal expression vs. meaning</h3>
 	<p>The second-half of the letter outlines the king's commands. These are explicitly linked to the king's personal will: 'our pleasure and commandment is that', using a semi-formulaic expression found elsewhere in Henry's scribal letters. In a letter written to Henry Clifford in response to the uprisings in Yorkshire, the letter asserts: 'And for the more extreme punishment of these rebels in case they shall continue in this their rebellion, our pleasure is that you shall with your forces make excurses upon such persons as be notable actors and doers in the same'. Orders given to Edward Stanley, Earl of Derby, use a comparable phrase: 'Our pleasure and commandment is, that upon the receipt hereof ye shall so prepare yourself '.</p>
 	<p>Once the order to execute the abbot and canons is outlined, the letter concludes by emphasising the recipients' duty to fulfil the king's wishes: 'fail you not to travail [work] with such dexterity'. The consequences for failure are left unstated, but one assumes Dutton and Brereton could infer what they might be. In the letter to Edward Stanley, Earl of Derby (mentioned above), the letter goes a little bit further in stating the risks of failure: 'And hereof fail ye not, as we specially trust you. And as for the contrary or your slackness herein, as ye will answer at your extreme peril'. </p>
+	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="annotation-23-modal" class="modal">
@@ -747,12 +752,14 @@
 			</div><!-- video-container -->
 		</div>
 	</div><!-- two-col -->
+	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="annotation-25-modal" class="modal">
 	<h3>Execution</h3>
 	<p>Since the 14th century, the noun execution has denoted capital punishment, although not through any one specific method, as this citation demonstrates: "R. Fabyan New Cronycles Eng. & Fraunce (1516) I. xxxvii. f. xiiiiv,   To be put to dethe..by heddynge, fleynge, brennynge, & other cruell Execucyons" (OED Online. The word is slightly euphemistic, with <em>execution</em> also have the contemporary (and still current) sense of 'the action of carrying into effect'. </p>
 	<p>The punishments of the abbots and monks involved in the uprising were often severe. Although the King's commission acquitted some North-West canons, some were imprisoned and others were put to death by hanging and hanging in chains. The execution of the Abbot of Whalley was intended to 'be a spectacle and terror to all other corrupt minds hereafter' (the Earl of Suffolk, cited in Haigh 1969: 90). It seems likely that Henry VIII's instruction to Dutton and Brereton was given with the intention of similar effect: to dissuade other potential rebels and demonstrate the king's power within the county.</p>
+	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="annotation-26-modal" class="modal / two-col">
@@ -764,26 +771,31 @@
 	<div class="two-col__right">
 		<img src="<?=SITE_IMAGES?>/royal-seal.jpg" alt="" />
 	</div><!-- .two-col__right -->
+	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="bio-brereton" class="modal">
 	<h1>Sir William Brereton</h1>
 	<p>Sir William Brereton, knight, was appointed deputy chamberlain of Chester in 1536, a role he combined with membership on the Irish council, and associated military skirmishes in Ireland throughout the 1530s. His involvement with the uprising at Norton was problematic. A relative (Randle Brereton) is named in Sir Piers Dutton’s first letter to Cromwell as a supporter of the abbot, and it seems likely that this connection was maintained during the October rebellion. Following the events at Norton, Brereton continued to participate in campaigns in Ireland, becoming lord justice in spring 1540, and serving until his death in December 1540 or January 1541.</p>
+	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="bio-cromwell" class="modal">
 	<h1>Thomas Cromwell</h1>
 	<p>Thomas Cromwell was a very successful administrator during the reign of Henry VIII, rising from a modest background to work at the right-hand of the King for several years, prior to his death in 1540. His early career – as a merchant in the Netherlands and then as a lawyer in London – developed his skills as a strategist and communicator. His abilities were reflected in his rapid rise up the social scale, first acting as a conveyancer for Cardinal Wolsey and then, following Wolsey’s fall from power, working for the king himself. In 1532 he became master of the jewels, which provided access to the king’s finances and signalled the start of his influential position on Henry VIII. He was intimately involved in securing the break with Rome and Henry’s marriage to Anne Boleyn, as well as managing the financial acquisitions from the dissolution of the monasteries. In 1535 and 1536, Cromwell contacted Justices of the Peace – such as Sir Piers Dutton – asking them to inform him of any treasonous abbots or other religious persons who refused to recognise Henry VIII as Supreme Head of the Church of England. In 1540, Cromwell was arrested for treason and heresy, and subsequently executed. His fall was partly a result of the failed arranged marriage between Henry VIII and Anne of Cleves, which Cromwell had orchestrated, but also arose from his progressive stance on religion; a stance which conflicted with the more conservative mind-set of other men at the king’s court and council, who wished to seize his power. </p>
+	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="bio-henry" class="modal">
 	<h1>King Henry VIII</h1>
 	<p>King Henry VIII, born in 1491, was king of England and Ireland from 1509-1547. One of England’s most famous kings, his reign witnessed significant social, political and religious changes, including the separation from Rome and Henry’s establishment as the Supreme Head of the Church in England. The events of 1536 demonstrate the close links between the King’s personal affairs and matters of state; the dissolution of the monasteries was a consequence of the break with Rome, driven by Henry’s need for an annulment of his first marriage to Katherine of Aragon, in order to marry Anne Boleyn (who herself was executed in spring 1536). As a Tudor king, Henry took a personal interest in the day-to-day running of the country, although he was known to conduct state business on his terms. Not a fan of delegation, his preferred hours of work were early morning and late evening, and he required his servants to read and write on his behalf, under his verbal instruction.</p>
+	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="bio-dutton" class="modal">
 	<h1>Sir Piers Dutton</h1>
 	<p>Sir Piers was a landowner and one-time sheriff of Chester. He wrote many letters to Thomas Cromwell, suggesting that he was motivated by the power & money that could be offered by the King.</p>
+	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 
