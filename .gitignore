@@ -1,3 +1,4 @@
 config.local.php
 .sass-cache/*
 node_modules
+*.codekit
