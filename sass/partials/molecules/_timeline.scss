@@ -1,7 +1,7 @@
 .timeline {
 	margin: $basespace 0; 
 	@include breakpoint($med) {
-		@include grid-span(6);
+		@include grid-span(8);
 	}
 }
 

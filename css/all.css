@@ -1,5 +1,12 @@
 @charset "UTF-8";
-/* line 14, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_html5.scss */
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+/* line 11, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_html5.scss */
 article,
 aside,
 details,
@@ -15,90 +22,151 @@ summary {
   display: block;
 }
 
-/* line 21, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_html5.scss */
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+/* line 30, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_html5.scss */
 audio,
 canvas,
 video {
   display: inline-block;
 }
 
-/* line 27, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_html5.scss */
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_html5.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 33, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_html5.scss */
-[hidden] {
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+/* line 51, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_html5.scss */
+[hidden],
+template {
   display: none;
 }
 
-/* line 2, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_base.scss */
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 13, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_base.scss */
 html {
   font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
+  /* 1 */
   -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
-/* line 16, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_base.scss */
-html,
-button,
-input,
-select,
-textarea {
-  font-family: sans-serif;
-}
-
-/* line 21, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_base.scss */
+/**
+ * Remove default margin.
+ */
+/* line 23, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_base.scss */
 body {
   margin: 0;
 }
 
-/* line 4, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_links.scss */
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 11, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_links.scss */
+a {
+  background: transparent;
+}
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 19, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_links.scss */
 a:focus {
   outline: thin dotted;
 }
-/* line 10, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_links.scss */
-a:hover, a:active {
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 27, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_links.scss */
+a:active,
+a:hover {
   outline: 0;
 }
 
-/* line 3, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 12, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_typography.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 9, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 21, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_typography.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 15, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 29, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_typography.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 20, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+/* line 38, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_typography.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 25, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 46, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_typography.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
 
-/* line 32, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 56, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_typography.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 41, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+/* line 65, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_typography.scss */
 code,
 kbd,
 pre,
@@ -107,22 +175,34 @@ samp {
   font-size: 1em;
 }
 
-/* line 47, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+/* line 77, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_typography.scss */
 pre {
   white-space: pre-wrap;
 }
 
-/* line 52, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+/**
+ * Set consistent quote types.
+ */
+/* line 85, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_typography.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-/* line 57, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 93, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_typography.scss */
 small {
-  font-size: 75%;
+  font-size: 80%;
 }
 
-/* line 64, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 101, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_typography.scss */
 sub,
 sup {
   font-size: 75%;
@@ -131,128 +211,217 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 71, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+/* line 109, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 75, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_typography.scss */
+/* line 113, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_typography.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 2, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_embedded.scss */
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+/* line 11, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_embedded.scss */
 img {
   border: 0;
 }
 
-/* line 8, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_embedded.scss */
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+/* line 19, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_embedded.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 3, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_figures.scss */
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+/* line 11, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_figures.scss */
 figure {
   margin: 0;
 }
 
-/* line 3, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 11, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_forms.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 9, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 22, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_forms.scss */
 legend {
   border: 0;
+  /* 1 */
   padding: 0;
+  /* 2 */
 }
 
-/* line 19, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 33, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_forms.scss */
 button,
 input,
 select,
 textarea {
   font-family: inherit;
+  /* 1 */
   font-size: 100%;
+  /* 2 */
   margin: 0;
+  /* 3 */
 }
 
-/* line 31, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 47, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_forms.scss */
 button,
 input {
   line-height: normal;
 }
 
-/* line 40, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+/* line 59, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_forms.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 50, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 72, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_forms.scss */
 button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
+  /* 2 */
   cursor: pointer;
+  /* 3 */
 }
 
-/* line 57, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 84, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_forms.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 62, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 94, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
+  /* 1 */
   padding: 0;
+  /* 2 */
 }
 
-/* line 70, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 106, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_forms.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
-  -webkit-box-sizing: content-box;
+  /* 1 */
   -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
   box-sizing: content-box;
 }
 
-/* line 82, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button {
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 118, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_forms.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 88, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 127, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_forms.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 93, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_forms.scss */
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+/* line 138, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_forms.scss */
 textarea {
   overflow: auto;
+  /* 1 */
   vertical-align: top;
+  /* 2 */
 }
 
-/* line 3, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.1/scss/normalize/_tables.scss */
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 10, /Library/Ruby/Gems/2.0.0/gems/compass-normalize-plugin-0.4.2/scss/normalize/_tables.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 3, ../sass/modules/_utilities.scss */
+/* line 2, ../sass/modules/_utilities.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 10, ../sass/modules/_utilities.scss */
+/* line 9, ../sass/modules/_utilities.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -264,7 +433,7 @@ table {
   width: 1px;
 }
 
-/* line 25, ../sass/modules/_utilities.scss */
+/* line 22, ../sass/modules/_utilities.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -275,13 +444,13 @@ table {
   width: auto;
 }
 
-/* line 36, ../sass/modules/_utilities.scss */
+/* line 35, ../sass/modules/_utilities.scss */
 .invisible {
   visibility: hidden;
 }
 
 @media only screen and (max-device-width: 568px) {
-  /* line 6, ../sass/modules/_fixes.scss */
+  /* line 4, ../sass/modules/_fixes.scss */
   input[type="text"]:focus,
   textarea:focus,
   select:focus {
@@ -297,7 +466,7 @@ img {
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-/* line 24, ../sass/modules/_fixes.scss */
+/* line 21, ../sass/modules/_fixes.scss */
 audio,
 canvas,
 img,
@@ -322,14 +491,13 @@ video {
   font-weight: normal;
   font-style: normal;
 }
-
 /* This triggers a redraw in IE to Fix IE8's :before content rendering. */
 /* line 25, ../fonts/ss-standard/_ss-standard.scss */
 html:hover [class^="ss-"] {
   -ms-zoom: 1;
 }
 
-/* line 31, ../fonts/ss-standard/_ss-standard.scss */
+/* line 27, ../fonts/ss-standard/_ss-standard.scss */
 .modal .close-modal:before, .ss-icon, .ss-icon.ss-standard,
 [class^="ss-"]:before, [class*=" ss-"]:before,
 [class^="ss-"].ss-standard:before, [class*=" ss-"].ss-standard:before,
@@ -350,7 +518,7 @@ html:hover [class^="ss-"] {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 48, ../fonts/ss-standard/_ss-standard.scss */
+/* line 47, ../fonts/ss-standard/_ss-standard.scss */
 [class^="ss-"].ss-right:before,
 [class*=" ss-"].ss-right:before {
   display: none;
@@ -1279,7 +1447,7 @@ html:hover [class^="ss-"] {
 }
 
 /* Fix baseline for SymbolSet icons */
-/* line 5, ../sass/modules/_fonts.scss */
+/* line 4, ../sass/modules/_fonts.scss */
 [class*=ss-]:before,
 [class*=ss-].ss-right:after {
   position: relative;
@@ -1296,73 +1464,60 @@ html:hover [class^="ss-"] {
   margin-left: 0.3em;
 }
 
-/* line 13, ../sass/modules/_fonts.scss */
+/* line 12, ../sass/modules/_fonts.scss */
 .ss-small-icon:before,
 .ss-small-icon.right:after {
   top: 0.1em;
   margin-left: 0.2em;
 }
 
-/* line 12, ../sass/partials/_base.scss */
+/* line 13, ../sass/partials/_base.scss */
 .font-heading {
   font-family: "jubilat-n2", "jubilat", "helvetica neue", arial, sans-serif;
   font-weight: 300;
 }
 
-/* line 15, ../sass/partials/_base.scss */
+/* line 16, ../sass/partials/_base.scss */
 h1, h2, h3, h4, h5, h6, hgroup,
 ul, ol, dl,
 p, figure, form,
-pre, table, fieldset, hr, .letter__intro, .letter__previewer, .letter__text {
+pre, table, fieldset, hr, .media, .letter__intro, .letter__previewer, .letter__text {
   margin-top: 0;
   margin-bottom: 24px;
   margin-bottom: 1.5rem;
 }
 
-/* line 30, ../sass/partials/_base.scss */
+/* line 31, ../sass/partials/_base.scss */
 a {
   color: #87942A;
 }
 
-/* line 31, ../sass/partials/_base.scss */
+/* line 32, ../sass/partials/_base.scss */
 audio {
   width: 100%;
 }
 
 /* line 14, ../sass/partials/atoms/_grids.scss */
 .container {
-  /* for IE 6/7 */
-  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
-  /* non-JS fallback */
+  overflow: hidden;
   *zoom: 1;
   max-width: 80em;
   margin: 0 auto;
   position: relative;
 }
-/* line 48, /Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
-.container:before, .container:after {
-  content: ".";
-  display: block;
-  height: 0;
-  overflow: hidden;
-}
-/* line 55, /Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
-.container:after {
-  clear: both;
-}
 
 @media (min-width: 37.5em) {
   /* line 24, ../sass/partials/atoms/_grids.scss */
   .two-col .two-col__left {
-    width: 45.45455%;
+    width: 44.44444%;
     float: left;
     margin-right: -100%;
-    margin-left: 0%;
+    margin-left: 0;
     clear: none;
   }
   /* line 27, ../sass/partials/atoms/_grids.scss */
   .two-col .two-col__right {
-    width: 45.45455%;
+    width: 44.44444%;
     float: right;
     margin-left: 0;
     margin-right: 0;
@@ -1377,7 +1532,7 @@ audio {
   box-sizing: border-box;
 }
 
-/* line 8, ../sass/partials/atoms/_globals.scss */
+/* line 7, ../sass/partials/atoms/_globals.scss */
 html,
 body {
   font-size: 16px;
@@ -1391,8 +1546,9 @@ body {
   -moz-font-feature-settings: "kern";
   -moz-font-feature-settings: "kern=1";
   word-wrap: break-word;
-  -webkit-hyphens: auto;
   -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
   hyphens: auto;
 }
 
@@ -1417,76 +1573,76 @@ p {
   margin-bottom: 1em;
 }
 
-/* line 9, ../sass/partials/atoms/_type.scss */
+/* line 8, ../sass/partials/atoms/_type.scss */
 .giga {
   font-size: 4.29982em;
   line-height: 1.35;
   margin-bottom: 0.5em;
 }
 
-/* line 19, ../sass/partials/atoms/_type.scss */
+/* line 18, ../sass/partials/atoms/_type.scss */
 .mega {
   font-size: 3.58318em;
   line-height: 1.35;
   margin-bottom: 0.5em;
 }
 
-/* line 29, ../sass/partials/atoms/_type.scss */
+/* line 28, ../sass/partials/atoms/_type.scss */
 .kilo {
   font-size: 2.98598em;
   line-height: 1.35;
   margin-bottom: 0.5em;
 }
 
-/* line 39, ../sass/partials/atoms/_type.scss */
+/* line 38, ../sass/partials/atoms/_type.scss */
 .alpha, h1 {
   font-size: 2.48832em;
   line-height: 1.35;
   margin-bottom: 0.5em;
 }
 
-/* line 49, ../sass/partials/atoms/_type.scss */
+/* line 48, ../sass/partials/atoms/_type.scss */
 .beta, h2 {
   font-size: 2.0736em;
   line-height: 1.35;
   margin-bottom: 0.5em;
 }
 
-/* line 59, ../sass/partials/atoms/_type.scss */
+/* line 58, ../sass/partials/atoms/_type.scss */
 .gamma, h3, .timeline__date {
   font-size: 1.728em;
   line-height: 1.35;
   margin-bottom: 0.5em;
 }
 
-/* line 69, ../sass/partials/atoms/_type.scss */
+/* line 68, ../sass/partials/atoms/_type.scss */
 .delta, h4, .header__logo {
   font-size: 1.44em;
   line-height: 1.35;
   margin-bottom: 0.5em;
 }
 
-/* line 79, ../sass/partials/atoms/_type.scss */
+/* line 78, ../sass/partials/atoms/_type.scss */
 .epsilon, h5, .letter__meta {
   font-size: 1.2em;
   line-height: 1.35;
   margin-bottom: 0.5em;
 }
 
-/* line 89, ../sass/partials/atoms/_type.scss */
+/* line 88, ../sass/partials/atoms/_type.scss */
 .zeta, h6 {
   font-size: 1em;
   line-height: 1.5;
   margin-bottom: 0.5em;
 }
 
-/* line 99, ../sass/partials/atoms/_type.scss */
+/* line 98, ../sass/partials/atoms/_type.scss */
 .milli, small, .read-more {
   font-size: 0.83333em;
   line-height: 1.5;
 }
 
-/* line 108, ../sass/partials/atoms/_type.scss */
+/* line 107, ../sass/partials/atoms/_type.scss */
 .micro,
 .ss-small-icon:before,
 .ss-small-icon.right:after {
@@ -1494,19 +1650,19 @@ p {
   line-height: 1.5;
 }
 
-/* line 117, ../sass/partials/atoms/_type.scss */
+/* line 116, ../sass/partials/atoms/_type.scss */
 .nano {
   font-size: 0.5787em;
   line-height: 1.5;
 }
 
-/* line 126, ../sass/partials/atoms/_type.scss */
+/* line 125, ../sass/partials/atoms/_type.scss */
 .pico {
   font-size: 0.48225em;
   line-height: 1.5;
 }
 
-/* line 134, ../sass/partials/atoms/_type.scss */
+/* line 133, ../sass/partials/atoms/_type.scss */
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "jubilat-n2", "jubilat", "helvetica neue", arial, sans-serif;
@@ -1520,16 +1676,16 @@ h4, h5, h6 {
 hr {
   border: 0;
   height: 1px;
-  background: grey;
+  background: gray;
 }
 
 /* line 169, ../sass/partials/atoms/_type.scss */
 abbr {
-  border-bottom: 1px dotted grey;
+  border-bottom: 1px dotted gray;
   cursor: help;
 }
 
-/* line 187, ../sass/partials/atoms/_type.scss */
+/* line 175, ../sass/partials/atoms/_type.scss */
 abbr,
 acronym,
 blockquote,
@@ -1543,8 +1699,9 @@ samp,
 tt,
 var,
 xmp {
-  -webkit-hyphens: none;
   -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
   hyphens: none;
 }
 
@@ -1605,76 +1762,110 @@ figcaption {
   margin-left: 1em;
   margin-right: 0;
 }
+/* line 8, ../sass/partials/atoms/_layout.scss */
+.media :last-child {
+  margin-bottom: 0;
+}
 
-/* line 11, ../sass/partials/atoms/_layout.scss */
+/* line 12, ../sass/partials/atoms/_layout.scss */
+.media--responsive.media {
+  border-left: 0.5em solid #f2f2f2;
+  padding-left: 0.5em;
+  margin-bottom: 24px;
+}
+/* line 17, ../sass/partials/atoms/_layout.scss */
+.media--responsive .media__img {
+  float: none;
+}
+@media (min-width: 37.5em) {
+  /* line 21, ../sass/partials/atoms/_layout.scss */
+  .media--responsive.media {
+    border-left: none;
+    padding-left: none;
+    margin-bottom: none;
+  }
+  /* line 26, ../sass/partials/atoms/_layout.scss */
+  .media--responsive .media__img {
+    float: left;
+    margin-left: none;
+  }
+  /* line 30, ../sass/partials/atoms/_layout.scss */
+  .media--responsive .media__img--alt {
+    float: right;
+    margin-left: 1em;
+    margin-right: 0;
+  }
+}
+
+/* line 38, ../sass/partials/atoms/_layout.scss */
 .l-right {
   float: right;
 }
 
-/* line 12, ../sass/partials/atoms/_layout.scss */
+/* line 39, ../sass/partials/atoms/_layout.scss */
 .l-left {
   float: left;
 }
 
-/* line 13, ../sass/partials/atoms/_layout.scss */
+/* line 40, ../sass/partials/atoms/_layout.scss */
 .l-clear-right {
   clear: right;
 }
 
-/* line 14, ../sass/partials/atoms/_layout.scss */
+/* line 41, ../sass/partials/atoms/_layout.scss */
 .l-clear-left {
   clear: left;
 }
 
-/* line 15, ../sass/partials/atoms/_layout.scss */
+/* line 42, ../sass/partials/atoms/_layout.scss */
 .l-clear-both {
   clear: both;
 }
 
-/* line 16, ../sass/partials/atoms/_layout.scss */
+/* line 43, ../sass/partials/atoms/_layout.scss */
 .l-full-width {
   width: 100%;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 17, ../sass/partials/atoms/_layout.scss */
+/* line 44, ../sass/partials/atoms/_layout.scss */
 .l-flush-top {
   margin-top: 0 !important;
 }
 
-/* line 18, ../sass/partials/atoms/_layout.scss */
+/* line 45, ../sass/partials/atoms/_layout.scss */
 .l-flush-bottom, .header__logo {
   margin-bottom: 0 !important;
 }
 
-/* line 19, ../sass/partials/atoms/_layout.scss */
+/* line 46, ../sass/partials/atoms/_layout.scss */
 .l-push-top {
   margin-top: 24px;
 }
 
-/* line 20, ../sass/partials/atoms/_layout.scss */
+/* line 47, ../sass/partials/atoms/_layout.scss */
 .l-push-bottom {
   margin-bottom: 24px;
 }
 
-/* line 21, ../sass/partials/atoms/_layout.scss */
+/* line 48, ../sass/partials/atoms/_layout.scss */
 .l-text-align-left {
   text-align: left;
 }
 
-/* line 22, ../sass/partials/atoms/_layout.scss */
+/* line 49, ../sass/partials/atoms/_layout.scss */
 .l-text-align-right {
   text-align: right;
 }
 
-/* line 23, ../sass/partials/atoms/_layout.scss */
+/* line 50, ../sass/partials/atoms/_layout.scss */
 .l-text-align-center {
   text-align: center;
 }
 
-/* line 26, ../sass/partials/atoms/_layout.scss */
+/* line 53, ../sass/partials/atoms/_layout.scss */
 .constrained-measure {
   max-width: 40em;
 }
@@ -1757,12 +1948,12 @@ figcaption {
   /* [8] */
 }
 
-/* line 76, ../sass/partials/atoms/_buttons.scss */
+/* line 75, ../sass/partials/atoms/_buttons.scss */
 .btn, .btn:hover {
   text-decoration: none;
   /* [9] */
 }
-/* line 81, ../sass/partials/atoms/_buttons.scss */
+/* line 80, ../sass/partials/atoms/_buttons.scss */
 .btn:active, .btn:focus {
   outline: none;
 }
@@ -1874,7 +2065,7 @@ figcaption {
  * 
  * 1. Make the button look like normal text when hovered.
  */
-/* line 200, ../sass/partials/atoms/_buttons.scss */
+/* line 197, ../sass/partials/atoms/_buttons.scss */
 .btn--inactive,
 .btn--inactive:hover,
 .btn--inactive:active,
@@ -1908,9 +2099,9 @@ figcaption {
 a {
   color: #87942a;
   text-decoration: underline;
-  -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 /* line 5, ../sass/partials/atoms/_links.scss */
@@ -1923,7 +2114,7 @@ a:hover {
  * Adds hover behaviour only to selected items within links
  * See jsfiddle.net/inuitcss/rt9M3
  */
-/* line 18, ../sass/partials/atoms/_links.scss */
+/* line 15, ../sass/partials/atoms/_links.scss */
 .link-complex,
 .link-complex:hover,
 .link-complex:active,
@@ -1931,7 +2122,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* line 23, ../sass/partials/atoms/_links.scss */
+/* line 21, ../sass/partials/atoms/_links.scss */
 .link-complex:hover .link-complex__target,
 .link-complex:active .link-complex__target,
 .link-complex:focus .link-complex__target {
@@ -1950,17 +2141,15 @@ a:hover {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  -webkit-border-radius: 0.25em;
   -moz-border-radius: 0.25em;
-  -ms-border-radius: 0.25em;
-  -o-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
   border-radius: 0.25em;
-  -webkit-transition: background 0.2s;
   -moz-transition: background 0.2s;
   -o-transition: background 0.2s;
+  -webkit-transition: background 0.2s;
   transition: background 0.2s;
 }
-/* line 41, ../sass/partials/atoms/_links.scss */
+/* line 40, ../sass/partials/atoms/_links.scss */
 .read-more:hover, .read-more:active {
   color: white;
   background: #99a830;
@@ -1987,7 +2176,7 @@ a:hover {
  * </h1>
  * 
  */
-/* line 19, ../sass/partials/molecules/_type.scss */
+/* line 18, ../sass/partials/molecules/_type.scss */
 .sub-heading,
 .super-heading {
   position: absolute;
@@ -2035,7 +2224,7 @@ a:hover {
 /** 
  * Horizontal list
  */
-/* line 30, ../sass/partials/molecules/_lists.scss */
+/* line 29, ../sass/partials/molecules/_lists.scss */
 .h-list > li, .header__nav > li, .type-selector__options > li,
 .h-list > li > a,
 .header__nav > li > a,
@@ -2057,10 +2246,10 @@ a:hover {
 @media (min-width: 37.5em) {
   /* line 4, ../sass/partials/molecules/_page.scss */
   .page__main {
-    width: 66.03774%;
+    width: 49.15254%;
     float: left;
     margin-right: -100%;
-    margin-left: 0%;
+    margin-left: 0;
     clear: none;
     padding: 1em;
   }
@@ -2071,10 +2260,8 @@ a:hover {
   padding: 1em;
   margin-bottom: 1em;
   background: white;
-  -webkit-border-radius: 0.5em;
   -moz-border-radius: 0.5em;
-  -ms-border-radius: 0.5em;
-  -o-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
 
@@ -2128,10 +2315,10 @@ a:hover {
 @media (min-width: 37.5em) {
   /* line 1, ../sass/partials/molecules/_timeline.scss */
   .timeline {
-    width: 66.03774%;
+    width: 66.10169%;
     float: left;
     margin-right: -100%;
-    margin-left: 0%;
+    margin-left: 0;
     clear: none;
   }
 }
@@ -2141,17 +2328,15 @@ a:hover {
   clear: both;
   padding: 1em;
   background: white;
-  border: 1px solid grey;
+  border: 1px solid gray;
   border-width: 1px 0;
 }
 @media (min-width: 37.5em) {
   /* line 8, ../sass/partials/molecules/_timeline.scss */
   .timeline__item {
     border-width: 1px 1px 1px 0;
-    -webkit-border-radius: 0 0.5em 0.5em 0;
     -moz-border-radius: 0 0.5em 0.5em 0;
-    -ms-border-radius: 0 0.5em 0.5em 0;
-    -o-border-radius: 0 0.5em 0.5em 0;
+    -webkit-border-radius: 0;
     border-radius: 0 0.5em 0.5em 0;
   }
 }
@@ -2159,10 +2344,8 @@ a:hover {
   /* line 8, ../sass/partials/molecules/_timeline.scss */
   .timeline__item {
     border-width: 1px;
-    -webkit-border-radius: 0.5em;
     -moz-border-radius: 0.5em;
-    -ms-border-radius: 0.5em;
-    -o-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
     border-radius: 0.5em;
   }
 }
@@ -2178,15 +2361,13 @@ a:hover {
 @media (min-width: 37.5em) {
   /* line 26, ../sass/partials/molecules/_timeline.scss */
   .timeline__item--narrow {
-    width: 65.71429%;
+    width: 65.51724%;
     float: left;
     margin-right: -100%;
-    margin-left: 17.14286%;
+    margin-left: 17.24138%;
     clear: none;
-    -webkit-border-radius: 0.5em;
     -moz-border-radius: 0.5em;
-    -ms-border-radius: 0.5em;
-    -o-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
     border-radius: 0.5em;
     border-width: 1px;
   }
@@ -2198,7 +2379,7 @@ a:hover {
   margin: 0 auto;
   height: 24px;
   width: 0;
-  border: 0.2em solid grey;
+  border: 0.2em solid gray;
 }
 
 /* line 42, ../sass/partials/molecules/_timeline.scss */
@@ -2213,16 +2394,14 @@ a:hover {
 
 /* line 49, ../sass/partials/molecules/_timeline.scss */
 .timeline__date {
-  background: grey;
+  background: gray;
   color: white;
   font-family: "jubilat-n2", "jubilat", "helvetica neue", arial, sans-serif;
   max-width: 6em;
   text-align: center;
   margin: 0 auto;
-  -webkit-border-radius: 0.5em;
   -moz-border-radius: 0.5em;
-  -ms-border-radius: 0.5em;
-  -o-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
 
@@ -2240,15 +2419,13 @@ a:hover {
 
 /* line 10, ../sass/partials/molecules/_timeline-header.scss */
 .timeline--header__sponsors {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 1em;
   background: white;
-  -webkit-border-radius: 0.5em;
   -moz-border-radius: 0.5em;
-  -ms-border-radius: 0.5em;
-  -o-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
 /* line 15, ../sass/partials/molecules/_timeline-header.scss */
@@ -2260,7 +2437,7 @@ a:hover {
 @media (min-width: 37.5em) {
   /* line 22, ../sass/partials/molecules/_timeline-header.scss */
   .timeline--header__sponsors {
-    width: 37.93103%;
+    width: 37.5%;
     float: right;
     margin-left: 0;
     margin-right: 0;
@@ -2269,39 +2446,26 @@ a:hover {
 
   /* line 25, ../sass/partials/molecules/_timeline-header.scss */
   .timeline--header__intro {
-    width: 58.62069%;
+    width: 58.33333%;
     float: left;
     margin-right: -100%;
-    margin-left: 0%;
+    margin-left: 0;
     clear: none;
   }
 }
 /* line 1, ../sass/partials/molecules/_letter.scss */
 .letter {
-  /* for IE 6/7 */
-  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
-  /* non-JS fallback */
-  *zoom: 1;
-}
-/* line 48, /Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
-.letter:before, .letter:after {
-  content: ".";
-  display: block;
-  height: 0;
   overflow: hidden;
-}
-/* line 55, /Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
-.letter:after {
-  clear: both;
+  *zoom: 1;
 }
 
 @media (min-width: 37.5em) {
   /* line 4, ../sass/partials/molecules/_letter.scss */
   .letter__intro {
-    width: 45.45455%;
+    width: 44.44444%;
     float: left;
     margin-right: -100%;
-    margin-left: 0%;
+    margin-left: 0;
     clear: none;
   }
 }
@@ -2320,10 +2484,8 @@ a:hover {
 /* line 17, ../sass/partials/molecules/_letter.scss */
 .letter__avatar {
   width: 1.5em;
-  -webkit-border-radius: 999em;
   -moz-border-radius: 999em;
-  -ms-border-radius: 999em;
-  -o-border-radius: 999em;
+  -webkit-border-radius: 999em;
   border-radius: 999em;
   display: inline-block;
 }
@@ -2337,17 +2499,15 @@ a:hover {
   position: relative;
   min-height: 12em;
   overflow: hidden;
-  -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
-  -ms-border-radius: 0.3em;
-  -o-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   text-decoration: none;
 }
 @media (min-width: 37.5em) {
   /* line 22, ../sass/partials/molecules/_letter.scss */
   .letter__previewer {
-    width: 45.45455%;
+    width: 44.44444%;
     float: right;
     margin-left: 0;
     margin-right: 0;
@@ -2395,10 +2555,8 @@ a:hover {
   height: 2.5em;
   line-height: 2.5em;
   text-align: center;
-  -webkit-border-radius: 999em;
   -moz-border-radius: 999em;
-  -ms-border-radius: 999em;
-  -o-border-radius: 999em;
+  -webkit-border-radius: 999em;
   border-radius: 999em;
 }
 /* line 70, ../sass/partials/molecules/_letter.scss */
@@ -2434,7 +2592,7 @@ a:hover {
 @media (min-width: 37.5em) {
   /* line 92, ../sass/partials/molecules/_letter.scss */
   .letter__audio {
-    width: 48.57143%;
+    width: 48.27586%;
     float: right;
     margin-left: 0;
     margin-right: 0;
@@ -2443,10 +2601,10 @@ a:hover {
 
   /* line 93, ../sass/partials/molecules/_letter.scss */
   .letter__video {
-    width: 48.57143%;
+    width: 48.27586%;
     float: left;
     margin-right: -100%;
-    margin-left: 0%;
+    margin-left: 0;
     clear: none;
   }
 }
@@ -2462,8 +2620,8 @@ a:hover {
   background: #fff;
   padding: 0.5em;
   border: 0.25em solid #e6e6e6;
-  -webkit-box-shadow: 0 0 1em black;
   -moz-box-shadow: 0 0 1em black;
+  -webkit-box-shadow: 0 0 1em black;
   box-shadow: 0 0 1em black;
   z-index: 11 !important;
 }
@@ -2505,10 +2663,8 @@ a:hover {
   margin-right: -32px;
   margin-top: -32px;
   background: url(spinner.gif) #111111 no-repeat center center;
-  -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
+  -webkit-border-radius: 8px;
   border-radius: 8px;
 }
 
@@ -2519,15 +2675,15 @@ a:hover {
 
 /* line 57, ../sass/partials/molecules/_modal.scss */
 #example-annotation-modal .left {
-  width: 47.61905%;
+  width: 44.44444%;
   float: left;
   margin-right: -100%;
-  margin-left: 0%;
+  margin-left: 0;
   clear: none;
 }
 /* line 58, ../sass/partials/molecules/_modal.scss */
 #example-annotation-modal .right {
-  width: 47.61905%;
+  width: 44.44444%;
   float: right;
   margin-left: 0;
   margin-right: 0;
@@ -2537,10 +2693,8 @@ a:hover {
 /* line 9, ../sass/partials/molecules/_annotation.scss */
 .annotation {
   padding: 0.15em;
-  -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
-  -ms-border-radius: 0.3em;
-  -o-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   border: 0.1em solid red;
   background: rgba(255, 0, 0, 0.1);
@@ -2568,10 +2722,8 @@ a:hover {
   opacity: 0.6;
   border-width: 0.2em 1px 1px 1px;
   border-style: solid;
-  -webkit-border-radius: 0 0 0.5em 0.5em;
   -moz-border-radius: 0 0 0.5em 0.5em;
-  -ms-border-radius: 0 0 0.5em 0.5em;
-  -o-border-radius: 0 0 0.5em 0.5em;
+  -webkit-border-radius: 0;
   border-radius: 0 0 0.5em 0.5em;
 }
 @media (min-width: 37.5em) {
@@ -2583,19 +2735,19 @@ a:hover {
 @media (min-width: 37.5em) {
   /* line 29, ../sass/partials/molecules/_annotation.scss */
   .annotation-callout {
-    width: 32.07547%;
+    width: 32.20339%;
     float: left;
     margin-right: -100%;
-    margin-left: 0%;
+    margin-left: 0;
     clear: none;
     margin: 0;
   }
 }
 /* line 44, ../sass/partials/molecules/_annotation.scss */
 .annotation-callout, .annotation-callout .annotation-callout__inner {
-  -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
 /* line 47, ../sass/partials/molecules/_annotation.scss */
@@ -2603,7 +2755,7 @@ a:hover {
   overflow: hidden;
   max-height: 7em;
 }
-/* line 53, ../sass/partials/molecules/_annotation.scss */
+/* line 52, ../sass/partials/molecules/_annotation.scss */
 .annotation-callout:hover, .annotation-callout.hover {
   opacity: 1;
   z-index: 10;
@@ -2631,7 +2783,7 @@ a:hover {
   border-color: red;
   background: rgba(255, 0, 0, 0.1);
 }
-/* line 78, ../sass/partials/molecules/_annotation.scss */
+/* line 77, ../sass/partials/molecules/_annotation.scss */
 .annotation.annotation-type--character:hover, .annotation.annotation-type--character.hover {
   background: rgba(255, 0, 0, 0.3);
 }
@@ -2641,7 +2793,7 @@ a:hover {
   border-color: blue;
   background: rgba(0, 0, 255, 0.1);
 }
-/* line 78, ../sass/partials/molecules/_annotation.scss */
+/* line 77, ../sass/partials/molecules/_annotation.scss */
 .annotation.annotation-type--history:hover, .annotation.annotation-type--history.hover {
   background: rgba(0, 0, 255, 0.3);
 }
@@ -2651,7 +2803,7 @@ a:hover {
   border-color: green;
   background: rgba(0, 128, 0, 0.1);
 }
-/* line 78, ../sass/partials/molecules/_annotation.scss */
+/* line 77, ../sass/partials/molecules/_annotation.scss */
 .annotation.annotation-type--language:hover, .annotation.annotation-type--language.hover {
   background: rgba(0, 128, 0, 0.3);
 }
@@ -2661,7 +2813,7 @@ a:hover {
   border-color: purple;
   background: rgba(128, 0, 128, 0.1);
 }
-/* line 78, ../sass/partials/molecules/_annotation.scss */
+/* line 77, ../sass/partials/molecules/_annotation.scss */
 .annotation.annotation-type--letters:hover, .annotation.annotation-type--letters.hover {
   background: rgba(128, 0, 128, 0.3);
 }
@@ -2711,8 +2863,8 @@ a:hover {
   padding: 0.25em;
   border-top: 0.2em solid #87942a;
   z-index: 10;
-  -webkit-box-shadow: 0 0 1em white;
   -moz-box-shadow: 0 0 1em white;
+  -webkit-box-shadow: 0 0 1em white;
   box-shadow: 0 0 1em white;
   font-size: 0.8em;
   /* html */
@@ -2744,7 +2896,7 @@ a:hover {
   width: 100%;
   background: white;
   padding: 1em 0.5em;
-  border: 1px solid grey;
+  border: 1px solid gray;
   font-weight: bold;
 }
 @media (min-width: 37.5em) {
@@ -2753,7 +2905,7 @@ a:hover {
     padding: 0.75em;
   }
 }
-/* line 41, ../sass/partials/molecules/_typeselector.scss */
+/* line 40, ../sass/partials/molecules/_typeselector.scss */
 .type-selector__option.active, .type-selector__option:active {
   background: #e6e6e6;
   outline: none;
@@ -2773,8 +2925,8 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
 html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-toggle="annotation-type--language"].active {
   background: #cce5cc;
   color: #136d13;
-  -webkit-box-shadow: 0 0 0.5em rgba(0, 128, 0, 0.7) inset;
   -moz-box-shadow: 0 0 0.5em rgba(0, 128, 0, 0.7) inset;
+  -webkit-box-shadow: 0 0 0.5em rgba(0, 128, 0, 0.7) inset;
   box-shadow: 0 0 0.5em rgba(0, 128, 0, 0.7) inset;
 }
 /* line 62, ../sass/partials/molecules/_typeselector.scss */
@@ -2792,8 +2944,8 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
 html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-toggle="annotation-type--character"].active {
   background: #ffcccc;
   color: #d92626;
-  -webkit-box-shadow: 0 0 0.5em rgba(255, 0, 0, 0.7) inset;
   -moz-box-shadow: 0 0 0.5em rgba(255, 0, 0, 0.7) inset;
+  -webkit-box-shadow: 0 0 0.5em rgba(255, 0, 0, 0.7) inset;
   box-shadow: 0 0 0.5em rgba(255, 0, 0, 0.7) inset;
 }
 /* line 65, ../sass/partials/molecules/_typeselector.scss */
@@ -2811,12 +2963,12 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
 html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-toggle="annotation-type--letters"].active {
   background: #e5cce5;
   color: #6d136d;
-  -webkit-box-shadow: 0 0 0.5em rgba(128, 0, 128, 0.7) inset;
   -moz-box-shadow: 0 0 0.5em rgba(128, 0, 128, 0.7) inset;
+  -webkit-box-shadow: 0 0 0.5em rgba(128, 0, 128, 0.7) inset;
   box-shadow: 0 0 0.5em rgba(128, 0, 128, 0.7) inset;
 }
 
-/* line 2, ../sass/partials/molecules/_opentip.scss */
+/* line 1, ../sass/partials/molecules/_opentip.scss */
 .opentip-container,
 .opentip-container * {
   -webkit-box-sizing: border-box;
@@ -2842,7 +2994,7 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
   transform: translateX(0) translateY(0);
 }
 
-/* line 25, ../sass/partials/molecules/_opentip.scss */
+/* line 23, ../sass/partials/molecules/_opentip.scss */
 .opentip-container.ot-fixed.ot-hidden.stem-top.stem-center,
 .opentip-container.ot-fixed.ot-going-to-show.stem-top.stem-center,
 .opentip-container.ot-fixed.ot-hiding.stem-top.stem-center {
@@ -2853,7 +3005,7 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
   transform: translateY(-5px);
 }
 
-/* line 34, ../sass/partials/molecules/_opentip.scss */
+/* line 32, ../sass/partials/molecules/_opentip.scss */
 .opentip-container.ot-fixed.ot-hidden.stem-top.stem-right,
 .opentip-container.ot-fixed.ot-going-to-show.stem-top.stem-right,
 .opentip-container.ot-fixed.ot-hiding.stem-top.stem-right {
@@ -2864,7 +3016,7 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
   transform: translateY(-5px) translateX(5px);
 }
 
-/* line 43, ../sass/partials/molecules/_opentip.scss */
+/* line 41, ../sass/partials/molecules/_opentip.scss */
 .opentip-container.ot-fixed.ot-hidden.stem-middle.stem-right,
 .opentip-container.ot-fixed.ot-going-to-show.stem-middle.stem-right,
 .opentip-container.ot-fixed.ot-hiding.stem-middle.stem-right {
@@ -2875,7 +3027,7 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
   transform: translateX(5px);
 }
 
-/* line 52, ../sass/partials/molecules/_opentip.scss */
+/* line 50, ../sass/partials/molecules/_opentip.scss */
 .opentip-container.ot-fixed.ot-hidden.stem-bottom.stem-right,
 .opentip-container.ot-fixed.ot-going-to-show.stem-bottom.stem-right,
 .opentip-container.ot-fixed.ot-hiding.stem-bottom.stem-right {
@@ -2886,7 +3038,7 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
   transform: translateY(5px) translateX(5px);
 }
 
-/* line 61, ../sass/partials/molecules/_opentip.scss */
+/* line 59, ../sass/partials/molecules/_opentip.scss */
 .opentip-container.ot-fixed.ot-hidden.stem-bottom.stem-center,
 .opentip-container.ot-fixed.ot-going-to-show.stem-bottom.stem-center,
 .opentip-container.ot-fixed.ot-hiding.stem-bottom.stem-center {
@@ -2897,7 +3049,7 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
   transform: translateY(5px);
 }
 
-/* line 70, ../sass/partials/molecules/_opentip.scss */
+/* line 68, ../sass/partials/molecules/_opentip.scss */
 .opentip-container.ot-fixed.ot-hidden.stem-bottom.stem-left,
 .opentip-container.ot-fixed.ot-going-to-show.stem-bottom.stem-left,
 .opentip-container.ot-fixed.ot-hiding.stem-bottom.stem-left {
@@ -2908,7 +3060,7 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
   transform: translateY(5px) translateX(-5px);
 }
 
-/* line 79, ../sass/partials/molecules/_opentip.scss */
+/* line 77, ../sass/partials/molecules/_opentip.scss */
 .opentip-container.ot-fixed.ot-hidden.stem-middle.stem-left,
 .opentip-container.ot-fixed.ot-going-to-show.stem-middle.stem-left,
 .opentip-container.ot-fixed.ot-hiding.stem-middle.stem-left {
@@ -2919,7 +3071,7 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
   transform: translateX(-5px);
 }
 
-/* line 88, ../sass/partials/molecules/_opentip.scss */
+/* line 86, ../sass/partials/molecules/_opentip.scss */
 .opentip-container.ot-fixed.ot-hidden.stem-top.stem-left,
 .opentip-container.ot-fixed.ot-going-to-show.stem-top.stem-left,
 .opentip-container.ot-fixed.ot-hiding.stem-top.stem-left {
@@ -2964,7 +3116,7 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
   top: -12px;
   left: 60px;
   color: rgba(0, 0, 0, 0.5);
-  background: rgba(0, 0, 0, 0);
+  background: transparent;
   text-decoration: none;
 }
 
@@ -2999,7 +3151,7 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
   text-align: center;
 }
 
-/* line 147, ../sass/partials/molecules/_opentip.scss */
+/* line 146, ../sass/partials/molecules/_opentip.scss */
 .opentip-container.style-dark .opentip,
 .opentip-container.style-alert .opentip {
   color: #f8f8f8;
@@ -3032,7 +3184,7 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 }
 
-/* line 172, ../sass/partials/molecules/_opentip.scss */
+/* line 171, ../sass/partials/molecules/_opentip.scss */
 .opentip-container.ot-show-effect-appear.ot-going-to-show,
 .opentip-container.ot-show-effect-appear.ot-showing {
   -webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 1s ease-in-out;
@@ -3082,7 +3234,6 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
     transform: rotate(360deg);
   }
 }
-
 @-webkit-keyframes otloading {
   /* line 212, ../sass/partials/molecules/_opentip.scss */
   0% {
@@ -3102,7 +3253,6 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
     transform: rotate(360deg);
   }
 }
-
 @-o-keyframes otloading {
   /* line 229, ../sass/partials/molecules/_opentip.scss */
   0% {
@@ -3122,7 +3272,6 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
     transform: rotate(360deg);
   }
 }
-
 @-ms-keyframes otloading {
   /* line 246, ../sass/partials/molecules/_opentip.scss */
   0% {
@@ -3142,7 +3291,6 @@ html[annotation-type-selector*="annotation-type--"] .type-selector__option[data-
     transform: rotate(360deg);
   }
 }
-
 @keyframes otloading {
   /* line 263, ../sass/partials/molecules/_opentip.scss */
   0% {

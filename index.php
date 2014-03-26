@@ -93,6 +93,7 @@
 				<img class="letter__previewer__image" src="<?=SITE_IMAGES?>/letter-one.jpg" alt="Click to view original letter">
 				<span class="letter__previewer__toggle / ss-zoomin"></span>
 				<p class="letter__previewer__linktext">View the original letter</p>
+				<p class="letter__credit"><small>Held at the National Archives this document contains public sector information licensed under the Open Government Licence v2.0</small></p>
 			</a><!-- letter__previewer -->
 
 			<div class="letter__text">
@@ -241,6 +242,7 @@
 				<img class="letter__previewer__image" src="<?=SITE_IMAGES?>/letter-two.jpg" alt="Click to view original letter">
 				<span class="letter__previewer__toggle / ss-zoomin"></span>
 				<p class="letter__previewer__linktext">View the original letter</p>
+				<p class="letter__credit"><small>© The British Library Board, Harley 604 f60</small></p>
 			</a><!-- letter__previewer -->
 
 			<div class="letter__text">
@@ -557,6 +559,7 @@
 				<div class="two-col">
 					<div class="two-col__left">
 						<img src="<?=SITE_IMAGES?>/corrections.jpg" alt="">
+						<p><small>Image © The British Library Board, Harley 604 f60</small></p>
 					</div>
 					<div class="two-col__right">
 						<a href="#annotation-23-modal" data-modal="#annotation-23-modal" class="js-modal-toggle">
@@ -794,9 +797,24 @@
 
 <div id="bio-dutton" class="modal">
 	<h1>Sir Piers Dutton</h1>
-	<p>The Dutton family had been the major benefactors of Norton Priory (elevated to an Abbey in 1391) since the late 12th century. Many Duttons were buried in a special family chapel within the Priory itself. It is interesting therefore that Piers Dutton was appointed by Henry VIII to assess and dispose Norton Abbey in 1536, a duty he pursued with aggressive enthusiasm, pushing for the execution of the Abbot and overcoming the riots of the local people. He was commissioner in the assessment of monasteries in all of Cheshire and he was so effective that he received the personal commendation from the King himself. He also successfully fought a seven year legal battle to win the inheritance of another family member which meant, by the time he died in 1546, he was a very powerful and influential knight.  </p>
+	<div class="media media--responsive">
+		<div class="media__img">
+			<img src="<?=SITE_IMAGES?>/dutton-full.jpg" alt="" style="width:100px;">
+		</div>
+		<div class="media__body">
+			<p>The Dutton family had been the major benefactors of Norton Priory (elevated to an Abbey in 1391) since the late 12th century. Many Duttons were buried in a special family chapel within the Priory itself. It is interesting therefore that Piers Dutton was appointed by Henry VIII to assess and dispose Norton Abbey in 1536, a duty he pursued with aggressive enthusiasm, pushing for the execution of the Abbot and overcoming the riots of the local people. He was commissioner in the assessment of monasteries in all of Cheshire and he was so effective that he received the personal commendation from the King himself. He also successfully fought a seven year legal battle to win the inheritance of another family member which meant, by the time he died in 1546, he was a very powerful and influential knight.  </p>
+		</div>
+	</div>
+	<div class="two-col">
+		<div class="two-col__left">
+			<img src="<?=SITE_IMAGES?>/dutton-crest.jpg" alt="">
+		</div><!-- two-col__left -->
+		<div class="two-col__right">
+			<img src="<?=SITE_IMAGES?>/dutton-hall.jpg" alt="">
+		</div><!-- .two-col__right -->
+	</div><!-- .two-col -->
 	<a class="close-modal" rel="modal:close"></a>
-</div>
+</div><!-- #bio-dutton -->
 
 
 <?php require_once('footer.php'); ?>

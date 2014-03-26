@@ -5,6 +5,33 @@
   .media__img { float: left; margin-right: 1em; }
   .media__img img { display: block; }
   .media__img--alt { float: right; margin-left: 1em; margin-right: 0; }
+  :last-child { margin-bottom: 0; }
+  @extend %base-spacing;
+}
+.media--responsive {
+	&.media {
+		border-left: 0.5em solid darken(white, 5%);
+		padding-left: 0.5em;
+		margin-bottom: $basespace;
+	}
+	.media__img {
+		float: none;
+	}
+	@include breakpoint($med) {
+		&.media {
+			border-left: none;
+			padding-left: none;
+			margin-bottom: none;
+		}
+		.media__img {
+			float: left;
+			margin-left: none;
+		}
+		.media__img--alt {
+			float: right;
+			margin-left: 1em; margin-right: 0;
+		}
+	}
 }
 
 //!Layout helpers

@@ -2,9 +2,10 @@
 $basesize: 16px !default; 
 $bs: $basesize; 
 $baseline: 1.5; 
-$bl: $baseline; 
+$bl: $baseline;
 $basespace: $bs*$bl; 
-$ratio: minor-third(); 
+$ratio: $minor-third;
+$ms-ratio: $minor-third;
 
 // Base fonts
 $font-body: "proxima-nova-n3", "proxima-nova", "helvetica neue", arial, sans-serif; 
@@ -23,7 +24,7 @@ p, figure, form,
 pre, table, fieldset, hr { @extend %base-spacing; }
 
 // Optional objects
-$use-pagination: false; 
+$use-pagination:false; 
 $use-postfix: false; 
 $use-island: false; 
 

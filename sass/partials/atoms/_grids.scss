@@ -8,11 +8,11 @@ $lrg: $lrg-size, 'no-query' true; // Old browsers get the largescreen layouts
 
 $grids: 1 5 1;
 $gutters: 0.1;
-$grids: add-grid(9 at $med);
+//$grids: add-grid(9 at $med);
 $gutters: add-gutter(0.2 at $med);
 
 .container {
-	// @include background-grid;
+	//@include background-grid($color: blue);
 	@include clearfix;
 	max-width: $max-width;
 	margin: 0 auto;

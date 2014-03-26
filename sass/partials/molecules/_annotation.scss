@@ -36,7 +36,7 @@ $c-annotation--letters: purple;
 	position: absolute;
 	right: 0;
 	@include breakpoint($med) {
-		@include grid-span(3);
+		@include grid-span(4);
 		margin: 0; 
 	}
 	background: white;
