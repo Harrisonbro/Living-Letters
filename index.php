@@ -72,11 +72,13 @@
 				<h2>Dutton arrests the Abbot...</h2>
 				<div class="letter__meta">
 					<p>
-						<strong>From:</strong> <a style="text-decoration:none;" href="#" data-ot="Sir Piers Dutton, knight from the North West of England – click for more info...">Dutton
-						<img class="letter__avatar" alt="Dutton" src="<?=SITE_IMAGES?>/avatar-dutton.jpg" />
-					</a></p>
+						<strong>From:</strong> 
+						<a style="text-decoration:none;" href="#" data-ot="Sir Piers Dutton, knight from the North West of England – click for more info..." class="js-modal-toggle" data-modal="#bio-dutton">Dutton
+							<img class="letter__avatar" alt="Dutton" src="<?=SITE_IMAGES?>/avatar-dutton.jpg" />
+						</a>
+					</p>
 					<p>
-						<strong>To: </strong> <a style="text-decoration:none;" href="#" data-ot="Thomas Cromwell, chief minister to King Henry VIII – click for more info...">Cromwell
+						<strong>To: </strong> <a style="text-decoration:none;" href="#" data-ot="Thomas Cromwell, chief minister to King Henry VIII – click for more info..." class="js-modal-toggle" data-modal="#bio-cromwell">Cromwell
 						<img class="letter__avatar" alt="Dutton" src="<?=SITE_IMAGES?>/avatar-cromwell.jpg" />
 					</a></p>
 					<p>
@@ -215,16 +217,16 @@
 				<h2>King demands Abbot's head...</h2>
 				<div class="letter__meta">
 					<p>
-						<strong>From:</strong> <a style="text-decoration:none;" href="#" data-ot="King Henry VIII – click for more info...">King Henry VIII
+						<strong>From:</strong> <a style="text-decoration:none;" href="#" data-ot="King Henry VIII – click for more info..." class="js-modal-toggle" data-modal="#bio-henry">King Henry VIII
 						<img class="letter__avatar" alt="King Henry VIII" src="<?=SITE_IMAGES?>/avatar-henry.jpg" />
 					</a></p>
 					<p>
 						<strong>To: </strong> 
-						<a style="text-decoration:none;" href="#" data-ot="Sir Piers Dutton, knight from the North West of England – click for more info...">Dutton
+						<a style="text-decoration:none;" href="#" data-ot="Sir Piers Dutton, knight from the North West of England – click for more info..." class="js-modal-toggle" data-modal="#bio-dutton">Dutton
 							<img class="letter__avatar" alt="Dutton" src="<?=SITE_IMAGES?>/avatar-dutton.jpg" />
 						</a>
 						and 
-						<a style="text-decoration:none;" href="#" data-ot="Sir William Brereton, local nobleman & landowner – click for more info...">Brereton
+						<a style="text-decoration:none;" href="#" data-ot="Sir William Brereton, local nobleman & landowner – click for more info..." class="js-modal-toggle" data-modal="#bio-brereton">Brereton
 							<img class="letter__avatar" alt="Sir William Brereton" src="<?=SITE_IMAGES?>/avatar-brereton.jpg" />
 						</a>
 					</p>
@@ -763,5 +765,26 @@
 		<img src="<?=SITE_IMAGES?>/royal-seal.jpg" alt="" />
 	</div><!-- .two-col__right -->
 </div>
+
+<div id="bio-brereton" class="modal">
+	<h1>Sir William Brereton</h1>
+	<p>Sir William Brereton, knight, was appointed deputy chamberlain of Chester in 1536, a role he combined with membership on the Irish council, and associated military skirmishes in Ireland throughout the 1530s. His involvement with the uprising at Norton was problematic. A relative (Randle Brereton) is named in Sir Piers Dutton’s first letter to Cromwell as a supporter of the abbot, and it seems likely that this connection was maintained during the October rebellion. Following the events at Norton, Brereton continued to participate in campaigns in Ireland, becoming lord justice in spring 1540, and serving until his death in December 1540 or January 1541.</p>
+</div>
+
+<div id="bio-cromwell" class="modal">
+	<h1>Thomas Cromwell</h1>
+	<p>Thomas Cromwell was a very successful administrator during the reign of Henry VIII, rising from a modest background to work at the right-hand of the King for several years, prior to his death in 1540. His early career – as a merchant in the Netherlands and then as a lawyer in London – developed his skills as a strategist and communicator. His abilities were reflected in his rapid rise up the social scale, first acting as a conveyancer for Cardinal Wolsey and then, following Wolsey’s fall from power, working for the king himself. In 1532 he became master of the jewels, which provided access to the king’s finances and signalled the start of his influential position on Henry VIII. He was intimately involved in securing the break with Rome and Henry’s marriage to Anne Boleyn, as well as managing the financial acquisitions from the dissolution of the monasteries. In 1535 and 1536, Cromwell contacted Justices of the Peace – such as Sir Piers Dutton – asking them to inform him of any treasonous abbots or other religious persons who refused to recognise Henry VIII as Supreme Head of the Church of England. In 1540, Cromwell was arrested for treason and heresy, and subsequently executed. His fall was partly a result of the failed arranged marriage between Henry VIII and Anne of Cleves, which Cromwell had orchestrated, but also arose from his progressive stance on religion; a stance which conflicted with the more conservative mind-set of other men at the king’s court and council, who wished to seize his power. </p>
+</div>
+
+<div id="bio-henry" class="modal">
+	<h1>King Henry VIII</h1>
+	<p>King Henry VIII, born in 1491, was king of England and Ireland from 1509-1547. One of England’s most famous kings, his reign witnessed significant social, political and religious changes, including the separation from Rome and Henry’s establishment as the Supreme Head of the Church in England. The events of 1536 demonstrate the close links between the King’s personal affairs and matters of state; the dissolution of the monasteries was a consequence of the break with Rome, driven by Henry’s need for an annulment of his first marriage to Katherine of Aragon, in order to marry Anne Boleyn (who herself was executed in spring 1536). As a Tudor king, Henry took a personal interest in the day-to-day running of the country, although he was known to conduct state business on his terms. Not a fan of delegation, his preferred hours of work were early morning and late evening, and he required his servants to read and write on his behalf, under his verbal instruction.</p>
+</div>
+
+<div id="bio-dutton" class="modal">
+	<h1>Sir Piers Dutton</h1>
+	<p>Sir Piers was a landowner and one-time sheriff of Chester. He wrote many letters to Thomas Cromwell, suggesting that he was motivated by the power & money that could be offered by the King.</p>
+</div>
+
 
 <?php require_once('footer.php'); ?>
