@@ -794,7 +794,7 @@
 
 <div id="bio-dutton" class="modal">
 	<h1>Sir Piers Dutton</h1>
-	<p>Sir Piers was a landowner and one-time sheriff of Chester. He wrote many letters to Thomas Cromwell, suggesting that he was motivated by the power & money that could be offered by the King.</p>
+	<p>The Dutton family had been the major benefactors of Norton Priory (elevated to an Abbey in 1391) since the late 12th century. Many Duttons were buried in a special family chapel within the Priory itself. It is interesting therefore that Piers Dutton was appointed by Henry VIII to assess and dispose Norton Abbey in 1536, a duty he pursued with aggressive enthusiasm, pushing for the execution of the Abbot and overcoming the riots of the local people. He was commissioner in the assessment of monasteries in all of Cheshire and he was so effective that he received the personal commendation from the King himself. He also successfully fought a seven year legal battle to win the inheritance of another family member which meant, by the time he died in 1546, he was a very powerful and influential knight.  </p>
 	<a class="close-modal" rel="modal:close"></a>
 </div>
 
