@@ -40,7 +40,9 @@
 			<div class="two-col">
 				<div class="two-col__left">
 					<h2 class="delta">Monasteries & Men</h2>
-					<p>In the early decades of the sixteenth century, the monastic houses in Lancashire and Cheshire played an important role in the lives of every-day people, providing spiritual and sometimes physical support for their local community. The close relationship between the abbots, monks, canons and the laity contrasts with the declining functionality of monastic houses in the south of England in the same period.</p>
+					<p>In the early sixteenth century, the monastic houses in played a significant role in Tudor society, providing spiritual, financial and educational support for the local community. Approximately one man in fifty was in a religious order.</p>
+					<p>The close relationship between monasteries and everyday life is believed to have been particularly strong in the North-West, such as Cheshire, where the rural landscape promoted tight local bonds and a resilience to change.</p>
+					<p>It is unsurprising, then,  that the region was unprepared for, and unwilling to accept, the significant changes brought about by Henry VIII, when he announced the dissolution of the monasteries in 1536.</p>
 				</div><!-- two-col__left -->
 				<div class="two-col__right">
 					<div class="video-container" style="max-width: 19em;">
@@ -57,11 +59,6 @@
 			<h2 class="delta">1536: North-west unrest</h2>
 			<p>In 1536 the decision was taken to close the small monasteries (those earning less than £200 a year), with the Crown taking their land and expensive possessions. This process was known as the dissolution. Men tasked with the dissolution procedures for the North-West were appointed on 24th April 1536, and they began their travels across the various monastic houses in early May 1536. The purpose of these visits was to assess the finances of the smaller monasteries, reallocating or releasing the religious men, and seizing goods and items of value, such as plate and jewels.</p>
 			<p>The impending closure of the monasteries caused great anxiety amongst the conservative, devoutly Catholic community; in part, arising from the economic uncertainty of lands moving from monastic to monarchic hands. It seems likely that the close social ties between monks and the common people provoked widespread discontent.</p>
-			<hr>
-			<p>This uprising is linked to what is known as 'The Pilgrimage of Grace'. To learn more, check out the resources below:<br/>
-				<a style="text-decoration:none;" class="ss-play" href="http://www.historylearningsite.co.uk/pilgrimage_grace.htm">Watch a BBC video clip on The Pilgrimage of Grace</a><br/>
-				<a style="text-decoration:none;" class="ss-file" href="http://www.bbc.co.uk/learningzone/clips/the-pilgrimage-of-grace/166.html">Read a detailed overview of The Pilgrimage of Grace</a>
-			</p>
 		</div><!-- .timeline__item -->
 
 		<div class="timeline__connector"></div>
@@ -82,7 +79,7 @@
 						<img class="letter__avatar" alt="Dutton" src="<?=SITE_IMAGES?>/avatar-cromwell.jpg" />
 					</a></p>
 					<p>
-						<strong>Date: </strong> <span id="annotation-0" data-callout="#annotation-callout-0"  data-modal="#annotation-callout-0" class="annotation annotation-type--letters">4 August 1536</span>
+						<strong>Date: </strong> <span id="annotation-0" data-callout="#annotation-callout-0"  data-modal="#annotation-callout-0" class="annotation annotation-type--letters">3 August 1536</span>
 					</p>
 				</div><!-- letter__meta -->
 				<p>Sir Piers Dutton reports to Cromwell that he has taken into his custody the Abbot of Norton and other men affiliated with the Abbey, although he offers no explanation for his actions in this letter. Having reported this news, he then asks if Cromwell would permit Dom Rondul of Wilmslow, a monk at Vale Royal, to become master of 'that house', with a promise that the monk will fulfil a promise previously discussed.</p>
@@ -201,6 +198,11 @@
 		<div class="timeline__item timeline__item--narrow">
 			<h2 class="delta">October 1536: Uprisings in the North</h2>
 			<p>In October 1536 the common-people of the North-West rebelled against King Henry VIII and the local gentry serving in his interests. They began arming themselves in the first week of the month, which led Thomas, Lord Darcy, a local gentry man and soldier, to write to Henry and ask for a postal organisation to be set-up to allow swift communication between Lancashire and London, to allow the potential rebellion to be dealt with effectively. The rumblings in the North-West paralleled events in Lincolnshire and Yorkshire, where rebels rose in protestation against religious and social reform; an event known as 'The Pilgrimage of Grace'. </p>
+			<hr>
+			<p>This uprising is linked to what is known as 'The Pilgrimage of Grace'. To learn more, check out the resources below:<br/>
+				<a style="text-decoration:none;" class="ss-play" href="http://www.historylearningsite.co.uk/pilgrimage_grace.htm">Watch a BBC video clip on The Pilgrimage of Grace</a><br/>
+				<a style="text-decoration:none;" class="ss-file" href="http://www.bbc.co.uk/learningzone/clips/the-pilgrimage-of-grace/166.html">Read a detailed overview of The Pilgrimage of Grace</a>
+			</p>
 		</div><!-- .timeline__item -->
 
 		<div class="timeline__connector"></div>
@@ -341,7 +343,7 @@
 
 		<div class="timeline__item timeline__item--narrow">
 			<h2 class="gamma">1537: The Abbott is released</h2>
-			<p>Historical records suggest that William Brereton cancelled the order to execute the abbot, due to the rebellions being quelled throughout the North - particularly the one in Yorkshire. Although, Cook (1965: 122) states 'the fate of the abbot is not known, but he is believed to have been executed', letters from Audley to Cromwell and Brereton to Cromwell suggest, instead, he was released. </p>
+			<p>Although it was popularly held that the abbot of Norton was executed, the historical records suggest that William Brereton cancelled the order, in light of the rebellions being quelled throughout the North, particularly the Pilgrimage of Grace in Yorkshire. Letters between Thomas Audley and Thomas Cromwell, and William Brereton to Cromwell suggest that the abbot was released in 1537.</p>
 			<div class="two-col">
 			<div class="two-col__left">
 				<div class="video-container">
@@ -354,8 +356,8 @@
 		<div class="timeline__connector"></div>
 
 		<div class="timeline__item">
-			<h2 class="gamma">The End of the Monasteries and the Rise of Men</h2>
-			<p>Towards the end of February 1537, a royal Commission was dispatched to Lancashire to investigate those responsible for the rebellion, and to punish them accordingly. The commission collected numerous depositions from gentry and commons alike, as well as putting out an oath, swearing loyalty to the king, which was sworn by over 1000 commons and the majority of local gentry. Executions of the rebellion's ringleaders began in early March, including a number of abbots and monks from various Abbeys and priories across the county. Many monks from the smaller houses were moved to larger monasteries, or entered secular life, receiving a pension, and working a clerics or teachers.</p>
+			<h2 class="gamma">The End of the Monasteries and the Rise of (States)Men</h2>
+			<p>Towards the end of February 1537, a royal Commission was dispatched to the North-West to investigate those responsible for the rebellion, and to punish them accordingly. The commission collected numerous depositions from gentry and commons alike, as well as putting out an oath, swearing loyalty to the king, which was sworn by over 1000 commons and the majority of local gentry. Executions of the rebellion's ringleaders began in early March, including a number of abbots and monks from various Abbeys and priories across the county. Many monks from the smaller houses were moved to larger monasteries, or entered secular life, receiving a pension, and working a clerics or teachers.</p>
 			<p>Following the dissolution of the monasteries, the Crown and the local gentry benefitted from the acquisition of the old monastic lands. Thomas Cromwell gained the lease for the lands of Furness Abbey - although this financial coup ended with his execution in 1540. One local man, Thomas Holcroft, saw substantial benefits; his local and court connections enabled him to acquire Vale Royal Abbey, as well as friaries in Lancashire. Holcroft's deputy John Braddyll also purchased ex-monastic lands, including lands at Norton and Vale Royal. Edward Stanley, Earl of Derby, did not acquire any land; despite his service to the king and his role in quelling the rebellion in southern Lancashire and north Cheshire, he was not part of the inner circle of the Court and received no free grants of lands (as did Cromwell, for example) and he was in too much debt to purchase them outright. (Haigh 1969: 135-6).</p>
 		</div><!-- .timeline__item -->
 
@@ -363,24 +365,28 @@
 
 		<div class="timeline__item">
 			<h2 class="alpha">2014...</h2>
-			<p class="epsilon">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+			<p class="epsilon">Living Letters provides only one part of the narrative surrounding the history, language and correspondence of the early sixteenth century. To find out more about these topics, please explore some of the options below.</p>
 			<h3>Where to go next</h3>
-			<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.</p>
 			<ul>
 				<li>
-					<p><a href=""><strong>Place to visit »</strong></a><br>Text about place to go. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, animi, corrupti aut odio nesciunt a quidem fugiat illum quaerat mollitia.</p>
+					<p><a href="http://nortonpriory.org/"><strong>Norton Priory »</strong></a><br>The center-point of this whole story.</p>
 				</li>
 				<li>
-					<p><a href=""><strong>Place to visit »</strong></a><br>Text about place to go. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, odit laudantium modi enim quidem veniam a. Ad, tempore eius quis.</p>
+					<p><a href="http://www.nationalarchives.gov.uk"><strong>The National Archives »</strong></a><br>The home of manuscripts and records representing 1000 years of English history.</p>
 				</li>
 				<li>
 					<p><a href=""><strong>Place to visit »</strong></a><br>Text about place to go. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, beatae hic quasi in deserunt perferendis illum. Accusantium vel dignissimos dolor.</p>
 				</li>
 				<li>
-					<p><a href=""><strong>Place to visit »</strong></a><br>Text about place to go. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, magni, eius in commodi rerum distinctio. Totam aliquid consequatur earum deserunt.</p>
+					<p><a href="http://scriptorium.english.cam.ac.uk/handwriting/history/intro"><strong>Scriptorium: Early Modern Handwriting »</strong></a><br>Learn more about the handwriting used in Early Modern letters.</p>
+				</li>
+				<li>
+					<p><a href="http://mapoflondon.uvic.ca"><strong>Map of Early Modern London</strong></a><br>Explore London in the sixteenth-century through this interactive map project.</p>
+				</li>
+				<li>
+					<p><a href="http://www.bessofhardwick.org"><strong>Bess of Hardwick's Letters</strong></a><br>Bess of Hardwick, although only a teenager during the 1536 uprisings, would become the second-most powerful woman in Tudor England, after Queen Elizabeth I. Learn more about her life and her letters here.</p>
 				</li>
 			</ul>
-			<p>Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
 		</div><!-- .timeline__item -->
 
 	</div><!-- .timeline -->
@@ -399,7 +405,7 @@
 		<div data-annotation="#annotation-1" id="annotation-callout-1" class="annotation-callout">
 			<div class="annotation-callout__inner">
 				<h5>Address forms & salutations</h5>
-				<p>Formulaic rules governed the selection of titles and names (as they do, to a lesser degree, today). Choice reveals the relationship between the letter writer and the addressee.</p>
+				<p>Rules and conventions governed the selection of titles and names used by a letter-writer to address their recipient (as they still do, today). Choice reveals the relationship between the letter writer and the addressee.</p>
 				<p><a href="#annotation-1-modal" data-modal="#annotation-1-modal" class="js-modal-toggle read-more">Read more</a></p>
 				<a href="#annotation-1-modal" data-modal="#annotation-1-modal" class="js-modal-toggle">
 					<img src="<?=SITE_IMAGES?>/video-thumb.jpg" alt="Learn more from Dr. Mel Evans" />
@@ -409,7 +415,7 @@
 		<div data-annotation="#annotation-2" id="annotation-callout-2" class="annotation-callout">
 			<div class="annotation-callout__inner">
 			<h5>"Bodies"</h5>
-			<p>Meaning 'person' or 'one's self', rather than 'dead bodies' - which would be the more probable modern interpretation. This sense of bodies survives in legal phrases 'body and goods'.</p>
+			<p>Meaning 'person' or 'one's self', rather than 'dead bodies' - which would be the more probable modern interpretation. This sense of bodies survives in legal phrases 'body and goods'. <small>(OED Online)</small></p>
 			</div><!-- annotation-callout__inner -->
 		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-3" id="annotation-callout-3" class="annotation-callout">
@@ -433,13 +439,13 @@
 		<div data-annotation="#annotation-6" id="annotation-callout-6" class="annotation-callout">
 			<div class="annotation-callout__inner">
 			<h4>Dan Rondull Wilmslow</h4>
-			<p>dan Rondull Wilmyslow: Monk appointed to vale royal, at Dutton's request, in June 1536 (or 1534) after death of previous abbot. Now Dutton seeks his appointment at Norton too. </p>
+			<p>dan Rondull Wilmyslow: Monk appointed to Vale Royal, at Dutton's request, in June 1536 (or 1534) after death of previous abbot. Now Dutton seeks his appointment at Norton too. </p>
 			</div><!-- annotation-callout__inner -->
 		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-7" id="annotation-callout-7" class="annotation-callout">
 			<div class="annotation-callout__inner">
 			<h4>'Virgule'</h4>
-			<p>This is an early modern punctuation symbol, later replaced by the comma or full stop.</p>
+			<p>This is an Early Modern punctuation symbol, used to mark the end of a phrase. It was replaced by the comma.</p>
 			</div><!-- annotation-callout__inner -->
 		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-8" id="annotation-callout-8" class="annotation-callout">
@@ -458,34 +464,34 @@
 		<div data-annotation="#annotation-10" id="annotation-callout-10" class="annotation-callout">
 			<div class="annotation-callout__inner">
 			<h4>Letter delivery</h4>
-			<p>'Bearer' refers to the deliver of the letter. Before the establishment of a formal post system letter writers had to find their own means of sending letters, commonly via friends or acquaintances travelling to the same destination. Bearers were often entrusted to verbally deliver further information to the recipient.</p>
+			<p>'Bearer' refers to the deliver of the letter. Before the establishment of a formal post system, letter writers had to find their own means of sending letters, commonly via friends or using acquaintances who were travelling to the same destination. Bearers were often entrusted to verbally deliver further information to the recipient.</p>
 			</div><!-- annotation-callout__inner -->
 		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-11" id="annotation-callout-11" class="annotation-callout">
 			<div class="annotation-callout__inner">
 			<h4>Pronoun change</h4>
-			<p>In Sixteenth Century English there were 2 forms of the pronoun you: 'you' and 'ye'. Originally they would be used to mark grammatical case but by the 1530s 'you' was starting to dominate in all contexts. This sentence means "I am telling you that what you do is your own choice".</p>
+			<p>In Sixteenth Century English there were two forms of the pronoun you: 'you' and 'ye'. Originally they marked different grammatical cases but by the 1530s 'you' was beginning to dominate in all contexts. This sentence loosely means "I am telling you that what you do is your own choice".</p>
 			<a href="#annotation-11-modal" data-modal="#annotation-11-modal" class="js-modal-toggle read-more">Read more</a>
 			</div><!-- annotation-callout__inner -->
 		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-12" id="annotation-callout-12" class="annotation-callout">
 			<div class="annotation-callout__inner">
 			<h4>Relative Pronouns (contd.)</h4>
-			<p>'Who' was a new relative pronoun which led to to the development of animacy marking (ie. showing what's alive or not alive). The example reflects the origins of the 'who' form which was first used to refer to God in correspondence.</p>
+			<p>'Who' was a new relative pronoun, which contributed to the development of animacy marking in the English relative system (i.e. showing what's alive and what isn't). The example here reflects the origins of the 'who' form which was first used to refer to God in correspondence.</p>
 			<a href="#annotation-8-modal" data-modal="#annotation-8-modal" class="js-modal-toggle read-more">Read more</a>
 			</div><!-- annotation-callout__inner -->
 		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-13" id="annotation-callout-13" class="annotation-callout">
 			<div class="annotation-callout__inner">
 			<h4>Closing Salutation Address</h4>
-			<p>The closing address 'by yours assured', is quite brief. Normally we would expect the relationship between writer and addressee to be specified (e.g. Wyatt, 1536, below). This could indicate confidence on Dutton's part, both in his relationship with Cromwell, and in the persuasiveness of his letter.</p>
+			<p>The closing address 'by yours assured', is quite brief. Normally we would expect the relationship between writer and addressee to be specified. This could indicate confidence on Dutton's part, both in his relationship with Cromwell, and in the persuasiveness of his letter.</p>
 			<a href="#annotation-13-modal" data-modal="#annotation-13-modal" class="js-modal-toggle read-more">Read more</a>
 			</div><!-- annotation-callout__inner -->
 		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-14" id="annotation-callout-14" class="annotation-callout">
 			<div class="annotation-callout__inner">
 			<h4>Sir Piers Dutton</h4>
-			<p>Sir Piers was a landowner and one-time sheriff of Chester. He wrote many letters to Thomas Cromwell, suggesting that he was motivated by the power & money that could be offered by the King.</p>
+			<p>Sir Piers Dutton was a landowner and Justice of the Peace in Cheshire. He wrote many letters to Thomas Cromwell, suggesting that he was motivated by the power & money that could arise through connections with the King.</p>
 		</div></div><!-- annotation-callout -->
 		<div data-annotation="#annotation-15" id="annotation-callout-15" class="annotation-callout">
 			<div class="annotation-callout__inner">
@@ -500,7 +506,7 @@
 		<div data-annotation="#annotation-16" id="annotation-callout-16" class="annotation-callout">
 			<div class="annotation-callout__inner">
 				<h4>The Royal 'we'</h4>
-				<p>This letter use the royal 'we', which was the use of the first-person plural to represent the (singular) monarch e.g. 'our', 'we'. This was a common feature in scribal monarchic letters which helped to give the letter authority and authenticity. The Royal We still exists, of course, although it tends to be more of a 'Presidential we' (used by figures such as Margaret Thatcher).</p>
+				<p>This letter use the royal 'we', which was the use of the first-person plural to represent the (singular) monarch e.g. 'our', 'we'. This was a common feature in scribal monarchic letters which helped to give the letter authority and authenticity. The Royal We is still used today, although it tends to be more of a 'Presidential we' used by figures such as Margaret Thatcher.</p>
 				<a href="#annotation-16-modal" data-modal="#annotation-16-modal" class="js-modal-toggle">
 					<img src="<?=SITE_IMAGES?>/video-thumb.jpg" alt="Learn more from Dr. Mel Evans" />
 				</a>
@@ -509,20 +515,20 @@
 		<div data-annotation="#annotation-17" id="annotation-callout-17" class="annotation-callout">
 			<div class="annotation-callout__inner">
 				<h4>Spelling inconsistencies</h4>
-				<p>Spelling in the Sixteenth Century was highly variable, even for peoples' names. Despite Piers Dutton spelling his name 'Perus' the scribe uses both 'Piers' and 'Pearse'.</p>
+				<p>Spelling in the Sixteenth Century was highly variable, even for peoples' names. Despite Piers Dutton signing his name 'Perus' in the letter to Cromwell, the scribe uses both 'Piers' and 'Pearse'.</p>
 				<a href="#annotation-17-modal" data-modal="#annotation-17-modal" class="js-modal-toggle read-more">Read more</a>
 			</div>
 		</div>
 		<div data-annotation="#annotation-18" id="annotation-callout-18" class="annotation-callout">
 			<div class="annotation-callout__inner">
 				<h4>The Abbots of Norton</h4>
-				<p>The Abbots of Norton had a shady past. In 1522 an inquiry found that various illegal activities had taken place including the Abbot father a child with a club-foot.</p>
+				<p>Like many monastic houses in this period, the Abbots of Norton were reportedly guilty of some inappropriate activities. A 1522 inquiry found that various illegal practices had taken place, including the Abbot fathering a child with a club-foot.</p>
 			</div>
 		</div>
 		<div data-annotation="#annotation-19" id="annotation-callout-19" class="annotation-callout">
 			<div class="annotation-callout__inner">
 				<h4>Sir William Brereton</h4>
-				<p>Sir William was another local nobleman and landowner. He seems to have had a tempestuous relationship with Piers Dutton.</p>
+				<p>Sir William was another local nobleman and landowner. He seems to have had a tempestuous relationship with Sir Piers Dutton.</p>
 			</div>
 		</div>
 		<div data-annotation="#annotation-20" id="annotation-callout-20" class="annotation-callout">
@@ -539,15 +545,15 @@
 		</div>
 		<div data-annotation="#annotation-21" id="annotation-callout-21" class="annotation-callout">
 			<div class="annotation-callout__inner">
-				<h4>'-eth'</h4>
-				<p>The king's scribe uses a verbal suffix '-eth' that is no longer found in Present-Day English. The modern day equivalent is '-s' e.g. it appears that, although '-eth' is sometimes associated with more formal, perhaps religious language.</p>
+				<h4>'-eth' and '-s'</h4>
+				<p>The king's scribe uses the suffix '-eth', a form that was replaced over the course of the sixteenth century with the suffix '-s'. If written today, the expression would be: "it appears that".</p>
 				<a href="#annotation-21-modal" data-modal="#annotation-21-modal" class="js-modal-toggle read-more">Read more</a>
 			</div>
 		</div>
 		<div data-annotation="#annotation-22" id="annotation-callout-22" class="annotation-callout">
 			<div class="annotation-callout__inner">
 				<h4>What the King says vs. what the King really means</h4>
-				<p>The second-half of the letter outlines the king's commands. These are explicitly linked to the king's personal will: 'our pleasure and commandment is that', using a semi-formulaic expression found elsewhere in Henry's scribal letters. Orders given to Edward Stanley, Earl of Derby, use a comparable phrase: 'Our pleasure and commandment is, that upon the receipt hereof ye shall so prepare yourself '.</p>
+				<p>The second-half of the letter outlines the king's commands. These are explicitly linked to the king's personal will: 'our pleasure and commandment is that', using a semi-formulaic expression found elsewhere in Henry's scribal letters. Orders given to Edward Stanley, Earl of Derby, also linked to Northern uprisings, use a comparable phrase: 'Our pleasure and commandment is, that upon the receipt hereof ye shall so prepare yourself '.</p>
 				<a href="#annotation-22-modal" data-modal="#annotation-22-modal" class="js-modal-toggle read-more">Read more</a>
 			</div>
 		</div>
@@ -572,20 +578,20 @@
 		<div data-annotation="#annotation-24" id="annotation-callout-24" class="annotation-callout">
 			<div class="annotation-callout__inner">
 				<h4>Changing his mind</h4>
-				<p>Draft letters provide a valuable insight into the letter-writing process. The modifications to the draft generally tone down and generalise the instructions. Henry could have dictated the letter in one of his infamous rages before he, or his secretaries, made the revisions to achieve a calmer, more controlled tone.</p>
+				<p>Draft letters provide a valuable insight into the letter-writing process. The modifications to the draft generally tone down and generalise the instructions. King Henry VIII could have dictated the letter in one of his infamous rages before he, or his secretaries, made the revisions to achieve a calmer, more controlled tone.</p>
 			</div>
 		</div>
 		<div data-annotation="#annotation-25" id="annotation-callout-25" class="annotation-callout">
 			<div class="annotation-callout__inner">
 				<h4>Execution</h4>
-				<p>The punishments of the abbots and monks involved in the uprising were often severe. Although the King's commission acquitted some North-West canons, some were imprisoned and others were put to death by hanging and hanging in chains. The execution of another Abbot was described as "a spectacle and terror to all others".</p>
+				<p>The punishments of the abbots and monks involved in the uprising were often severe. Although the King's commission acquitted some North-West canons, others were imprisoned and many were put to death by hanging and hanging in chains. The execution of the Abbot of Whalley was described as "a spectacle and terror to all others".</p>
 				<a href="#annotation-25-modal" data-modal="#annotation-25-modal" class="js-modal-toggle read-more">Read more</a>
 			</div>
 		</div>
 		<div data-annotation="#annotation-26" id="annotation-callout-26" class="annotation-callout">
 			<div class="annotation-callout__inner">
 				<h4>Dictation</h4>
-				<p>The sheer volume of royal correspondence required to maintain contact and convey information across the realm meant that it had long been impractical for the monarch to personally write letters. Instead, secretaries were appointed to draft and write the bulk of official correspondence, which was later authenticated by the king's signature and seal</p>
+				<p>The sheer volume of royal correspondence required to maintain contact and convey information across the realm meant it had long been impractical for the monarch to personally write all his letters. Instead, secretaries were appointed to draft and write the bulk of official correspondence, which was later authenticated by the king's signature and seal</p>
 				<a href="#annotation-26-modal" data-modal="#annotation-26-modal" class="js-modal-toggle read-more">Read more</a>
 			</div>
 		</div>
@@ -667,20 +673,20 @@
 
 <div id="annotation-8-modal" class="modal">
 	<h3>Relative Pronouns</h3>
-	<p>In Modern English, we have different forms depending on whether the thing being referred to is alive (who) or inanimate (which). In sixteenth-century, this system was only just beginning to develop: which is why we find 'whiche [the monk] is a gud religious man'. There is an example of who, but this is used to refer to God 'our lord god who mercifully' . This reflects the origins of the who form, with God - as the entity at the top of the social hierarchy/Chain of Being - first getting an 'animate' relative marker. Over the next one hundred years, this would diffuse outwards to other types of animate being, including humans. If the letter had been written in 1635, the monk would be 'who'.</p>
+	<p>In Present Day English, we use different forms of relative pronoun depending on whether the thing being referred to is alive (<em>who</em>) or inanimate (<em>which</em>). In sixteenth-century, this system was only just beginning to develop: which is why we find 'whiche [the monk] is a gud religious man'. There is an example of who, but this is used to refer to God 'our lord god who mercifully' . This reflects the origins of the who form, with God - as the entity at the top of the social hierarchy/Chain of Being - first getting an 'animate' relative marker. Over the next one hundred years, this would diffuse outwards to other types of animate being, including humans. If the letter had been written the following century, it is highly likely that the scribe would have used 'who' to refer to the monk.</p>
 	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="annotation-11-modal" class="modal">
-	<h3>Second Person Forms</h3>
-	<p>Early Modern second-person pronouns were more like modern-day French, in that the form of second-person pronoun indicated your relationship with the addressee. You and its alternative form ye were used between social equals, amongst "polite society" and acquaintances. Thou/thee was used towards social inferiors, and between close friends/relations.</p>
-	<p>Dutton uses you throughout the letter - which is what we would expect for a man of his status, writing to the King's secretary. There is one occurrence of ye, which was an alternative form of you - it is not thought to have carried any stylistic meaning (i.e. informal expression); it would disappear from English by the end of the 16th century; Dutton's generation were one of the last to use this form.</p>
+	<h3>Second Person Pronouns</h3>
+	<p>Early Modern second-person pronouns were comparable to those in Modern Day French, with a choice of forms available to reflect the speaker's relationship with the addressee. You and Ye were used between social equals in 'polite society', and by social inferiors to their superiors. The alternative set of forms, Thou/Thee were used to address social inferiors, as well as to indicate intimacy. The You/Thou system lasted into the 18th century, before Thou fell from use - although it is preserved today in many English regional dialects.</p>
+	<p>In this letter, Dutton uses You throughout, which is appropriate for his status and the recipient. There is one occurrence of Ye, an equivalent to You, which was used for grammatical, rather than interpersonal, reasons. Ye would disappear from English by the end of the 16th century, and Dutton's generation were one of the last to use the You/Ye distinction.</p>
 	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="annotation-13-modal" class="modal">
 	<h3>Closing Salutation Address:</h3>
-	<p>The closing address 'by yours assured', is quite brief > normally we would expect the relationship between writer and addressee to be specified (e.g. Wyatt, 1536, below). This could indicate confidence on Dutton's part, both in his relationship with Cromwell, and in the persuasiveness of his letter.</p>
+	<p>The closing address 'by yours assured' is quite brief, as normally we would expect the relationship between writer and addressee to be specified (e.g. Wyatt, 1536, below). This could indicate confidence on Dutton's part, both in his relationship with Cromwell, and in the persuasiveness of his letter.</p>
 	<p>Other examples in letters to Cromwell:</p>
 	<ul>
 		<li>William Brereton, 1533: Yours to that lyttyll he mey.</li>
@@ -694,7 +700,7 @@
 
 <div id="annotation-15-modal" class="modal">
 	<h3>"By the king"</h3>
-	<p>The structure of the letter is typical of scribal correspondence attributed to the monarch. To reflect Henry VIII's superior status, and also that the letter is drafted by a secretary, this is stated at the top of the sheet 'By the king'. This prefaces any opening address forms to the intended readers. Note also the formula 'trusty and welbeloved we gret you wel', which was a standard opening expression, indicating respect but no legitimate emotional connection, establishing a business relationship between those concerned.</p>
+	<p>The structure of the letter is typical of scribal correspondence attributed to the monarch. To reflect Henry VIII's superior status, and also that the letter is drafted by a secretary, this is stated at the top of the sheet 'By the king'. This prefaces any opening address forms to the intended readers. Note also the formulaic opening expression 'Trusty and welbeloved we gret you wel', which signalled respect but not necessarily a legitimate emotional connection between writer and recipient.</p>
 	<div class="video-container">
 		<iframe src="//player.vimeo.com/video/88231590" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</div><!-- video-container -->
@@ -711,14 +717,14 @@
 
 <div id="annotation-17-modal" class="modal">
 	<h3>Spelling: Name inconsistency</h3>
-	<p>The author of the letter to Cromwell is generally referred to in the history books as Piers Dutton. However, the signature on this letter offers a different spelling: Perus Dutton. This seems to have been Piers' preferred spelling, for his autograph at least. However, in the sixteenth century, preference counted for little and personal names - like other elements of English spelling - were variable and fluid. In the letter from Henry VIII [link], Piers is spelled both Piers and Pearse; but not Perus. Dutton is not alone in his inconstant naming: Shakespeare famously spelled his name three or four different ways, and none of them in the form we now use today.</p>
+	<p>The author of the letter to Cromwell is generally referred to in the history books as Piers Dutton. However, the signature on this letter offers a different spelling: Perus Dutton. This seems to have been Piers' preferred spelling, for his autograph at least. However, in the sixteenth century, preference counted for little and personal names - like other elements of English spelling - were variable and fluid. In the letter from Henry VIII, Piers is spelled both Piers and Pearse; but not Perus. Dutton is not alone in his inconstant naming: Shakespeare famously spelled his name three or four different ways, and none of them in the form we now use today.</p>
 	<a class="close-modal" rel="modal:close"></a>
 </div>
 
 <div id="annotation-20-modal" class="modal / two-col">
 	<div class="two-col__left">
 		<h2>Royal Seal</h2>
-		<p>For the letter to Dutton and Brereton, it is likely that a different seal, the Great Seal, was used. The Great Seal was used for official documents, such as warrants, and was held by the Lord Chancellor (in 1536, this was Thomas Audley). As with the king's private seal, the Great Seal was used to authenticate the contents of a document and signify the king's consent. The seal would be made from wax, poured into a carved mould, with a ribbon or paper strip running through the middle. This would then be affixed to the document in question. There were three seal designs during Henry's reign, each update reflecting the changes in the King's political and religious power.</p>
+		<p>For the letter to Dutton and Brereton, it is likely that the Great Seal was used to authenticate the letter. The Great Seal was used for official documents, such as warrants, and was held by the Lord Chancellor (in 1536, this was Thomas Audley). As with the king's private seal, the Great Seal was used to authenticate the contents of a document and signify the king's consent. The seal would be made from wax, poured into a carved mould, with a ribbon or paper strip running through the middle. This would then be affixed to the document in question. There were three seal designs during Henry's reign, each update reflecting the changes in the King's political and religious power.</p>
 	</div><!-- .two-col__left -->
 	<div class="two-col__right">
 		<img src="<?=SITE_IMAGES?>/royal-seal.jpg" alt="" />
@@ -760,7 +766,7 @@
 
 <div id="annotation-25-modal" class="modal">
 	<h3>Execution</h3>
-	<p>Since the 14th century, the noun execution has denoted capital punishment, although not through any one specific method, as this citation demonstrates: "R. Fabyan New Cronycles Eng. & Fraunce (1516) I. xxxvii. f. xiiiiv,   To be put to dethe..by heddynge, fleynge, brennynge, & other cruell Execucyons" (OED Online. The word is slightly euphemistic, with <em>execution</em> also have the contemporary (and still current) sense of 'the action of carrying into effect'. </p>
+	<p>Since the 14th century, the noun execution has denoted capital punishment, although not through any one specific method, as this citation demonstrates: "R. Fabyan New Cronycles Eng. & Fraunce (1516) I. xxxvii. f. xiiiiv,   To be put to dethe..by heddynge, fleynge, brennynge, & other cruell Execucyons" <small>(OED Online)</small>. The word is slightly euphemistic, with <em>execution</em> also have the contemporary (and still current) sense of 'the action of carrying into effect'.</p>
 	<p>The punishments of the abbots and monks involved in the uprising were often severe. Although the King's commission acquitted some North-West canons, some were imprisoned and others were put to death by hanging and hanging in chains. The execution of the Abbot of Whalley was intended to 'be a spectacle and terror to all other corrupt minds hereafter' (the Earl of Suffolk, cited in Haigh 1969: 90). It seems likely that Henry VIII's instruction to Dutton and Brereton was given with the intention of similar effect: to dissuade other potential rebels and demonstrate the king's power within the county.</p>
 	<a class="close-modal" rel="modal:close"></a>
 </div>
