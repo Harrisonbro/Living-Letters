@@ -13,7 +13,7 @@
 		<ul>
 			<li><strong>Dr. Mel Evans</strong> is a lecturer at the University of Birmingham with a particular interest in the work of linguistics, literature and history in the field of Early Modern studies. <br>
 			<em>Contact her on <a href="mailto:m.evans@bham.ac.uk">m.evans@bham.ac.uk</a></em></li>
-			<li><strong>Frank Hargrave</strong> is Director of Norton Priory Museum & Gardens. The story of these 2 letters revolves around the events that took place at Norton Priory, and their popular museum & gardens are open for visiting all year round. We highly recommend you visit if you can! <br>
+			<li><strong>Frank Hargrave</strong> is Director of Norton Priory Museum & Gardens. The story of these two letters revolves around the events that took place at Norton Priory, and their popular museum & gardens are open for visiting all year round. We highly recommend you visit if you can! <br>
 			<em>Visit <a href="http://nortonpriory.org/">nortonpriory.org</a> or contact him on <a href="frankhargrave@nortonpriory.org">frankhargrave@nortonpriory.org</a></em></li>
 			<li><strong>Dr. Adair Richards</strong> is an academic and public engagement specialist with a particular interest in bringing to life some of the fantastic work that goes in Universities. <br>
 			<em>Contact him on <a href="mailto:adair@adairrichards.com">adair@adairrichards.com</a></em></li>

@@ -5,13 +5,14 @@
 		<div class="timeline--header__intro">
 			<h1>Living Letters</h1>
 			<div class="epsilon">
-				<p>This site is designed to bring to life the intriguing story of the Abbot of Norton Priory who was arrested and almost executed during the reign of King Henry VIII. Follow the characters and explore the story using the timeline below.</p>
+				<p>This site is designed to bring to life the intriguing story of the Abbot of Norton Abbey who was arrested and almost executed during the reign of King Henry VIII. Follow the characters and explore the story using the timeline below.</p>
 				<p>We hope that you find this interesting, we've really enjoyed putting it together. Please do <a href="/about#contact">get in contact</a> if you have any questions for us.</p>
 				<p>— Mel, Frank, Adair & Harrison</p>
 			</div>
 		</div><!-- .timeline--header__intro -->
 		<div class="timeline--header__sponsors">
 			<img style="margin-bottom: 0.5em;" src="<?=SITE_IMAGES?>/norton.jpg" alt="">
+			<p>Today Norton Priory Museum & Gardens is a visitor attraction in Runcorn Cheshire.</p>
 			<h4>Supported by:</h4>
 			<img src="<?=SITE_IMAGES?>/logo-ahrc.jpg" alt="" class="sponsor">
 			<img src="<?=SITE_IMAGES?>/logo-birmingham.jpg" alt="" class="sponsor">
