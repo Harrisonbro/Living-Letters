@@ -94,5 +94,14 @@
 }
 
 .letter__credit {
-	
+	font-size: 0.75em;
+	font-weight: bold;
+	margin-bottom: 0;
+	line-height: 1.2;
+	background: #F9F5F1;
+	background: rgba(255,255,255,0.8);
+	padding: 0.25em;
+	a & {
+		color: #666666;
+	}
 }

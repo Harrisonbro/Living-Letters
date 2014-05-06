@@ -91,7 +91,7 @@
 				<img class="letter__previewer__image" src="<?=SITE_IMAGES?>/letter-one.jpg" alt="Click to view original letter">
 				<span class="letter__previewer__toggle / ss-zoomin"></span>
 				<p class="letter__previewer__linktext">View the original letter</p>
-				<p class="letter__credit"><small>Held at the National Archives this document contains public sector information licensed under the Open Government Licence v2.0</small></p>
+				<p class="letter__credit">© The British Library Board, Harley 604 f60</p>
 			</a><!-- letter__previewer -->
 
 			<div class="letter__text">
@@ -142,7 +142,7 @@
 				other monk of that house. Wherefore it may please your good
 				mastership to be his good master towards his preferment, [and] that
 				he may be admitted master of the same
-				<span id="annotation-9" data-callout="#annotation-callout-9"  data-modal="#annotation-callout-9" class="annotation annotation-type--character">
+				<span id="annotation-9" data-callout="#annotation-callout-9"  data-modal="#annotation-callout-9" class="annotation annotation-type--language">
 					And that [matter which] I
 					did promise your mastership this said Moncke will accomplish
 					accordingly.
@@ -169,7 +169,7 @@
 					By yours, assured
 				</span>
 				<br/>
-				<span id="annotation-14" data-callout="#annotation-callout-14" data-modal="#annotation-callout-14" class="annotation annotation-type--language">
+				<span id="annotation-14" data-callout="#annotation-callout-14" data-modal="#annotation-callout-14" class="annotation annotation-type--character">
 					&nbsp;&nbsp;&nbsp;Perus.
 					<br/>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dutton K.
@@ -201,8 +201,8 @@
 			<p>In October 1536 the common-people of the North-West rebelled against King Henry VIII and the local gentry serving in his interests. They began arming themselves in the first week of the month, which led Thomas, Lord Darcy, a local gentry man and soldier, to write to Henry and ask for a postal organisation to be set-up to allow swift communication between Lancashire and London, to allow the potential rebellion to be dealt with effectively. The rumblings in the North-West paralleled events in Lincolnshire and Yorkshire, where rebels rose in protestation against religious and social reform; an event known as 'The Pilgrimage of Grace'. </p>
 			<hr>
 			<p>This uprising is linked to what is known as 'The Pilgrimage of Grace'. To learn more, check out the resources below:<br/>
-				<a style="text-decoration:none;" class="ss-play" href="http://www.historylearningsite.co.uk/pilgrimage_grace.htm">Watch a BBC video clip on The Pilgrimage of Grace</a><br/>
-				<a style="text-decoration:none;" class="ss-file" href="http://www.bbc.co.uk/learningzone/clips/the-pilgrimage-of-grace/166.html">Read a detailed overview of The Pilgrimage of Grace</a>
+				<a style="text-decoration:none;" class="ss-play" href="http://www.bbc.co.uk/learningzone/clips/the-pilgrimage-of-grace/166.html">Watch a BBC video clip on The Pilgrimage of Grace</a><br/>
+				<a style="text-decoration:none;" class="ss-file" href="http://www.historylearningsite.co.uk/pilgrimage_grace.htm">Read a detailed overview of The Pilgrimage of Grace</a>
 			</p>
 		</div><!-- .timeline__item -->
 
@@ -245,7 +245,7 @@
 				<img class="letter__previewer__image" src="<?=SITE_IMAGES?>/letter-two.jpg" alt="Click to view original letter">
 				<span class="letter__previewer__toggle / ss-zoomin"></span>
 				<p class="letter__previewer__linktext">View the original letter</p>
-				<p class="letter__credit"><small>© The British Library Board, Harley 604 f60</small></p>
+				<p class="letter__credit">Held at The National Archives this document contains public sector information licensed under the Open Government Licence v2.0</p>
 			</a><!-- letter__previewer -->
 
 			<div class="letter__text">
@@ -261,7 +261,7 @@
 				</span>
 				greet you well / And have as well seen
 				the Letters written from you 
-				<span id="annotation-17" data-callout="#annotation-callout-17" data-modal="#annotation-callout-17" class="annotation annotation-type--character">
+				<span id="annotation-17" data-callout="#annotation-callout-17" data-modal="#annotation-callout-17" class="annotation annotation-type--lanugage">
 				Sir Piers of Dutton
 				</span>
 				 / to our right trusty and
@@ -285,13 +285,13 @@
 				our Privy Seal
 				</span>
 				, touching the same
-				matter / For your good endeavours, also wherein, we give unto you our right hearty
+				matter / For your good endeavours also, wherein we give unto you our right hearty
 				thanks / For answer whereunto, you shall understand / that for as much
 				as it 
 				<span id="annotation-21" data-callout="#annotation-callout-21" data-modal="#annotation-callout-21" class="annotation annotation-type--language">
 				appeareth
 				</span>
-				that the said Late Abbot and canons have most traito
+				that the said Late Abbot and canons have most <strike>traito</strike>
 				traitorously used themselves against us / and our realm / and moved
 				insurrection against the common quiet of the same / Our 
 				<span id="annotation-22" data-callout="#annotation-callout-22" data-modal="#annotation-callout-22" class="annotation annotation-type--language">
@@ -309,12 +309,12 @@
 				^ of further circust[ııı??ıs?] of law or^ 
 				delay cause them to be ^ ???d  
 				<span id="annotation-24" data-callout="#annotation-callout-24" data-modal="#annotation-callout-24" class="annotation annotation-type--letters">
-				 <strike>indicted and strait
+				 <strike>indicted and straight
 								thereupon arraigned and so without further traet put all to execution</strike> hanged
 				</span>
 				as most arrant traitors / 
 				^ in such sundry places as ye shall think requisite ^ 
-				setting up their heads and quarters round
+				<strike>setting up their heads</strike> and quarters round
 				abo[ut the] country for the 
 				<span id="annotation-25" data-callout="#annotation-callout-25" data-modal="#annotation-callout-25" class="annotation annotation-type--language">
 				terrible example
@@ -348,7 +348,7 @@
 			<div class="two-col">
 			<div class="two-col__left">
 				<div class="video-container">
-					<iframe src="//player.vimeo.com/video/88231592" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<iframe src="//player.vimeo.com/video/88231595" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div><!-- video-container -->
 			</div><!-- two-col__left -->
 			</div><!-- .two-col -->
@@ -382,7 +382,7 @@
 					<p><a href="http://scriptorium.english.cam.ac.uk/handwriting/history/intro"><strong>Scriptorium: Early Modern Handwriting »</strong></a><br>Learn more about the handwriting used in Early Modern letters.</p>
 				</li>
 				<li>
-					<p><a href="http://mapoflondon.uvic.ca"><strong>Map of Early Modern London</strong></a><br>Explore London in the sixteenth-century through this interactive map project.</p>
+					<p><a href="http://mapoflondon.uvic.ca"><strong>Map of Early Modern London</strong></a><br>Explore London in the sixteenth century through this interactive map project.</p>
 				</li>
 				<li>
 					<p><a href="http://www.bessofhardwick.org"><strong>Bess of Hardwick's Letters</strong></a><br>Bess of Hardwick, although only a teenager during the 1536 uprisings, would become the second-most powerful woman in Tudor England, after Queen Elizabeth I. Learn more about her life and her letters here.</p>
@@ -451,8 +451,8 @@
 		</div><!-- annotation-callout -->
 		<div data-annotation="#annotation-8" id="annotation-callout-8" class="annotation-callout">
 			<div class="annotation-callout__inner">
-			<h4>Relative pronouns</h4>
-			<p>In Modern English, we have different forms depending on whether the thing being referred to is alive (who) or inanimate (which). In sixteenth-century this system was not yet in place with 'which' being used for humans as well as inanimate objects.</p>
+			<h4>Relative Pronouns</h4>
+			<p>In Modern English, we have different forms depending on whether the thing being referred to is alive (<em>who</em>) or inanimate (<em>which</em>). In the sixteenth century this system was not yet in place with 'which' being used for humans as well as inanimate objects.</p>
 			<a href="#annotation-8-modal" data-modal="#annotation-8-modal" class="js-modal-toggle read-more">Read more</a>
 			</div><!-- annotation-callout__inner -->
 		</div><!-- annotation-callout -->
@@ -633,7 +633,7 @@
 <div id="letter-1-intro-modal" class="modal">
 	<h2>Letter 1: Dutton arrests the Abbot</h2>
 	<p>Sir Piers Dutton reports to Cromwell that he has taken into his custody the Abbot of Norton and other men affiliated with the Abbey, although he offers no explanation for his actions in this letter. Having reported this news, he then asks if Cromwell would permit Dom Rondul of Wilmslow, a monk at Vale Royal, to become master of 'that house', with a promise that the monk will fulfil a promise previously discussed.</p>
-	<p>The letter is dated 3rd August - it was fairly typical in the sixteenth-century not to include the year of composition, which means that dating is based on contextual information. There appears to be no record of a serious revolt amongst the abbot and canons at Norton in the summer of 1536, although this was the time when Henry VIII's commissioners were travelling through the North-West investigating the activities of the monasteries and collating information on their land and other means of income. </p>
+	<p>The letter is dated 3rd August - it was fairly typical in the sixteenth century not to include the year of composition, which means that dating is based on contextual information. There appears to be no record of a serious revolt amongst the abbot and canons at Norton in the summer of 1536, although this was the time when Henry VIII's commissioners were travelling through the North-West investigating the activities of the monasteries and collating information on their land and other means of income. </p>
 	<p>This is not the first letter, nor the last, that Sir Piers Dutton would write to Cromwell. The series of correspondence may reflect Dutton's attempts to gain favour from Henry VIII's chief administrator. [see earlier letters; link]. There is no record of Cromwell's reply.</p>
 	<p>Correspondence provided the primary means of communicating with Cromwell, and to report the loyal actions undertaken by his provincial servants. Dutton was not the only man who sought Cromwell's favour through these channels. Robert Pyle, abbot of Furness Abbey in Cumbria, wrote to Cromwell to inform him that he had arrested and interrogated a monk named Gawain Borrodale from Holme Cultram, who was suspected of murdering his own abbot, and also arrested a Scottish man suspected of potentially treasonous knowledge. In doing so, Pyle sought Cromwell's support of his own abbey and livelihood, including sending him ten royals to incentivise Cromwell's inventions with the King, when required. (see Haigh 1969: 19).</p>
 	<a class="close-modal" rel="modal:close"></a>
@@ -674,7 +674,7 @@
 
 <div id="annotation-8-modal" class="modal">
 	<h3>Relative Pronouns</h3>
-	<p>In Present Day English, we use different forms of relative pronoun depending on whether the thing being referred to is alive (<em>who</em>) or inanimate (<em>which</em>). In sixteenth-century, this system was only just beginning to develop: which is why we find 'whiche [the monk] is a gud religious man'. There is an example of who, but this is used to refer to God 'our lord god who mercifully' . This reflects the origins of the who form, with God - as the entity at the top of the social hierarchy/Chain of Being - first getting an 'animate' relative marker. Over the next one hundred years, this would diffuse outwards to other types of animate being, including humans. If the letter had been written the following century, it is highly likely that the scribe would have used 'who' to refer to the monk.</p>
+	<p>In Present Day English, we use different forms of relative pronoun depending on whether the thing being referred to is alive (<em>who</em>) or inanimate (<em>which</em>). In sixteenth century, this system was only just beginning to develop: which is why we find 'whiche [the monk] is a gud religious man'. There is an example of who, but this is used to refer to God 'our lord god who mercifully' . This reflects the origins of the who form, with God - as the entity at the top of the social hierarchy/Chain of Being - first getting an 'animate' relative marker. Over the next one hundred years, this would diffuse outwards to other types of animate being, including humans. If the letter had been written the following century, it is highly likely that the scribe would have used 'who' to refer to the monk.</p>
 	<a class="close-modal" rel="modal:close"></a>
 </div>
 
@@ -758,7 +758,7 @@
 		</div>
 		<div class="two-col__right">
 			<div class="video-container">
-				<iframe src="//player.vimeo.com/video/89694549" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe src="//player.vimeo.com/video/88231587" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div><!-- video-container -->
 		</div>
 	</div><!-- two-col -->
