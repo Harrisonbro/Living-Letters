@@ -6,7 +6,7 @@
 			<h1>Living Letters</h1>
 			<div class="epsilon">
 				<p>This site is designed to bring to life the intriguing story of the Abbot of Norton Abbey who was arrested and almost executed during the reign of King Henry VIII. Follow the characters and explore the story using the timeline below.</p>
-				<p>We hope that you find this interesting, we've really enjoyed putting it together. Please do <a href="/about#contact">get in contact</a> if you have any questions for us.</p>
+				<p>We hope that you find this interesting, we've really enjoyed putting it together. Please do <a href="/about.php#contact">get in contact</a> if you have any questions for us.</p>
 				<p>— Mel, Frank, Adair & Harrison</p>
 			</div>
 		</div><!-- .timeline--header__intro -->
@@ -55,7 +55,7 @@
 		</div><!-- .timeline__item -->
 
 		<div class="timeline__connector"></div>
-		
+
 		<div class="timeline__item">
 			<h2 class="delta">1536: North-west unrest</h2>
 			<p>In 1536 the decision was taken to close the small monasteries (those earning less than £200 a year), with the Crown taking their land and expensive possessions. This process was known as the dissolution. Men tasked with the dissolution procedures for the North-West were appointed on 24th April 1536, and they began their travels across the various monastic houses in early May 1536. The purpose of these visits was to assess the finances of the smaller monasteries, reallocating or releasing the religious men, and seizing goods and items of value, such as plate and jewels.</p>
@@ -65,12 +65,12 @@
 		<div class="timeline__connector"></div>
 
 		<div class="timeline__item letter">
-			
+
 			<div class="letter__intro">
 				<h2>Dutton arrests the Abbot...</h2>
 				<div class="letter__meta">
 					<p>
-						<strong>From:</strong> 
+						<strong>From:</strong>
 						<a style="text-decoration:none;" href="#" data-ot="Sir Piers Dutton, knight from the North West of England – click for more info..." class="js-modal-toggle" data-modal="#bio-dutton">Dutton
 							<img class="letter__avatar" alt="Dutton" src="<?=SITE_IMAGES?>/avatar-dutton.jpg" />
 						</a>
@@ -95,7 +95,7 @@
 			</a><!-- letter__previewer -->
 
 			<div class="letter__text">
-				&nbsp;&nbsp;&nbsp;Please it your 
+				&nbsp;&nbsp;&nbsp;Please it your
 				<span id="annotation-1" data-callout="#annotation-callout-1"  data-modal="#annotation-callout-1" class="annotation annotation-type--language">
 					good mastership
 				</span>
@@ -107,7 +107,7 @@
 				of the abbot
 				of Norton, Robert Jannyns, and
 				<span id="annotation-3" data-callout="#annotation-callout-3"  data-modal="#annotation-callout-3" class="annotation annotation-type--language">
-					the stranger a cunning 
+					the stranger a cunning
 				</span>
 				[Black]smith, [and] two of the said abbott’s servants. Also Randle Brereton,
 				baron of the king’s exchequer of Chester, and John Hale
@@ -129,14 +129,14 @@
 				, the monk of the Vale
 				Royal to come up to you
 				<span id="annotation-7" data-callout="#annotation-callout-7"  data-modal="#annotation-callout-7" class="annotation annotation-type--language">
-				 / 
+				 /
 				</span>
 				for whom I spoke unto your good
-				mastership, 
+				mastership,
 				<span id="annotation-8" data-callout="#annotation-callout-8"  data-modal="#annotation-callout-8" class="annotation annotation-type--language">
 					which
 				</span>
-				is a good religious man, discrete and 
+				is a good religious man, discrete and
 				well-grounded in learning and hath many good qualities,
 				most apt to be a master of a religious house than any
 				other monk of that house. Wherefore it may please your good
@@ -153,12 +153,12 @@
 				</span>
 				and the said monk may report unto you
 				from time to time to know your pleasure therein.
-				Ensuring 
+				Ensuring
 				<span id="annotation-11" data-callout="#annotation-callout-11" data-modal="#annotation-callout-11" class="annotation annotation-type--language">
-					you what ye 
+					you what ye
 				</span>
 				do for me or my friend all
-				is your own, as knoweth our lord god 
+				is your own, as knoweth our lord god
 				<span id="annotation-12" data-callout="#annotation-callout-12" data-modal="#annotation-callout-12" class="annotation annotation-type--language">
 					who
 				</span>
@@ -216,7 +216,7 @@
 		<div class="timeline__connector"></div>
 
 		<div class="timeline__item letter">
-			
+
 			<div class="letter__intro">
 				<h2>King demands Abbot's head...</h2>
 				<div class="letter__meta">
@@ -225,11 +225,11 @@
 						<img class="letter__avatar" alt="King Henry VIII" src="<?=SITE_IMAGES?>/avatar-henry.jpg" />
 					</a></p>
 					<p>
-						<strong>To: </strong> 
+						<strong>To: </strong>
 						<a style="text-decoration:none;" href="#" data-ot="Sir Piers Dutton, knight from the North West of England – click for more info..." class="js-modal-toggle" data-modal="#bio-dutton">Dutton
 							<img class="letter__avatar" alt="Dutton" src="<?=SITE_IMAGES?>/avatar-dutton.jpg" />
 						</a>
-						and 
+						and
 						<a style="text-decoration:none;" href="#" data-ot="Sir William Brereton, local nobleman & landowner – click for more info..." class="js-modal-toggle" data-modal="#bio-brereton">Brereton
 							<img class="letter__avatar" alt="Sir William Brereton" src="<?=SITE_IMAGES?>/avatar-brereton.jpg" />
 						</a>
@@ -255,18 +255,18 @@
 					</span>
 				</p>
 				<br/>
-				Trusty and well-beloved 
+				Trusty and well-beloved
 				<span id="annotation-16" data-callout="#annotation-callout-16" data-modal="#annotation-callout-16" class="annotation annotation-type--language">
-					we 
+					we
 				</span>
 				greet you well / And have as well seen
-				the Letters written from you 
+				the Letters written from you
 				<span id="annotation-17" data-callout="#annotation-callout-17" data-modal="#annotation-callout-17" class="annotation annotation-type--lanugage">
 				Sir Piers of Dutton
 				</span>
 				 / to our right trusty and
 				well-beloved Counsellor Sir Thomas Audley, knight, [and] our Chancellor of
-				England, declaring the traitorous demeanour of 
+				England, declaring the traitorous demeanour of
 				<span id="annotation-18" data-callout="#annotation-callout-18" data-modal="#annotation-callout-18" class="annotation annotation-type--character">
 				the late Abbot and canons
 				</span>
@@ -275,47 +275,47 @@
 				for the apprehension of the same / for the which we give unto you our
 				right hearty thanks, and shall undoubtedly consider your faithful service
 				therein, to your singular rejoice and comfort hereafter / As other Letters
-				written from you 
+				written from you
 				<span id="annotation-19" data-callout="#annotation-callout-19" data-modal="#annotation-callout-19" class="annotation annotation-type--character">
 				Sir William Brereton
 				</span>
 				to our right trusty and well-beloved councillor,
-				the Lord Cromwell, keeper of 
+				the Lord Cromwell, keeper of
 				<span id="annotation-20" data-callout="#annotation-callout-20" data-modal="#annotation-callout-20" class="annotation annotation-type--letters">
 				our Privy Seal
 				</span>
 				, touching the same
 				matter / For your good endeavours also, wherein we give unto you our right hearty
 				thanks / For answer whereunto, you shall understand / that for as much
-				as it 
+				as it
 				<span id="annotation-21" data-callout="#annotation-callout-21" data-modal="#annotation-callout-21" class="annotation annotation-type--language">
 				appeareth
 				</span>
 				that the said Late Abbot and canons have most <strike>traito</strike>
 				traitorously used themselves against us / and our realm / and moved
-				insurrection against the common quiet of the same / Our 
+				insurrection against the common quiet of the same / Our
 				<span id="annotation-22" data-callout="#annotation-callout-22" data-modal="#annotation-callout-22" class="annotation annotation-type--language">
 				pleasure
 				and commandment
 				</span>
 				is
-				^ that if this shall appear to ?? you 
+				^ that if this shall appear to ?? you
 				<span id="annotation-23" data-callout="#annotation-callout-23" data-modal="#annotation-callout-23" class="annotation annotation-type--letters">
-				^ ??????esse? ^ 
+				^ ??????esse? ^
 				</span>
-				[to be?] true that then ^ 
+				[to be?] true that then ^
 				you shall immediately upon the sight hereof
 				without any manner of
-				^ of further circust[ııı??ıs?] of law or^ 
-				delay cause them to be ^ ???d  
+				^ of further circust[ııı??ıs?] of law or^
+				delay cause them to be ^ ???d
 				<span id="annotation-24" data-callout="#annotation-callout-24" data-modal="#annotation-callout-24" class="annotation annotation-type--letters">
 				 <strike>indicted and straight
 								thereupon arraigned and so without further traet put all to execution</strike> hanged
 				</span>
-				as most arrant traitors / 
-				^ in such sundry places as ye shall think requisite ^ 
+				as most arrant traitors /
+				^ in such sundry places as ye shall think requisite ^
 				<strike>setting up their heads</strike> and quarters round
-				abo[ut the] country for the 
+				abo[ut the] country for the
 				<span id="annotation-25" data-callout="#annotation-callout-25" data-modal="#annotation-callout-25" class="annotation annotation-type--language">
 				terrible example
 				</span>
@@ -370,22 +370,22 @@
 			<h3>Where to go next</h3>
 			<ul>
 				<li>
-					<p><a href="http://nortonpriory.org/"><strong>Norton Priory »</strong></a><br>The center-point of this whole story.</p>
+					<p><a target="_blank" href="http://nortonpriory.org/"><strong>Norton Priory »</strong></a><br>The center-point of this whole story.</p>
 				</li>
 				<li>
-					<p><a href="http://www.nationalarchives.gov.uk"><strong>The National Archives »</strong></a><br>The home of manuscripts and records representing 1000 years of English history.</p>
+					<p><a target="_blank" href="http://www.nationalarchives.gov.uk"><strong>The National Archives »</strong></a><br>The home of manuscripts and records representing 1000 years of English history.</p>
 				</li>
 				<li>
-					<p><a href=""><strong>Place to visit »</strong></a><br>Text about place to go. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, beatae hic quasi in deserunt perferendis illum. Accusantium vel dignissimos dolor.</p>
+					<p><a target="_blank" href=""><strong>Place to visit »</strong></a><br>Text about place to go. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, beatae hic quasi in deserunt perferendis illum. Accusantium vel dignissimos dolor.</p>
 				</li>
 				<li>
-					<p><a href="http://scriptorium.english.cam.ac.uk/handwriting/history/intro"><strong>Scriptorium: Early Modern Handwriting »</strong></a><br>Learn more about the handwriting used in Early Modern letters.</p>
+					<p><a target="_blank" href="http://scriptorium.english.cam.ac.uk/handwriting/history/intro"><strong>Scriptorium: Early Modern Handwriting »</strong></a><br>Learn more about the handwriting used in Early Modern letters.</p>
 				</li>
 				<li>
-					<p><a href="http://mapoflondon.uvic.ca"><strong>Map of Early Modern London</strong></a><br>Explore London in the sixteenth century through this interactive map project.</p>
+					<p><a target="_blank" href="http://mapoflondon.uvic.ca"><strong>Map of Early Modern London</strong></a><br>Explore London in the sixteenth century through this interactive map project.</p>
 				</li>
 				<li>
-					<p><a href="http://www.bessofhardwick.org"><strong>Bess of Hardwick's Letters</strong></a><br>Bess of Hardwick, although only a teenager during the 1536 uprisings, would become the second-most powerful woman in Tudor England, after Queen Elizabeth I. Learn more about her life and her letters here.</p>
+					<p><a target="_blank" href="http://www.bessofhardwick.org"><strong>Bess of Hardwick's Letters</strong></a><br>Bess of Hardwick, although only a teenager during the 1536 uprisings, would become the second-most powerful woman in Tudor England, after Queen Elizabeth I. Learn more about her life and her letters here.</p>
 				</li>
 			</ul>
 		</div><!-- .timeline__item -->
@@ -661,7 +661,7 @@
 		</div>
 	</div><!-- two-col -->
 	<h4 class="l-clear-both">Main body address</h4>
-	<p>The letter contains frequent nominal address forms, using the same formula as the opening address: 'gud mastership' (x 3) and 'your mastership' (x 2). Frequent use of formal address indicates deference - particularly given Dutton is asking Cromwell to appoint a particular monk, for Dutton's own (economic) benefit.</p> 
+	<p>The letter contains frequent nominal address forms, using the same formula as the opening address: 'gud mastership' (x 3) and 'your mastership' (x 2). Frequent use of formal address indicates deference - particularly given Dutton is asking Cromwell to appoint a particular monk, for Dutton's own (economic) benefit.</p>
 	<ul>
 		<li>Thomas Elyot, 1532a: Sir</li>
 		<li>Thomas More, 1534: good Maister Cromwell</li>

@@ -1,6 +1,7 @@
 	<div class="container">
 		<footer>
 			&copy; <?php echo date("Y"); ?>. All rights reserved.
+			Created by <a href="http://surupartners.com" target="_blank">Suru Partners</a>
 		</footer>
 	</div><!-- .container -->
 

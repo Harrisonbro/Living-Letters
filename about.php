@@ -17,8 +17,8 @@
 			<em>Visit <a href="http://nortonpriory.org/">nortonpriory.org</a> or contact him on <a href="mailto:frankhargrave@nortonpriory.org">frankhargrave@nortonpriory.org</a></em></li>
 			<li><strong>Dr. Adair Richards</strong> is an academic and public engagement specialist with a particular interest in bringing to life some of the fantastic work that goes in Universities. <br>
 			<em>Contact him on <a href="mailto:adair@adairrichards.com">adair@adairrichards.com</a></em></li>
-			<li><strong>Harrison Brown</strong> is a designer and web developer who enjoys creating engaging online experiences and helping organisations make the most of the web. <br>
-			<em>Contact him on <a href="mailto:harrison@ablosmedia.com">harrison@ablosmedia.com</a></em></li>
+			<li><strong>Harrison Brown</strong> is a designer and web developer. He runs Suru Partners which helps organisations design, create and manage applications and websites.<br>
+			<em>Visit <a href="http://surupartners.com">surupartners.com</a> or contact him on <a href="mailto:harrison@surupartners.com">harrison@surupartners.com</a></em></li>
 		</ul>
 
 		<div class="page__island">
