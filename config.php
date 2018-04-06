@@ -1,7 +1,12 @@
 <?php
 
 global $config;
-$config->environment = 'live';
+
+// Don't want to overwrite the environment defined in config.local.php if it
+// is indeed defined.
+if ( ! $config->environment) {
+    $config->environment = 'production';
+}
 
 defined('SITE_CSS')         ? null : define('SITE_CSS', SITE_URI . '/css');
 defined('SITE_CSS_PATH')    ? null : define('SITE_CSS_PATH', SITE_PATH . '/css');
